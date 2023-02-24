@@ -8,17 +8,17 @@ def extract_corpus (path:str)-> list:
     annotations = data.read()
 # type(annotations) = str
     phrases = re.findall(r'# text = (.+?\n)',annotations)
-#print(len(phrases))
 #select = np.random.choice(phrases, 100, False)
     phrases = sorted(phrases,key=len)
     phrases = [i for i in phrases if len(i) > 20]
-# print (len(phrases))
-    selection = phrases[::59]
-    selection_100 = selection[1:]
-    return selection_100
+    selection = phrases[::140]
+    return selection
 # # for i in selection_100:
 # #     print(len(i))
-
+    # list_len = []
+    # for i in phrases:
+    #     list_len.append(len(i))
+    # print(list_len)
 # print(len(selection))
 # #méthode 1
 path = 'data/es_ancora-ud-train.conllu'
@@ -45,7 +45,7 @@ for phrase in pars_phrases:
     else:
         depl_pars.write(phrase+'\n')
 depl_pars.close()
-# #méthode 2 
-# deppars_in = [stanza.Document([],text = doc)for doc in selection_100]
-# deppars = nlp(deppars_in)
-# print(deppars)
+# # #méthode 2 
+# # deppars_in = [stanza.Document([],text = doc)for doc in selection_100]
+# # deppars = nlp(deppars_in)
+# # print(deppars)
