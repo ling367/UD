@@ -11,8 +11,11 @@ def extract_corpus (path:str)-> list:
 #select = np.random.choice(phrases, 100, False)
     phrases = sorted(phrases,key=len)
     phrases = [i for i in phrases if len(i) > 20]
-    selection = phrases[::140]
-    return selection
+    # print (len(phrases))
+    selection = phrases[::16]
+    selection_100 = selection[6:]
+    return selection_100
+
 # # for i in selection_100:
 # #     print(len(i))
     # list_len = []
@@ -21,10 +24,10 @@ def extract_corpus (path:str)-> list:
     # print(list_len)
 # print(len(selection))
 # #méthode 1
-path = 'data/es_ancora-ud-train.conllu'
+path = 'data/es_ancora-ud-test.conllu'
 selection_100 = extract_corpus (path)
-
-doc = open('data/es_ancora_extract.txt','w')
+print (selection_100)
+doc = open('data/es_ancora_extract_test.txt','w')
 for phrase in selection_100:
     doc.write(phrase)
 doc = open('data/es_ancora_extract.txt')
@@ -35,7 +38,7 @@ doc = nlp(doc)
 pars_phrases = [f'id: {word.id}\tword: {word.text}\thead id: {word.head}\thead: {sent.words[word.head-1].text if word.head > 0 else "root"}\tdeprel: {word.deprel}' for sent in doc.sentences for word in sent.words] 
 
 # print (pars_phrases[1])
-depl_pars = open('data/es_ancora_pars.conllu','w',encoding='utf-8')
+depl_pars = open('sortie/es_ancora_pars_test.conllu','w',encoding='utf-8')
 start = 'id: 1	word:'
 i = 0
 for phrase in pars_phrases:
