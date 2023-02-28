@@ -33,6 +33,8 @@ nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse')
 
 doc = nlp(doc)
 pars_phrases = [f'id: {word.id}\tword: {word.text}\thead id: {word.head}\thead: {sent.words[word.head-1].text if word.head > 0 else "root"}\tdeprel: {word.deprel}' for sent in doc.sentences for word in sent.words] 
+# - à mettre en stantard connelU
+
 
 # print (pars_phrases[1])
 depl_pars = open('sortie/gum_en_pars_test.conllu','w',encoding='utf-8')
@@ -49,3 +51,9 @@ depl_pars.close()
 # deppars_in = [stanza.Document([],text = doc)for doc in selection_100]
 # deppars = nlp(deppars_in)
 # print(deppars)
+
+
+# 
+# une visualisation d'un autre coté 
+csv.
+sent_id préférence_ les métrique automatique 
