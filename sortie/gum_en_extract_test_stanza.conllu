@@ -1,0 +1,2449 @@
+# text = Well she's begun to listen.
+# sent_id = 0
+1	Well	_	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	she	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	's	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	begun	_	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=11|end_char=16
+5	to	_	PART	TO	_	4	_	_	start_char=17|end_char=19
+6	listen	_	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=26
+7	.	_	PUNCT	.	_	6	_	_	start_char=26|end_char=27
+
+# text = You swallow on a dry throat.
+# sent_id = 1
+1	You	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=28|end_char=31
+2	swallow	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=39
+3	on	_	ADP	IN	_	2	_	_	start_char=40|end_char=42
+4	a	_	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=43|end_char=44
+5	dry	_	ADJ	JJ	Degree=Pos	4	_	_	start_char=45|end_char=48
+6	throat	_	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=55
+7	.	_	PUNCT	.	_	6	_	_	start_char=55|end_char=56
+
+# text = You’re watching her lean out.
+# sent_id = 2
+1	You	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=57|end_char=60
+2	’re	_	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=60|end_char=63
+3	watching	_	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=64|end_char=72
+4	her	_	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=73|end_char=76
+5	lean	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=77|end_char=81
+6	out	_	ADP	RP	_	5	_	_	start_char=82|end_char=85
+7	.	_	PUNCT	.	_	6	_	_	start_char=85|end_char=86
+
+# text = This will keep mice away. [3]
+# sent_id = 3
+1	This	_	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=87|end_char=91
+2	will	_	AUX	MD	VerbForm=Fin	1	_	_	start_char=92|end_char=96
+3	keep	_	VERB	VB	VerbForm=Inf	2	_	_	start_char=97|end_char=101
+4	mice	_	NOUN	NNS	Number=Plur	3	_	_	start_char=102|end_char=106
+5	away	_	ADV	RB	_	4	_	_	start_char=107|end_char=111
+6	.	_	PUNCT	.	_	5	_	_	start_char=111|end_char=112
+7	[	_	PUNCT	-LRB-	_	6	_	_	start_char=113|end_char=114
+8	3	_	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=114|end_char=115
+9	]	_	PUNCT	-RRB-	_	8	_	_	start_char=115|end_char=116
+
+# text = Then she’s there, in a doorway.
+# sent_id = 4
+1	Then	_	ADV	RB	PronType=Dem	0	_	_	start_char=117|end_char=121
+2	she	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=122|end_char=125
+3	’s	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=125|end_char=127
+4	there	_	ADV	RB	PronType=Dem	3	_	_	start_char=128|end_char=133
+5	,	_	PUNCT	,	_	4	_	_	start_char=133|end_char=134
+6	in	_	ADP	IN	_	5	_	_	start_char=135|end_char=137
+7	a	_	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=138|end_char=139
+8	doorway	_	NOUN	NN	Number=Sing	7	_	_	start_char=140|end_char=147
+9	.	_	PUNCT	.	_	8	_	_	start_char=147|end_char=148
+
+# text = 2.1 Early Ideas in Atomic Theory
+# sent_id = 5
+1	2.1	_	X	LS	_	0	_	_	start_char=149|end_char=152
+2	Early	_	ADJ	JJ	Degree=Pos	1	_	_	start_char=153|end_char=158
+3	Ideas	_	NOUN	NNS	Number=Plur	2	_	_	start_char=159|end_char=164
+4	in	_	ADP	IN	_	3	_	_	start_char=165|end_char=167
+5	Atomic	_	ADJ	NNP	Degree=Pos	4	_	_	start_char=168|end_char=174
+6	Theory	_	NOUN	NN	Number=Sing	5	_	_	start_char=175|end_char=181
+
+# text = He stares until you meet his eye.
+# sent_id = 6
+1	He	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=182|end_char=184
+2	stares	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=185|end_char=191
+3	until	_	SCONJ	IN	_	2	_	_	start_char=192|end_char=197
+4	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=198|end_char=201
+5	meet	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=202|end_char=206
+6	his	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=207|end_char=210
+7	eye	_	NOUN	NN	Number=Sing	6	_	_	start_char=211|end_char=214
+8	.	_	PUNCT	.	_	7	_	_	start_char=214|end_char=215
+
+# text = At the table with her woman friend.
+# sent_id = 7
+1	At	_	ADP	IN	_	0	_	_	start_char=216|end_char=218
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=219|end_char=222
+3	table	_	NOUN	NN	Number=Sing	2	_	_	start_char=223|end_char=228
+4	with	_	ADP	IN	_	3	_	_	start_char=229|end_char=233
+5	her	_	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=234|end_char=237
+6	woman	_	NOUN	NN	Number=Sing	5	_	_	start_char=238|end_char=243
+7	friend	_	NOUN	NN	Number=Sing	6	_	_	start_char=244|end_char=250
+8	.	_	PUNCT	.	_	7	_	_	start_char=250|end_char=251
+
+# text = Method 1 Discouraging Mice Naturally
+# sent_id = 8
+1	Method	_	NOUN	NN	Number=Sing	0	_	_	start_char=252|end_char=258
+2	1	_	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=259|end_char=260
+3	Discouraging	_	VERB	VBG	VerbForm=Ger	2	_	_	start_char=261|end_char=273
+4	Mice	_	NOUN	NNS	Number=Plur	3	_	_	start_char=274|end_char=278
+5	Naturally	_	ADV	RB	_	4	_	_	start_char=279|end_char=288
+
+# text = Well, maybe I shouldn't go there then.
+# sent_id = 9
+1	Well	_	INTJ	UH	_	0	_	_	start_char=289|end_char=293
+2	,	_	PUNCT	,	_	1	_	_	start_char=293|end_char=294
+3	maybe	_	ADV	RB	_	2	_	_	start_char=295|end_char=300
+4	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=301|end_char=302
+5	should	_	AUX	MD	VerbForm=Fin	4	_	_	start_char=303|end_char=309
+6	n't	_	PART	RB	_	5	_	_	start_char=309|end_char=312
+7	go	_	VERB	VB	VerbForm=Inf	6	_	_	start_char=313|end_char=315
+8	there	_	ADV	RB	PronType=Dem	7	_	_	start_char=316|end_char=321
+9	then	_	ADV	RB	PronType=Dem	8	_	_	start_char=322|end_char=326
+10	.	_	PUNCT	.	_	9	_	_	start_char=326|end_char=327
+
+# text = Put your trash cans far from your home.
+# sent_id = 10
+1	Put	_	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=328|end_char=331
+2	your	_	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=332|end_char=336
+3	trash	_	NOUN	NN	Number=Sing	2	_	_	start_char=337|end_char=342
+4	cans	_	NOUN	NNS	Number=Plur	3	_	_	start_char=343|end_char=347
+5	far	_	ADV	RB	Degree=Pos	4	_	_	start_char=348|end_char=351
+6	from	_	ADP	IN	_	5	_	_	start_char=352|end_char=356
+7	your	_	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=357|end_char=361
+8	home	_	NOUN	NN	Number=Sing	7	_	_	start_char=362|end_char=366
+9	.	_	PUNCT	.	_	8	_	_	start_char=366|end_char=367
+
+# text = A house cat can take care of the problem.
+# sent_id = 11
+1	A	_	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=368|end_char=369
+2	house	_	NOUN	NN	Number=Sing	1	_	_	start_char=370|end_char=375
+3	cat	_	NOUN	NN	Number=Sing	2	_	_	start_char=376|end_char=379
+4	can	_	AUX	MD	VerbForm=Fin	3	_	_	start_char=380|end_char=383
+5	take	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=384|end_char=388
+6	care	_	NOUN	NN	Number=Sing	5	_	_	start_char=389|end_char=393
+7	of	_	ADP	IN	_	6	_	_	start_char=394|end_char=396
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=397|end_char=400
+9	problem	_	NOUN	NN	Number=Sing	8	_	_	start_char=401|end_char=408
+10	.	_	PUNCT	.	_	9	_	_	start_char=408|end_char=409
+
+# text = So the mites don’t see them when they jump.
+# sent_id = 12
+1	So	_	ADV	RB	_	0	_	_	start_char=410|end_char=412
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=413|end_char=416
+3	mites	_	NOUN	NNS	Number=Plur	2	_	_	start_char=417|end_char=422
+4	do	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=423|end_char=425
+5	n’t	_	PART	RB	_	4	_	_	start_char=425|end_char=428
+6	see	_	VERB	VB	VerbForm=Inf	5	_	_	start_char=429|end_char=432
+7	them	_	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=433|end_char=437
+8	when	_	ADV	WRB	PronType=Int	7	_	_	start_char=438|end_char=442
+9	they	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=443|end_char=447
+10	jump	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=448|end_char=452
+11	.	_	PUNCT	.	_	10	_	_	start_char=452|end_char=453
+
+# text = Austria fully supports the Quartet statement.
+# sent_id = 13
+1	Austria	_	PROPN	NNP	Number=Sing	0	_	_	start_char=454|end_char=461
+2	fully	_	ADV	RB	_	1	_	_	start_char=462|end_char=467
+3	supports	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=468|end_char=476
+4	the	_	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=477|end_char=480
+5	Quartet	_	NOUN	NN	Number=Sing	4	_	_	start_char=481|end_char=488
+6	statement	_	NOUN	NN	Number=Sing	5	_	_	start_char=489|end_char=498
+7	.	_	PUNCT	.	_	6	_	_	start_char=498|end_char=499
+
+# text = She said she watches my videos and loves them.
+# sent_id = 14
+1	She	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=500|end_char=503
+2	said	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=504|end_char=508
+3	she	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=509|end_char=512
+4	watches	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=513|end_char=520
+5	my	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=521|end_char=523
+6	videos	_	NOUN	NNS	Number=Plur	5	_	_	start_char=524|end_char=530
+7	and	_	CCONJ	CC	_	6	_	_	start_char=531|end_char=534
+8	loves	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=535|end_char=540
+9	them	_	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=541|end_char=545
+10	.	_	PUNCT	.	_	9	_	_	start_char=545|end_char=546
+
+# text = They never danced again the rest of the evening.
+# sent_id = 15
+1	They	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=547|end_char=551
+2	never	_	ADV	RB	_	1	_	_	start_char=552|end_char=557
+3	danced	_	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=558|end_char=564
+4	again	_	ADV	RB	_	3	_	_	start_char=565|end_char=570
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=571|end_char=574
+6	rest	_	NOUN	NN	Number=Sing	5	_	_	start_char=575|end_char=579
+7	of	_	ADP	IN	_	6	_	_	start_char=580|end_char=582
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=583|end_char=586
+9	evening	_	NOUN	NN	Number=Sing	8	_	_	start_char=587|end_char=594
+10	.	_	PUNCT	.	_	9	_	_	start_char=594|end_char=595
+
+# text = I don't have any this year, I forgot to plant it.
+# sent_id = 16
+1	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=596|end_char=597
+2	do	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=598|end_char=600
+3	n't	_	PART	RB	_	2	_	_	start_char=600|end_char=603
+4	have	_	VERB	VB	VerbForm=Inf	3	_	_	start_char=604|end_char=608
+5	any	_	DET	DT	_	4	_	_	start_char=609|end_char=612
+6	this	_	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=613|end_char=617
+7	year	_	NOUN	NN	Number=Sing	6	_	_	start_char=618|end_char=622
+8	,	_	PUNCT	,	_	7	_	_	start_char=622|end_char=623
+9	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=624|end_char=625
+10	forgot	_	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=626|end_char=632
+11	to	_	PART	TO	_	10	_	_	start_char=633|end_char=635
+12	plant	_	VERB	VB	VerbForm=Inf	11	_	_	start_char=636|end_char=641
+13	it	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=642|end_char=644
+14	.	_	PUNCT	.	_	13	_	_	start_char=644|end_char=645
+
+# text = “They infect themselves with some designer virus - Specifically, what would you have done differently?
+# sent_id = 17
+1	“	_	PUNCT	``	_	0	_	_	start_char=646|end_char=647
+2	They	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=647|end_char=651
+3	infect	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=652|end_char=658
+4	themselves	_	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	_	_	start_char=659|end_char=669
+5	with	_	ADP	IN	_	4	_	_	start_char=670|end_char=674
+6	some	_	DET	DT	_	5	_	_	start_char=675|end_char=679
+7	designer	_	NOUN	NN	Number=Sing	6	_	_	start_char=680|end_char=688
+8	virus	_	NOUN	NN	Number=Sing	7	_	_	start_char=689|end_char=694
+9	-	_	PUNCT	,	_	8	_	_	start_char=695|end_char=696
+10	Specifically	_	ADV	RB	_	9	_	_	start_char=697|end_char=709
+11	,	_	PUNCT	,	_	10	_	_	start_char=709|end_char=710
+12	what	_	PRON	WP	PronType=Int	11	_	_	start_char=711|end_char=715
+13	would	_	AUX	MD	VerbForm=Fin	12	_	_	start_char=716|end_char=721
+14	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=722|end_char=725
+15	have	_	AUX	VB	VerbForm=Inf	14	_	_	start_char=726|end_char=730
+16	done	_	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=731|end_char=735
+17	differently	_	ADV	RB	_	16	_	_	start_char=736|end_char=747
+18	?	_	PUNCT	.	_	17	_	_	start_char=747|end_char=748
+
+# text = The next part of the proceedings was less thrilling.
+# sent_id = 18
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=749|end_char=752
+2	next	_	ADJ	JJ	Degree=Pos	1	_	_	start_char=753|end_char=757
+3	part	_	NOUN	NN	Number=Sing	2	_	_	start_char=758|end_char=762
+4	of	_	ADP	IN	_	3	_	_	start_char=763|end_char=765
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=766|end_char=769
+6	proceedings	_	NOUN	NNS	Number=Plur	5	_	_	start_char=770|end_char=781
+7	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=782|end_char=785
+8	less	_	ADV	RBR	Degree=Cmp	7	_	_	start_char=786|end_char=790
+9	thrilling	_	ADJ	JJ	Degree=Pos	8	_	_	start_char=791|end_char=800
+10	.	_	PUNCT	.	_	9	_	_	start_char=800|end_char=801
+
+# text = Uh, she used to go over and read a book or something.
+# sent_id = 19
+1	Uh	_	INTJ	UH	_	0	_	_	start_char=802|end_char=804
+2	,	_	PUNCT	,	_	1	_	_	start_char=804|end_char=805
+3	she	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=806|end_char=809
+4	used	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=810|end_char=814
+5	to	_	PART	TO	_	4	_	_	start_char=815|end_char=817
+6	go	_	VERB	VB	VerbForm=Inf	5	_	_	start_char=818|end_char=820
+7	over	_	ADV	RB	_	6	_	_	start_char=821|end_char=825
+8	and	_	CCONJ	CC	_	7	_	_	start_char=826|end_char=829
+9	read	_	VERB	VB	VerbForm=Inf	8	_	_	start_char=830|end_char=834
+10	a	_	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=835|end_char=836
+11	book	_	NOUN	NN	Number=Sing	10	_	_	start_char=837|end_char=841
+12	or	_	CCONJ	CC	_	11	_	_	start_char=842|end_char=844
+13	something	_	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=845|end_char=854
+14	.	_	PUNCT	.	_	13	_	_	start_char=854|end_char=855
+
+# text = 2. GUJJOLAAY EEGIMAA, ITS SPEAKERS AND THEIR NEIGHBOURS it lets them hack the city’s person-recognition systems.
+# sent_id = 20
+1	2	_	NUM	LS	_	0	_	_	start_char=856|end_char=857
+2	.	_	PUNCT	.	_	1	_	_	start_char=857|end_char=858
+3	GUJJOLAAY	_	NOUN	NN	Number=Sing	2	_	_	start_char=859|end_char=868
+4	EEGIMAA	_	NOUN	NN	Number=Sing	3	_	_	start_char=869|end_char=876
+5	,	_	PUNCT	,	_	4	_	_	start_char=876|end_char=877
+6	ITS	_	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=878|end_char=881
+7	SPEAKERS	_	NOUN	NNS	Number=Plur	6	_	_	start_char=882|end_char=890
+8	AND	_	CCONJ	CC	_	7	_	_	start_char=891|end_char=894
+9	THEIR	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=895|end_char=900
+10	NEIGHBOURS	_	NOUN	NNS	Number=Plur	9	_	_	start_char=901|end_char=911
+11	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=912|end_char=914
+12	lets	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=915|end_char=919
+13	them	_	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=920|end_char=924
+14	hack	_	VERB	VB	VerbForm=Inf	13	_	_	start_char=925|end_char=929
+15	the	_	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=930|end_char=933
+16	city	_	NOUN	NN	Number=Sing	15	_	_	start_char=934|end_char=938
+17	’s	_	PART	POS	_	16	_	_	start_char=938|end_char=940
+18	person	_	NOUN	NN	Number=Sing	17	_	_	start_char=941|end_char=947
+19	-	_	PUNCT	HYPH	_	18	_	_	start_char=947|end_char=948
+20	recognition	_	NOUN	NN	Number=Sing	19	_	_	start_char=948|end_char=959
+21	systems	_	NOUN	NNS	Number=Plur	20	_	_	start_char=960|end_char=967
+22	.	_	PUNCT	.	_	21	_	_	start_char=967|end_char=968
+
+# text = No sooner did I think this thought, guys were over there.
+# sent_id = 21
+1	No	_	DET	DT	_	0	_	_	start_char=969|end_char=971
+2	sooner	_	ADV	RBR	Degree=Cmp	1	_	_	start_char=972|end_char=978
+3	did	_	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=979|end_char=982
+4	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=983|end_char=984
+5	think	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=985|end_char=990
+6	this	_	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=991|end_char=995
+7	thought	_	NOUN	NN	Number=Sing	6	_	_	start_char=996|end_char=1003
+8	,	_	PUNCT	,	_	7	_	_	start_char=1003|end_char=1004
+9	guys	_	NOUN	NNS	Number=Plur	8	_	_	start_char=1005|end_char=1009
+10	were	_	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=1010|end_char=1014
+11	over	_	ADV	RB	_	10	_	_	start_char=1015|end_char=1019
+12	there	_	ADV	RB	PronType=Dem	11	_	_	start_char=1020|end_char=1025
+13	.	_	PUNCT	.	_	12	_	_	start_char=1025|end_char=1026
+
+# text = I mean, you turn your back and there's somebody moving in.
+# sent_id = 22
+1	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1027|end_char=1028
+2	mean	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1029|end_char=1033
+3	,	_	PUNCT	,	_	2	_	_	start_char=1033|end_char=1034
+4	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=1035|end_char=1038
+5	turn	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=1039|end_char=1043
+6	your	_	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=1044|end_char=1048
+7	back	_	NOUN	NN	Number=Sing	6	_	_	start_char=1049|end_char=1053
+8	and	_	CCONJ	CC	_	7	_	_	start_char=1054|end_char=1057
+9	there	_	PRON	EX	_	8	_	_	start_char=1058|end_char=1063
+10	's	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=1063|end_char=1065
+11	somebody	_	PRON	NN	Number=Sing|PronType=Ind	10	_	_	start_char=1066|end_char=1074
+12	moving	_	VERB	VBG	VerbForm=Ger	11	_	_	start_char=1075|end_char=1081
+13	in	_	ADP	RP	_	12	_	_	start_char=1082|end_char=1084
+14	.	_	PUNCT	.	_	13	_	_	start_char=1084|end_char=1085
+
+# text = Voters see the two-party system for the sham it has become.
+# sent_id = 23
+1	Voters	_	NOUN	NNS	Number=Plur	0	_	_	start_char=1086|end_char=1092
+2	see	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1093|end_char=1096
+3	the	_	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=1097|end_char=1100
+4	two	_	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=1101|end_char=1104
+5	-	_	PUNCT	HYPH	_	4	_	_	start_char=1104|end_char=1105
+6	party	_	NOUN	NN	Number=Sing	5	_	_	start_char=1105|end_char=1110
+7	system	_	NOUN	NN	Number=Sing	6	_	_	start_char=1111|end_char=1117
+8	for	_	ADP	IN	_	7	_	_	start_char=1118|end_char=1121
+9	the	_	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=1122|end_char=1125
+10	sham	_	NOUN	NN	Number=Sing	9	_	_	start_char=1126|end_char=1130
+11	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=1131|end_char=1133
+12	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=1134|end_char=1137
+13	become	_	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=1138|end_char=1144
+14	.	_	PUNCT	.	_	13	_	_	start_char=1144|end_char=1145
+
+# text = Passing a Living Wage program lifting people out of poverty.
+# sent_id = 24
+1	Passing	_	VERB	VBG	VerbForm=Ger	0	_	_	start_char=1146|end_char=1153
+2	a	_	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=1154|end_char=1155
+3	Living	_	PROPN	NNP	Number=Sing	2	_	_	start_char=1156|end_char=1162
+4	Wage	_	NOUN	NN	Number=Sing	3	_	_	start_char=1163|end_char=1167
+5	program	_	NOUN	NN	Number=Sing	4	_	_	start_char=1168|end_char=1175
+6	lifting	_	VERB	VBG	VerbForm=Ger	5	_	_	start_char=1176|end_char=1183
+7	people	_	NOUN	NNS	Number=Plur	6	_	_	start_char=1184|end_char=1190
+8	out	_	ADP	IN	_	7	_	_	start_char=1191|end_char=1194
+9	of	_	ADP	IN	_	8	_	_	start_char=1195|end_char=1197
+10	poverty	_	NOUN	NN	Number=Sing	9	_	_	start_char=1198|end_char=1205
+11	.	_	PUNCT	.	_	10	_	_	start_char=1205|end_char=1206
+
+# text = “What do you think was the main reason for these experiences?”
+# sent_id = 25
+1	“	_	PUNCT	``	_	0	_	_	start_char=1207|end_char=1208
+2	What	_	PRON	WP	PronType=Int	1	_	_	start_char=1208|end_char=1212
+3	do	_	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=1213|end_char=1215
+4	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=1216|end_char=1219
+5	think	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=1220|end_char=1225
+6	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=1226|end_char=1229
+7	the	_	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=1230|end_char=1233
+8	main	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=1234|end_char=1238
+9	reason	_	NOUN	NN	Number=Sing	8	_	_	start_char=1239|end_char=1245
+10	for	_	ADP	IN	_	9	_	_	start_char=1246|end_char=1249
+11	these	_	DET	DT	Number=Plur|PronType=Dem	10	_	_	start_char=1250|end_char=1255
+12	experiences	_	NOUN	NNS	Number=Plur	11	_	_	start_char=1256|end_char=1267
+13	?	_	PUNCT	.	_	12	_	_	start_char=1267|end_char=1268
+14	”	_	PUNCT	''	_	13	_	_	start_char=1268|end_char=1269
+
+# text = What individuals would you like to see in a Hill administration?
+# sent_id = 26
+1	What	_	DET	WDT	PronType=Int	0	_	_	start_char=1270|end_char=1274
+2	individuals	_	NOUN	NNS	Number=Plur	1	_	_	start_char=1275|end_char=1286
+3	would	_	AUX	MD	VerbForm=Fin	2	_	_	start_char=1287|end_char=1292
+4	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=1293|end_char=1296
+5	like	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=1297|end_char=1301
+6	to	_	PART	TO	_	5	_	_	start_char=1302|end_char=1304
+7	see	_	VERB	VB	VerbForm=Inf	6	_	_	start_char=1305|end_char=1308
+8	in	_	ADP	IN	_	7	_	_	start_char=1309|end_char=1311
+9	a	_	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=1312|end_char=1313
+10	Hill	_	PROPN	NNP	Number=Sing	9	_	_	start_char=1314|end_char=1318
+11	administration	_	NOUN	NN	Number=Sing	10	_	_	start_char=1319|end_char=1333
+12	?	_	PUNCT	.	_	11	_	_	start_char=1333|end_char=1334
+
+# text = Hill (right) with fellow 2012 presidential candidate Buddy Roemer.
+# sent_id = 27
+1	Hill	_	PROPN	NNP	Number=Sing	0	_	_	start_char=1335|end_char=1339
+2	(	_	PUNCT	-LRB-	_	1	_	_	start_char=1340|end_char=1341
+3	right	_	ADJ	JJ	Degree=Pos	2	_	_	start_char=1341|end_char=1346
+4	)	_	PUNCT	-RRB-	_	3	_	_	start_char=1346|end_char=1347
+5	with	_	ADP	IN	_	4	_	_	start_char=1348|end_char=1352
+6	fellow	_	ADJ	JJ	Degree=Pos	5	_	_	start_char=1353|end_char=1359
+7	2012	_	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=1360|end_char=1364
+8	presidential	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=1365|end_char=1377
+9	candidate	_	NOUN	NN	Number=Sing	8	_	_	start_char=1378|end_char=1387
+10	Buddy	_	PROPN	NNP	Number=Sing	9	_	_	start_char=1388|end_char=1393
+11	Roemer	_	PROPN	NNP	Number=Sing	10	_	_	start_char=1394|end_char=1400
+12	.	_	PUNCT	.	_	11	_	_	start_char=1400|end_char=1401
+
+# text = Read the following steps to find out how to grow Beavertail cactus.
+# sent_id = 28
+1	Read	_	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1402|end_char=1406
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=1407|end_char=1410
+3	following	_	VERB	VBG	VerbForm=Ger	2	_	_	start_char=1411|end_char=1420
+4	steps	_	NOUN	NNS	Number=Plur	3	_	_	start_char=1421|end_char=1426
+5	to	_	PART	TO	_	4	_	_	start_char=1427|end_char=1429
+6	find	_	VERB	VB	VerbForm=Inf	5	_	_	start_char=1430|end_char=1434
+7	out	_	ADP	RP	_	6	_	_	start_char=1435|end_char=1438
+8	how	_	ADV	WRB	PronType=Int	7	_	_	start_char=1439|end_char=1442
+9	to	_	PART	TO	_	8	_	_	start_char=1443|end_char=1445
+10	grow	_	VERB	VB	VerbForm=Inf	9	_	_	start_char=1446|end_char=1450
+11	Beavertail	_	PROPN	NNP	Number=Sing	10	_	_	start_char=1451|end_char=1461
+12	cactus	_	NOUN	NN	Number=Sing	11	_	_	start_char=1462|end_char=1468
+13	.	_	PUNCT	.	_	12	_	_	start_char=1468|end_char=1469
+
+# text = Without the population of the North, it faced a shortage of manpower.
+# sent_id = 29
+1	Without	_	ADP	IN	_	0	_	_	start_char=1470|end_char=1477
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=1478|end_char=1481
+3	population	_	NOUN	NN	Number=Sing	2	_	_	start_char=1482|end_char=1492
+4	of	_	ADP	IN	_	3	_	_	start_char=1493|end_char=1495
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=1496|end_char=1499
+6	North	_	PROPN	NNP	Number=Sing	5	_	_	start_char=1500|end_char=1505
+7	,	_	PUNCT	,	_	6	_	_	start_char=1505|end_char=1506
+8	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=1507|end_char=1509
+9	faced	_	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	_	_	start_char=1510|end_char=1515
+10	a	_	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=1516|end_char=1517
+11	shortage	_	NOUN	NN	Number=Sing	10	_	_	start_char=1518|end_char=1526
+12	of	_	ADP	IN	_	11	_	_	start_char=1527|end_char=1529
+13	manpower	_	NOUN	NN	Number=Sing	12	_	_	start_char=1530|end_char=1538
+14	.	_	PUNCT	.	_	13	_	_	start_char=1538|end_char=1539
+
+# text = You walk through empty, miteless rooms, stepping around light fixtures.
+# sent_id = 30
+1	You	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=1540|end_char=1543
+2	walk	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1544|end_char=1548
+3	through	_	ADP	IN	_	2	_	_	start_char=1549|end_char=1556
+4	empty	_	ADJ	JJ	Degree=Pos	3	_	_	start_char=1557|end_char=1562
+5	,	_	PUNCT	,	_	4	_	_	start_char=1562|end_char=1563
+6	miteless	_	ADJ	JJ	Degree=Pos	5	_	_	start_char=1564|end_char=1572
+7	rooms	_	NOUN	NNS	Number=Plur	6	_	_	start_char=1573|end_char=1578
+8	,	_	PUNCT	,	_	7	_	_	start_char=1578|end_char=1579
+9	stepping	_	VERB	VBG	VerbForm=Ger	8	_	_	start_char=1580|end_char=1588
+10	around	_	ADP	IN	_	9	_	_	start_char=1589|end_char=1595
+11	light	_	NOUN	NN	Number=Sing	10	_	_	start_char=1596|end_char=1601
+12	fixtures	_	NOUN	NNS	Number=Plur	11	_	_	start_char=1602|end_char=1610
+13	.	_	PUNCT	.	_	12	_	_	start_char=1610|end_char=1611
+
+# text = They should be available at your local home improvement store or online.
+# sent_id = 31
+1	They	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=1612|end_char=1616
+2	should	_	AUX	MD	VerbForm=Fin	1	_	_	start_char=1617|end_char=1623
+3	be	_	AUX	VB	VerbForm=Inf	2	_	_	start_char=1624|end_char=1626
+4	available	_	ADJ	JJ	Degree=Pos	3	_	_	start_char=1627|end_char=1636
+5	at	_	ADP	IN	_	4	_	_	start_char=1637|end_char=1639
+6	your	_	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=1640|end_char=1644
+7	local	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=1645|end_char=1650
+8	home	_	NOUN	NN	Number=Sing	7	_	_	start_char=1651|end_char=1655
+9	improvement	_	NOUN	NN	Number=Sing	8	_	_	start_char=1656|end_char=1667
+10	store	_	NOUN	NN	Number=Sing	9	_	_	start_char=1668|end_char=1673
+11	or	_	CCONJ	CC	_	10	_	_	start_char=1674|end_char=1676
+12	online	_	ADV	RB	_	11	_	_	start_char=1677|end_char=1683
+13	.	_	PUNCT	.	_	12	_	_	start_char=1683|end_char=1684
+
+# text = Set the cuttings upright in the potting mix about an inch (2.5 cm.) deep.
+# sent_id = 32
+1	Set	_	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1685|end_char=1688
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=1689|end_char=1692
+3	cuttings	_	NOUN	NNS	Number=Plur	2	_	_	start_char=1693|end_char=1701
+4	upright	_	ADV	RB	_	3	_	_	start_char=1702|end_char=1709
+5	in	_	ADP	IN	_	4	_	_	start_char=1710|end_char=1712
+6	the	_	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=1713|end_char=1716
+7	potting	_	NOUN	NN	Number=Sing	6	_	_	start_char=1717|end_char=1724
+8	mix	_	NOUN	NN	Number=Sing	7	_	_	start_char=1725|end_char=1728
+9	about	_	ADV	RB	_	8	_	_	start_char=1729|end_char=1734
+10	an	_	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=1735|end_char=1737
+11	inch	_	NOUN	NN	Number=Sing	10	_	_	start_char=1738|end_char=1742
+12	(	_	PUNCT	-LRB-	_	11	_	_	start_char=1743|end_char=1744
+13	2.5	_	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=1744|end_char=1747
+14	cm.	_	NOUN	NN	Number=Sing	13	_	_	start_char=1748|end_char=1751
+15	)	_	PUNCT	-RRB-	_	14	_	_	start_char=1751|end_char=1752
+16	deep	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=1753|end_char=1757
+17	.	_	PUNCT	.	_	16	_	_	start_char=1757|end_char=1758
+
+# text = It has seen a period of decline between the 1960s and the more recent past.
+# sent_id = 33
+1	It	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1759|end_char=1761
+2	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1762|end_char=1765
+3	seen	_	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=1766|end_char=1770
+4	a	_	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=1771|end_char=1772
+5	period	_	NOUN	NN	Number=Sing	4	_	_	start_char=1773|end_char=1779
+6	of	_	ADP	IN	_	5	_	_	start_char=1780|end_char=1782
+7	decline	_	NOUN	NN	Number=Sing	6	_	_	start_char=1783|end_char=1790
+8	between	_	ADP	IN	_	7	_	_	start_char=1791|end_char=1798
+9	the	_	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=1799|end_char=1802
+10	1960s	_	NOUN	NNS	Number=Plur	9	_	_	start_char=1803|end_char=1808
+11	and	_	CCONJ	CC	_	10	_	_	start_char=1809|end_char=1812
+12	the	_	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=1813|end_char=1816
+13	more	_	ADV	RBR	Degree=Cmp	12	_	_	start_char=1817|end_char=1821
+14	recent	_	ADJ	JJ	Degree=Pos	13	_	_	start_char=1822|end_char=1828
+15	past	_	NOUN	NN	Number=Sing	14	_	_	start_char=1829|end_char=1833
+16	.	_	PUNCT	.	_	15	_	_	start_char=1833|end_char=1834
+
+# text = Kittens typically have to be taught by the mother to easily become a mouser.
+# sent_id = 34
+1	Kittens	_	NOUN	NNS	Number=Plur	0	_	_	start_char=1835|end_char=1842
+2	typically	_	ADV	RB	_	1	_	_	start_char=1843|end_char=1852
+3	have	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=1853|end_char=1857
+4	to	_	PART	TO	_	3	_	_	start_char=1858|end_char=1860
+5	be	_	AUX	VB	VerbForm=Inf	4	_	_	start_char=1861|end_char=1863
+6	taught	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=1864|end_char=1870
+7	by	_	ADP	IN	_	6	_	_	start_char=1871|end_char=1873
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=1874|end_char=1877
+9	mother	_	NOUN	NN	Number=Sing	8	_	_	start_char=1878|end_char=1884
+10	to	_	PART	TO	_	9	_	_	start_char=1885|end_char=1887
+11	easily	_	ADV	RB	_	10	_	_	start_char=1888|end_char=1894
+12	become	_	VERB	VB	VerbForm=Inf	11	_	_	start_char=1895|end_char=1901
+13	a	_	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=1902|end_char=1903
+14	mouser	_	NOUN	NN	Number=Sing	13	_	_	start_char=1904|end_char=1910
+15	.	_	PUNCT	.	_	14	_	_	start_char=1910|end_char=1911
+
+# text = They can cause property damage, create a mess, and produce unpleasant smells.
+# sent_id = 35
+1	They	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=1912|end_char=1916
+2	can	_	AUX	MD	VerbForm=Fin	1	_	_	start_char=1917|end_char=1920
+3	cause	_	VERB	VB	VerbForm=Inf	2	_	_	start_char=1921|end_char=1926
+4	property	_	NOUN	NN	Number=Sing	3	_	_	start_char=1927|end_char=1935
+5	damage	_	NOUN	NN	Number=Sing	4	_	_	start_char=1936|end_char=1942
+6	,	_	PUNCT	,	_	5	_	_	start_char=1942|end_char=1943
+7	create	_	VERB	VB	VerbForm=Inf	6	_	_	start_char=1944|end_char=1950
+8	a	_	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=1951|end_char=1952
+9	mess	_	NOUN	NN	Number=Sing	8	_	_	start_char=1953|end_char=1957
+10	,	_	PUNCT	,	_	9	_	_	start_char=1957|end_char=1958
+11	and	_	CCONJ	CC	_	10	_	_	start_char=1959|end_char=1962
+12	produce	_	VERB	VB	VerbForm=Inf	11	_	_	start_char=1963|end_char=1970
+13	unpleasant	_	ADJ	JJ	Degree=Pos	12	_	_	start_char=1971|end_char=1981
+14	smells	_	NOUN	NNS	Number=Plur	13	_	_	start_char=1982|end_char=1988
+15	.	_	PUNCT	.	_	14	_	_	start_char=1988|end_char=1989
+
+# text = Wave 1 race — rather than, say, Wave 3 race — was used to preserve case counts.
+# sent_id = 36
+1	Wave	_	PROPN	NNP	Number=Sing	0	_	_	start_char=1990|end_char=1994
+2	1	_	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1995|end_char=1996
+3	race	_	NOUN	NN	Number=Sing	2	_	_	start_char=1997|end_char=2001
+4	—	_	PUNCT	:	_	3	_	_	start_char=2002|end_char=2003
+5	rather	_	ADV	RB	_	4	_	_	start_char=2004|end_char=2010
+6	than	_	ADP	IN	_	5	_	_	start_char=2011|end_char=2015
+7	,	_	PUNCT	,	_	6	_	_	start_char=2015|end_char=2016
+8	say	_	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=2017|end_char=2020
+9	,	_	PUNCT	,	_	8	_	_	start_char=2020|end_char=2021
+10	Wave	_	PROPN	NNP	Number=Sing	9	_	_	start_char=2022|end_char=2026
+11	3	_	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=2027|end_char=2028
+12	race	_	NOUN	NN	Number=Sing	11	_	_	start_char=2029|end_char=2033
+13	—	_	PUNCT	:	_	12	_	_	start_char=2034|end_char=2035
+14	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=2036|end_char=2039
+15	used	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=2040|end_char=2044
+16	to	_	PART	TO	_	15	_	_	start_char=2045|end_char=2047
+17	preserve	_	VERB	VB	VerbForm=Inf	16	_	_	start_char=2048|end_char=2056
+18	case	_	NOUN	NN	Number=Sing	17	_	_	start_char=2057|end_char=2061
+19	counts	_	NOUN	NNS	Number=Plur	18	_	_	start_char=2062|end_char=2068
+20	.	_	PUNCT	.	_	19	_	_	start_char=2068|end_char=2069
+
+# text = The minute enough people find anticontributive behavior cool, the party’s over —
+# sent_id = 37
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=2070|end_char=2073
+2	minute	_	NOUN	NN	Number=Sing	1	_	_	start_char=2074|end_char=2080
+3	enough	_	ADJ	JJ	Degree=Pos	2	_	_	start_char=2081|end_char=2087
+4	people	_	NOUN	NNS	Number=Plur	3	_	_	start_char=2088|end_char=2094
+5	find	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=2095|end_char=2099
+6	anticontributive	_	ADJ	JJ	Degree=Pos	5	_	_	start_char=2100|end_char=2116
+7	behavior	_	NOUN	NN	Number=Sing	6	_	_	start_char=2117|end_char=2125
+8	cool	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=2126|end_char=2130
+9	,	_	PUNCT	,	_	8	_	_	start_char=2130|end_char=2131
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=2132|end_char=2135
+11	party	_	NOUN	NN	Number=Sing	10	_	_	start_char=2136|end_char=2141
+12	’s	_	PART	POS	_	11	_	_	start_char=2141|end_char=2143
+13	over	_	ADV	RB	_	12	_	_	start_char=2144|end_char=2148
+14	—	_	PUNCT	:	_	13	_	_	start_char=2149|end_char=2150
+
+# text = In the following drawing, the green spheres represent atoms of a certain element.
+# sent_id = 38
+1	In	_	ADP	IN	_	0	_	_	start_char=2151|end_char=2153
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=2154|end_char=2157
+3	following	_	VERB	VBG	VerbForm=Ger	2	_	_	start_char=2158|end_char=2167
+4	drawing	_	NOUN	NN	Number=Sing	3	_	_	start_char=2168|end_char=2175
+5	,	_	PUNCT	,	_	4	_	_	start_char=2175|end_char=2176
+6	the	_	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=2177|end_char=2180
+7	green	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=2181|end_char=2186
+8	spheres	_	NOUN	NNS	Number=Plur	7	_	_	start_char=2187|end_char=2194
+9	represent	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=2195|end_char=2204
+10	atoms	_	NOUN	NNS	Number=Plur	9	_	_	start_char=2205|end_char=2210
+11	of	_	ADP	IN	_	10	_	_	start_char=2211|end_char=2213
+12	a	_	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=2214|end_char=2215
+13	certain	_	ADJ	JJ	Degree=Pos	12	_	_	start_char=2216|end_char=2223
+14	element	_	NOUN	NN	Number=Sing	13	_	_	start_char=2224|end_char=2231
+15	.	_	PUNCT	.	_	14	_	_	start_char=2231|end_char=2232
+
+# text = The units may only work for a short time because mice can become used to them. [4]
+# sent_id = 39
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=2233|end_char=2236
+2	units	_	NOUN	NNS	Number=Plur	1	_	_	start_char=2237|end_char=2242
+3	may	_	AUX	MD	VerbForm=Fin	2	_	_	start_char=2243|end_char=2246
+4	only	_	ADV	RB	_	3	_	_	start_char=2247|end_char=2251
+5	work	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=2252|end_char=2256
+6	for	_	ADP	IN	_	5	_	_	start_char=2257|end_char=2260
+7	a	_	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=2261|end_char=2262
+8	short	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=2263|end_char=2268
+9	time	_	NOUN	NN	Number=Sing	8	_	_	start_char=2269|end_char=2273
+10	because	_	SCONJ	IN	_	9	_	_	start_char=2274|end_char=2281
+11	mice	_	NOUN	NNS	Number=Plur	10	_	_	start_char=2282|end_char=2286
+12	can	_	AUX	MD	VerbForm=Fin	11	_	_	start_char=2287|end_char=2290
+13	become	_	VERB	VB	VerbForm=Inf	12	_	_	start_char=2291|end_char=2297
+14	used	_	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=2298|end_char=2302
+15	to	_	ADP	IN	_	14	_	_	start_char=2303|end_char=2305
+16	them	_	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=2306|end_char=2310
+17	.	_	PUNCT	.	_	16	_	_	start_char=2310|end_char=2311
+18	[	_	PUNCT	-LRB-	_	17	_	_	start_char=2312|end_char=2313
+19	4	_	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=2313|end_char=2314
+20	]	_	PUNCT	-RRB-	_	19	_	_	start_char=2314|end_char=2315
+
+# text = Oakland as a city reflects the amazing diversity of its residents and long history.
+# sent_id = 40
+1	Oakland	_	PROPN	NNP	Number=Sing	0	_	_	start_char=2316|end_char=2323
+2	as	_	ADP	IN	_	1	_	_	start_char=2324|end_char=2326
+3	a	_	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=2327|end_char=2328
+4	city	_	NOUN	NN	Number=Sing	3	_	_	start_char=2329|end_char=2333
+5	reflects	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=2334|end_char=2342
+6	the	_	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=2343|end_char=2346
+7	amazing	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=2347|end_char=2354
+8	diversity	_	NOUN	NN	Number=Sing	7	_	_	start_char=2355|end_char=2364
+9	of	_	ADP	IN	_	8	_	_	start_char=2365|end_char=2367
+10	its	_	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=2368|end_char=2371
+11	residents	_	NOUN	NNS	Number=Plur	10	_	_	start_char=2372|end_char=2381
+12	and	_	CCONJ	CC	_	11	_	_	start_char=2382|end_char=2385
+13	long	_	ADJ	JJ	Degree=Pos	12	_	_	start_char=2386|end_char=2390
+14	history	_	NOUN	NN	Number=Sing	13	_	_	start_char=2391|end_char=2398
+15	.	_	PUNCT	.	_	14	_	_	start_char=2398|end_char=2399
+
+# text = It has lots of local boutiques and a diverse range of food at all prices and styles.
+# sent_id = 41
+1	It	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=2400|end_char=2402
+2	has	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2403|end_char=2406
+3	lots	_	NOUN	NNS	Number=Plur	2	_	_	start_char=2407|end_char=2411
+4	of	_	ADP	IN	_	3	_	_	start_char=2412|end_char=2414
+5	local	_	ADJ	JJ	Degree=Pos	4	_	_	start_char=2415|end_char=2420
+6	boutiques	_	NOUN	NNS	Number=Plur	5	_	_	start_char=2421|end_char=2430
+7	and	_	CCONJ	CC	_	6	_	_	start_char=2431|end_char=2434
+8	a	_	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=2435|end_char=2436
+9	diverse	_	ADJ	JJ	Degree=Pos	8	_	_	start_char=2437|end_char=2444
+10	range	_	NOUN	NN	Number=Sing	9	_	_	start_char=2445|end_char=2450
+11	of	_	ADP	IN	_	10	_	_	start_char=2451|end_char=2453
+12	food	_	NOUN	NN	Number=Sing	11	_	_	start_char=2454|end_char=2458
+13	at	_	ADP	IN	_	12	_	_	start_char=2459|end_char=2461
+14	all	_	DET	DT	_	13	_	_	start_char=2462|end_char=2465
+15	prices	_	NOUN	NNS	Number=Plur	14	_	_	start_char=2466|end_char=2472
+16	and	_	CCONJ	CC	_	15	_	_	start_char=2473|end_char=2476
+17	styles	_	NOUN	NNS	Number=Plur	16	_	_	start_char=2477|end_char=2483
+18	.	_	PUNCT	.	_	17	_	_	start_char=2483|end_char=2484
+
+# text = Why not run for a lower office that you would be more likely to win and effect change?
+# sent_id = 42
+1	Why	_	ADV	WRB	PronType=Int	0	_	_	start_char=2485|end_char=2488
+2	not	_	PART	RB	_	1	_	_	start_char=2489|end_char=2492
+3	run	_	VERB	VB	VerbForm=Inf	2	_	_	start_char=2493|end_char=2496
+4	for	_	ADP	IN	_	3	_	_	start_char=2497|end_char=2500
+5	a	_	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=2501|end_char=2502
+6	lower	_	ADJ	JJR	Degree=Cmp	5	_	_	start_char=2503|end_char=2508
+7	office	_	NOUN	NN	Number=Sing	6	_	_	start_char=2509|end_char=2515
+8	that	_	PRON	WDT	PronType=Rel	7	_	_	start_char=2516|end_char=2520
+9	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=2521|end_char=2524
+10	would	_	AUX	MD	VerbForm=Fin	9	_	_	start_char=2525|end_char=2530
+11	be	_	AUX	VB	VerbForm=Inf	10	_	_	start_char=2531|end_char=2533
+12	more	_	ADV	RBR	Degree=Cmp	11	_	_	start_char=2534|end_char=2538
+13	likely	_	ADJ	JJ	Degree=Pos	12	_	_	start_char=2539|end_char=2545
+14	to	_	PART	TO	_	13	_	_	start_char=2546|end_char=2548
+15	win	_	VERB	VB	VerbForm=Inf	14	_	_	start_char=2549|end_char=2552
+16	and	_	CCONJ	CC	_	15	_	_	start_char=2553|end_char=2556
+17	effect	_	VERB	VB	VerbForm=Inf	16	_	_	start_char=2557|end_char=2563
+18	change	_	NOUN	NN	Number=Sing	17	_	_	start_char=2564|end_char=2570
+19	?	_	PUNCT	.	_	18	_	_	start_char=2570|end_char=2571
+
+# text = In 1890 – 91, he wrote his Dumky Trio, one of his most successful chamber music pieces.
+# sent_id = 43
+1	In	_	ADP	IN	_	0	_	_	start_char=2572|end_char=2574
+2	1890	_	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=2575|end_char=2579
+3	–	_	SYM	SYM	_	2	_	_	start_char=2580|end_char=2581
+4	91	_	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=2582|end_char=2584
+5	,	_	PUNCT	,	_	4	_	_	start_char=2584|end_char=2585
+6	he	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=2586|end_char=2588
+7	wrote	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=2589|end_char=2594
+8	his	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=2595|end_char=2598
+9	Dumky	_	PROPN	NNP	Number=Sing	8	_	_	start_char=2599|end_char=2604
+10	Trio	_	PROPN	NNP	Number=Sing	9	_	_	start_char=2605|end_char=2609
+11	,	_	PUNCT	,	_	10	_	_	start_char=2609|end_char=2610
+12	one	_	NUM	CD	NumForm=Word|NumType=Card	11	_	_	start_char=2611|end_char=2614
+13	of	_	ADP	IN	_	12	_	_	start_char=2615|end_char=2617
+14	his	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=2618|end_char=2621
+15	most	_	ADV	RBS	Degree=Sup	14	_	_	start_char=2622|end_char=2626
+16	successful	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=2627|end_char=2637
+17	chamber	_	NOUN	NN	Number=Sing	16	_	_	start_char=2638|end_char=2645
+18	music	_	NOUN	NN	Number=Sing	17	_	_	start_char=2646|end_char=2651
+19	pieces	_	NOUN	NNS	Number=Plur	18	_	_	start_char=2652|end_char=2658
+20	.	_	PUNCT	.	_	19	_	_	start_char=2658|end_char=2659
+
+# text = To make a difference in America you must have the "Bully Pulpit" and speak to the People.
+# sent_id = 44
+1	To	_	PART	TO	_	0	_	_	start_char=2660|end_char=2662
+2	make	_	VERB	VB	VerbForm=Inf	1	_	_	start_char=2663|end_char=2667
+3	a	_	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=2668|end_char=2669
+4	difference	_	NOUN	NN	Number=Sing	3	_	_	start_char=2670|end_char=2680
+5	in	_	ADP	IN	_	4	_	_	start_char=2681|end_char=2683
+6	America	_	PROPN	NNP	Number=Sing	5	_	_	start_char=2684|end_char=2691
+7	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=2692|end_char=2695
+8	must	_	AUX	MD	VerbForm=Fin	7	_	_	start_char=2696|end_char=2700
+9	have	_	VERB	VB	VerbForm=Inf	8	_	_	start_char=2701|end_char=2705
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=2706|end_char=2709
+11	"	_	PUNCT	``	_	10	_	_	start_char=2710|end_char=2711
+12	Bully	_	PROPN	NNP	Number=Sing	11	_	_	start_char=2711|end_char=2716
+13	Pulpit	_	PROPN	NNP	Number=Sing	12	_	_	start_char=2717|end_char=2723
+14	"	_	PUNCT	''	_	13	_	_	start_char=2723|end_char=2724
+15	and	_	CCONJ	CC	_	14	_	_	start_char=2725|end_char=2728
+16	speak	_	VERB	VB	VerbForm=Inf	15	_	_	start_char=2729|end_char=2734
+17	to	_	ADP	IN	_	16	_	_	start_char=2735|end_char=2737
+18	the	_	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=2738|end_char=2741
+19	People	_	PROPN	NNPS	Number=Plur	18	_	_	start_char=2742|end_char=2748
+20	.	_	PUNCT	.	_	19	_	_	start_char=2748|end_char=2749
+
+# text = We continue to work to keep COVID-19 out, but we are ready if it arrives in our community.
+# sent_id = 45
+1	We	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=2750|end_char=2752
+2	continue	_	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2753|end_char=2761
+3	to	_	PART	TO	_	2	_	_	start_char=2762|end_char=2764
+4	work	_	VERB	VB	VerbForm=Inf	3	_	_	start_char=2765|end_char=2769
+5	to	_	PART	TO	_	4	_	_	start_char=2770|end_char=2772
+6	keep	_	VERB	VB	VerbForm=Inf	5	_	_	start_char=2773|end_char=2777
+7	COVID	_	PROPN	NNP	Number=Sing	6	_	_	start_char=2778|end_char=2783
+8	-	_	PUNCT	HYPH	_	7	_	_	start_char=2783|end_char=2784
+9	19	_	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=2784|end_char=2786
+10	out	_	ADV	RB	_	9	_	_	start_char=2787|end_char=2790
+11	,	_	PUNCT	,	_	10	_	_	start_char=2790|end_char=2791
+12	but	_	CCONJ	CC	_	11	_	_	start_char=2792|end_char=2795
+13	we	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	_	_	start_char=2796|end_char=2798
+14	are	_	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=2799|end_char=2802
+15	ready	_	ADJ	JJ	Degree=Pos	14	_	_	start_char=2803|end_char=2808
+16	if	_	SCONJ	IN	_	15	_	_	start_char=2809|end_char=2811
+17	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=2812|end_char=2814
+18	arrives	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=2815|end_char=2822
+19	in	_	ADP	IN	_	18	_	_	start_char=2823|end_char=2825
+20	our	_	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	_	_	start_char=2826|end_char=2829
+21	community	_	NOUN	NN	Number=Sing	20	_	_	start_char=2830|end_char=2839
+22	.	_	PUNCT	.	_	21	_	_	start_char=2839|end_char=2840
+
+# text = "Barn cats" may not be socialized well with humans, although used to hunting mice for food.
+# sent_id = 46
+1	"	_	PUNCT	``	_	0	_	_	start_char=2841|end_char=2842
+2	Barn	_	NOUN	NN	Number=Sing	1	_	_	start_char=2842|end_char=2846
+3	cats	_	NOUN	NNS	Number=Plur	2	_	_	start_char=2847|end_char=2851
+4	"	_	PUNCT	''	_	3	_	_	start_char=2851|end_char=2852
+5	may	_	AUX	MD	VerbForm=Fin	4	_	_	start_char=2853|end_char=2856
+6	not	_	PART	RB	_	5	_	_	start_char=2857|end_char=2860
+7	be	_	AUX	VB	VerbForm=Inf	6	_	_	start_char=2861|end_char=2863
+8	socialized	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=2864|end_char=2874
+9	well	_	ADV	RB	Degree=Pos	8	_	_	start_char=2875|end_char=2879
+10	with	_	ADP	IN	_	9	_	_	start_char=2880|end_char=2884
+11	humans	_	NOUN	NNS	Number=Plur	10	_	_	start_char=2885|end_char=2891
+12	,	_	PUNCT	,	_	11	_	_	start_char=2891|end_char=2892
+13	although	_	SCONJ	IN	_	12	_	_	start_char=2893|end_char=2901
+14	used	_	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=2902|end_char=2906
+15	to	_	ADP	IN	_	14	_	_	start_char=2907|end_char=2909
+16	hunting	_	VERB	VBG	VerbForm=Ger	15	_	_	start_char=2910|end_char=2917
+17	mice	_	NOUN	NNS	Number=Plur	16	_	_	start_char=2918|end_char=2922
+18	for	_	ADP	IN	_	17	_	_	start_char=2923|end_char=2926
+19	food	_	NOUN	NN	Number=Sing	18	_	_	start_char=2927|end_char=2931
+20	.	_	PUNCT	.	_	19	_	_	start_char=2931|end_char=2932
+
+# text = Over € 150 million blocked in Austrian bank accounts has been de-frozen for humanitarian use.
+# sent_id = 47
+1	Over	_	ADV	RB	_	0	_	_	start_char=2933|end_char=2937
+2	€	_	SYM	$	_	1	_	_	start_char=2938|end_char=2939
+3	150	_	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=2940|end_char=2943
+4	million	_	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=2944|end_char=2951
+5	blocked	_	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=2952|end_char=2959
+6	in	_	ADP	IN	_	5	_	_	start_char=2960|end_char=2962
+7	Austrian	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=2963|end_char=2971
+8	bank	_	NOUN	NN	Number=Sing	7	_	_	start_char=2972|end_char=2976
+9	accounts	_	NOUN	NNS	Number=Plur	8	_	_	start_char=2977|end_char=2985
+10	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=2986|end_char=2989
+11	been	_	AUX	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=2990|end_char=2994
+12	de-frozen	_	ADJ	JJ	Degree=Pos	11	_	_	start_char=2995|end_char=3004
+13	for	_	ADP	IN	_	12	_	_	start_char=3005|end_char=3008
+14	humanitarian	_	ADJ	JJ	Degree=Pos	13	_	_	start_char=3009|end_char=3021
+15	use	_	NOUN	NN	Number=Sing	14	_	_	start_char=3022|end_char=3025
+16	.	_	PUNCT	.	_	15	_	_	start_char=3025|end_char=3026
+
+# text = 4. A compound consists of atoms of two or more elements combined in a small, whole-number ratio.
+# sent_id = 48
+1	4	_	NUM	LS	_	0	_	_	start_char=3027|end_char=3028
+2	.	_	PUNCT	.	_	1	_	_	start_char=3028|end_char=3029
+3	A	_	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=3030|end_char=3031
+4	compound	_	NOUN	NN	Number=Sing	3	_	_	start_char=3032|end_char=3040
+5	consists	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=3041|end_char=3049
+6	of	_	ADP	IN	_	5	_	_	start_char=3050|end_char=3052
+7	atoms	_	NOUN	NNS	Number=Plur	6	_	_	start_char=3053|end_char=3058
+8	of	_	ADP	IN	_	7	_	_	start_char=3059|end_char=3061
+9	two	_	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=3062|end_char=3065
+10	or	_	CCONJ	CC	_	9	_	_	start_char=3066|end_char=3068
+11	more	_	ADJ	JJR	Degree=Cmp	10	_	_	start_char=3069|end_char=3073
+12	elements	_	NOUN	NNS	Number=Plur	11	_	_	start_char=3074|end_char=3082
+13	combined	_	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=3083|end_char=3091
+14	in	_	ADP	IN	_	13	_	_	start_char=3092|end_char=3094
+15	a	_	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=3095|end_char=3096
+16	small	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=3097|end_char=3102
+17	,	_	PUNCT	,	_	16	_	_	start_char=3102|end_char=3103
+18	whole	_	ADJ	JJ	Degree=Pos	17	_	_	start_char=3104|end_char=3109
+19	-	_	PUNCT	HYPH	_	18	_	_	start_char=3109|end_char=3110
+20	number	_	NOUN	NN	Number=Sing	19	_	_	start_char=3110|end_char=3116
+21	ratio	_	NOUN	NN	Number=Sing	20	_	_	start_char=3117|end_char=3122
+22	.	_	PUNCT	.	_	21	_	_	start_char=3122|end_char=3123
+
+# text = If you keep the cans away from the house, they are less likely to take up residence in your home.
+# sent_id = 49
+1	If	_	SCONJ	IN	_	0	_	_	start_char=3124|end_char=3126
+2	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3127|end_char=3130
+3	keep	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3131|end_char=3135
+4	the	_	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=3136|end_char=3139
+5	cans	_	NOUN	NNS	Number=Plur	4	_	_	start_char=3140|end_char=3144
+6	away	_	ADV	RB	_	5	_	_	start_char=3145|end_char=3149
+7	from	_	ADP	IN	_	6	_	_	start_char=3150|end_char=3154
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=3155|end_char=3158
+9	house	_	NOUN	NN	Number=Sing	8	_	_	start_char=3159|end_char=3164
+10	,	_	PUNCT	,	_	9	_	_	start_char=3164|end_char=3165
+11	they	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=3166|end_char=3170
+12	are	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=3171|end_char=3174
+13	less	_	ADV	RBR	Degree=Cmp	12	_	_	start_char=3175|end_char=3179
+14	likely	_	ADJ	JJ	Degree=Pos	13	_	_	start_char=3180|end_char=3186
+15	to	_	PART	TO	_	14	_	_	start_char=3187|end_char=3189
+16	take	_	VERB	VB	VerbForm=Inf	15	_	_	start_char=3190|end_char=3194
+17	up	_	ADP	RP	_	16	_	_	start_char=3195|end_char=3197
+18	residence	_	NOUN	NN	Number=Sing	17	_	_	start_char=3198|end_char=3207
+19	in	_	ADP	IN	_	18	_	_	start_char=3208|end_char=3210
+20	your	_	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	19	_	_	start_char=3211|end_char=3215
+21	home	_	NOUN	NN	Number=Sing	20	_	_	start_char=3216|end_char=3220
+22	.	_	PUNCT	.	_	21	_	_	start_char=3220|end_char=3221
+
+# text = They are sick of the partisanship and nonsense and the total lack of substance in modern campaigns.
+# sent_id = 50
+1	They	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=3222|end_char=3226
+2	are	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3227|end_char=3230
+3	sick	_	ADJ	JJ	Degree=Pos	2	_	_	start_char=3231|end_char=3235
+4	of	_	ADP	IN	_	3	_	_	start_char=3236|end_char=3238
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=3239|end_char=3242
+6	partisanship	_	NOUN	NN	Number=Sing	5	_	_	start_char=3243|end_char=3255
+7	and	_	CCONJ	CC	_	6	_	_	start_char=3256|end_char=3259
+8	nonsense	_	NOUN	NN	Number=Sing	7	_	_	start_char=3260|end_char=3268
+9	and	_	CCONJ	CC	_	8	_	_	start_char=3269|end_char=3272
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=3273|end_char=3276
+11	total	_	ADJ	JJ	Degree=Pos	10	_	_	start_char=3277|end_char=3282
+12	lack	_	NOUN	NN	Number=Sing	11	_	_	start_char=3283|end_char=3287
+13	of	_	ADP	IN	_	12	_	_	start_char=3288|end_char=3290
+14	substance	_	NOUN	NN	Number=Sing	13	_	_	start_char=3291|end_char=3300
+15	in	_	ADP	IN	_	14	_	_	start_char=3301|end_char=3303
+16	modern	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=3304|end_char=3310
+17	campaigns	_	NOUN	NNS	Number=Plur	16	_	_	start_char=3311|end_char=3320
+18	.	_	PUNCT	.	_	17	_	_	start_char=3320|end_char=3321
+
+# text = My Presidential qualifications are rooted in my service as an Officer in the United States Air Force.
+# sent_id = 51
+1	My	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=3322|end_char=3324
+2	Presidential	_	ADJ	JJ	Degree=Pos	1	_	_	start_char=3325|end_char=3337
+3	qualifications	_	NOUN	NNS	Number=Plur	2	_	_	start_char=3338|end_char=3352
+4	are	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=3353|end_char=3356
+5	rooted	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=3357|end_char=3363
+6	in	_	ADP	IN	_	5	_	_	start_char=3364|end_char=3366
+7	my	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=3367|end_char=3369
+8	service	_	NOUN	NN	Number=Sing	7	_	_	start_char=3370|end_char=3377
+9	as	_	ADP	IN	_	8	_	_	start_char=3378|end_char=3380
+10	an	_	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=3381|end_char=3383
+11	Officer	_	NOUN	NN	Number=Sing	10	_	_	start_char=3384|end_char=3391
+12	in	_	ADP	IN	_	11	_	_	start_char=3392|end_char=3394
+13	the	_	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=3395|end_char=3398
+14	United	_	VERB	NNP	Tense=Past|VerbForm=Part	13	_	_	start_char=3399|end_char=3405
+15	States	_	PROPN	NNPS	Number=Plur	14	_	_	start_char=3406|end_char=3412
+16	Air	_	PROPN	NNP	Number=Sing	15	_	_	start_char=3413|end_char=3416
+17	Force	_	PROPN	NNP	Number=Sing	16	_	_	start_char=3417|end_char=3422
+18	.	_	PUNCT	.	_	17	_	_	start_char=3422|end_char=3423
+
+# text = Raucous laughter greeted the suggestions of the other body parts that could receive the same treatment.
+# sent_id = 52
+1	Raucous	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=3424|end_char=3431
+2	laughter	_	NOUN	NN	Number=Sing	1	_	_	start_char=3432|end_char=3440
+3	greeted	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=3441|end_char=3448
+4	the	_	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=3449|end_char=3452
+5	suggestions	_	NOUN	NNS	Number=Plur	4	_	_	start_char=3453|end_char=3464
+6	of	_	ADP	IN	_	5	_	_	start_char=3465|end_char=3467
+7	the	_	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=3468|end_char=3471
+8	other	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=3472|end_char=3477
+9	body	_	NOUN	NN	Number=Sing	8	_	_	start_char=3478|end_char=3482
+10	parts	_	NOUN	NNS	Number=Plur	9	_	_	start_char=3483|end_char=3488
+11	that	_	PRON	WDT	PronType=Rel	10	_	_	start_char=3489|end_char=3493
+12	could	_	AUX	MD	VerbForm=Fin	11	_	_	start_char=3494|end_char=3499
+13	receive	_	VERB	VB	VerbForm=Inf	12	_	_	start_char=3500|end_char=3507
+14	the	_	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=3508|end_char=3511
+15	same	_	ADJ	JJ	Degree=Pos	14	_	_	start_char=3512|end_char=3516
+16	treatment	_	NOUN	NN	Number=Sing	15	_	_	start_char=3517|end_char=3526
+17	.	_	PUNCT	.	_	16	_	_	start_char=3526|end_char=3527
+
+# text = He also wrote his most appreciated piece of chamber music, the American String Quartet, during this time.
+# sent_id = 53
+1	He	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=3528|end_char=3530
+2	also	_	ADV	RB	_	1	_	_	start_char=3531|end_char=3535
+3	wrote	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=3536|end_char=3541
+4	his	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=3542|end_char=3545
+5	most	_	ADV	RBS	Degree=Sup	4	_	_	start_char=3546|end_char=3550
+6	appreciated	_	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=3551|end_char=3562
+7	piece	_	NOUN	NN	Number=Sing	6	_	_	start_char=3563|end_char=3568
+8	of	_	ADP	IN	_	7	_	_	start_char=3569|end_char=3571
+9	chamber	_	NOUN	NN	Number=Sing	8	_	_	start_char=3572|end_char=3579
+10	music	_	NOUN	NN	Number=Sing	9	_	_	start_char=3580|end_char=3585
+11	,	_	PUNCT	,	_	10	_	_	start_char=3585|end_char=3586
+12	the	_	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=3587|end_char=3590
+13	American	_	ADJ	NNP	Degree=Pos	12	_	_	start_char=3591|end_char=3599
+14	String	_	PROPN	NNP	Number=Sing	13	_	_	start_char=3600|end_char=3606
+15	Quartet	_	PROPN	NNP	Number=Sing	14	_	_	start_char=3607|end_char=3614
+16	,	_	PUNCT	,	_	15	_	_	start_char=3614|end_char=3615
+17	during	_	ADP	IN	_	16	_	_	start_char=3616|end_char=3622
+18	this	_	DET	DT	Number=Sing|PronType=Dem	17	_	_	start_char=3623|end_char=3627
+19	time	_	NOUN	NN	Number=Sing	18	_	_	start_char=3628|end_char=3632
+20	.	_	PUNCT	.	_	19	_	_	start_char=3632|end_char=3633
+
+# text = Vava'u has a tropical climate with average temperatures up to 29 ºC in January and down to 24º C in June.
+# sent_id = 54
+1	Vava'u	_	PROPN	NNP	Number=Sing	0	_	_	start_char=3634|end_char=3640
+2	has	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3641|end_char=3644
+3	a	_	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=3645|end_char=3646
+4	tropical	_	ADJ	JJ	Degree=Pos	3	_	_	start_char=3647|end_char=3655
+5	climate	_	NOUN	NN	Number=Sing	4	_	_	start_char=3656|end_char=3663
+6	with	_	ADP	IN	_	5	_	_	start_char=3664|end_char=3668
+7	average	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=3669|end_char=3676
+8	temperatures	_	NOUN	NNS	Number=Plur	7	_	_	start_char=3677|end_char=3689
+9	up	_	ADP	IN	_	8	_	_	start_char=3690|end_char=3692
+10	to	_	ADP	IN	_	9	_	_	start_char=3693|end_char=3695
+11	29	_	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=3696|end_char=3698
+12	ºC	_	NOUN	NN	Number=Sing	11	_	_	start_char=3699|end_char=3701
+13	in	_	ADP	IN	_	12	_	_	start_char=3702|end_char=3704
+14	January	_	PROPN	NNP	Number=Sing	13	_	_	start_char=3705|end_char=3712
+15	and	_	CCONJ	CC	_	14	_	_	start_char=3713|end_char=3716
+16	down	_	ADV	RB	_	15	_	_	start_char=3717|end_char=3721
+17	to	_	ADP	IN	_	16	_	_	start_char=3722|end_char=3724
+18	24	_	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=3725|end_char=3727
+19	º	_	NOUN	NN	Number=Sing	18	_	_	start_char=3727|end_char=3728
+20	C	_	PROPN	NNP	Number=Sing	19	_	_	start_char=3729|end_char=3730
+21	in	_	ADP	IN	_	20	_	_	start_char=3731|end_char=3733
+22	June	_	PROPN	NNP	Number=Sing	21	_	_	start_char=3734|end_char=3738
+23	.	_	PUNCT	.	_	22	_	_	start_char=3738|end_char=3739
+
+# text = Public health staff will remain in touch with individuals to monitor the situation and give ongoing advice.
+# sent_id = 55
+1	Public	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=3740|end_char=3746
+2	health	_	NOUN	NN	Number=Sing	1	_	_	start_char=3747|end_char=3753
+3	staff	_	NOUN	NN	Number=Sing	2	_	_	start_char=3754|end_char=3759
+4	will	_	AUX	MD	VerbForm=Fin	3	_	_	start_char=3760|end_char=3764
+5	remain	_	VERB	VB	VerbForm=Inf	4	_	_	start_char=3765|end_char=3771
+6	in	_	ADP	IN	_	5	_	_	start_char=3772|end_char=3774
+7	touch	_	NOUN	NN	Number=Sing	6	_	_	start_char=3775|end_char=3780
+8	with	_	ADP	IN	_	7	_	_	start_char=3781|end_char=3785
+9	individuals	_	NOUN	NNS	Number=Plur	8	_	_	start_char=3786|end_char=3797
+10	to	_	PART	TO	_	9	_	_	start_char=3798|end_char=3800
+11	monitor	_	VERB	VB	VerbForm=Inf	10	_	_	start_char=3801|end_char=3808
+12	the	_	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=3809|end_char=3812
+13	situation	_	NOUN	NN	Number=Sing	12	_	_	start_char=3813|end_char=3822
+14	and	_	CCONJ	CC	_	13	_	_	start_char=3823|end_char=3826
+15	give	_	VERB	VB	VerbForm=Inf	14	_	_	start_char=3827|end_char=3831
+16	ongoing	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=3832|end_char=3839
+17	advice	_	NOUN	NN	Number=Sing	16	_	_	start_char=3840|end_char=3846
+18	.	_	PUNCT	.	_	17	_	_	start_char=3846|end_char=3847
+
+# text = I'm advised that as a result of our decisive response, the chance of an outbreak from our first case is low.
+# sent_id = 56
+1	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=3848|end_char=3849
+2	'm	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3849|end_char=3851
+3	advised	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=3852|end_char=3859
+4	that	_	SCONJ	IN	_	3	_	_	start_char=3860|end_char=3864
+5	as	_	ADP	IN	_	4	_	_	start_char=3865|end_char=3867
+6	a	_	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=3868|end_char=3869
+7	result	_	NOUN	NN	Number=Sing	6	_	_	start_char=3870|end_char=3876
+8	of	_	ADP	IN	_	7	_	_	start_char=3877|end_char=3879
+9	our	_	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=3880|end_char=3883
+10	decisive	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=3884|end_char=3892
+11	response	_	NOUN	NN	Number=Sing	10	_	_	start_char=3893|end_char=3901
+12	,	_	PUNCT	,	_	11	_	_	start_char=3901|end_char=3902
+13	the	_	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=3903|end_char=3906
+14	chance	_	NOUN	NN	Number=Sing	13	_	_	start_char=3907|end_char=3913
+15	of	_	ADP	IN	_	14	_	_	start_char=3914|end_char=3916
+16	an	_	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=3917|end_char=3919
+17	outbreak	_	NOUN	NN	Number=Sing	16	_	_	start_char=3920|end_char=3928
+18	from	_	ADP	IN	_	17	_	_	start_char=3929|end_char=3933
+19	our	_	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	_	_	start_char=3934|end_char=3937
+20	first	_	ADJ	JJ	Degree=Pos|NumType=Ord	19	_	_	start_char=3938|end_char=3943
+21	case	_	NOUN	NN	Number=Sing	20	_	_	start_char=3944|end_char=3948
+22	is	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=3949|end_char=3951
+23	low	_	ADJ	JJ	Degree=Pos	22	_	_	start_char=3952|end_char=3955
+24	.	_	PUNCT	.	_	23	_	_	start_char=3955|end_char=3956
+
+# text = The arrow on the map points to the Eegimaa speaking area (Bandial is the name used by Ethnologue for Eegimaa).
+# sent_id = 57
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=3957|end_char=3960
+2	arrow	_	NOUN	NN	Number=Sing	1	_	_	start_char=3961|end_char=3966
+3	on	_	ADP	IN	_	2	_	_	start_char=3967|end_char=3969
+4	the	_	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=3970|end_char=3973
+5	map	_	NOUN	NN	Number=Sing	4	_	_	start_char=3974|end_char=3977
+6	points	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=3978|end_char=3984
+7	to	_	ADP	IN	_	6	_	_	start_char=3985|end_char=3987
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=3988|end_char=3991
+9	Eegimaa	_	PROPN	NNP	Number=Sing	8	_	_	start_char=3992|end_char=3999
+10	speaking	_	NOUN	NN	Number=Sing	9	_	_	start_char=4000|end_char=4008
+11	area	_	NOUN	NN	Number=Sing	10	_	_	start_char=4009|end_char=4013
+12	(	_	PUNCT	-LRB-	_	11	_	_	start_char=4014|end_char=4015
+13	Bandial	_	PROPN	NNP	Number=Sing	12	_	_	start_char=4015|end_char=4022
+14	is	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=4023|end_char=4025
+15	the	_	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=4026|end_char=4029
+16	name	_	NOUN	NN	Number=Sing	15	_	_	start_char=4030|end_char=4034
+17	used	_	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=4035|end_char=4039
+18	by	_	ADP	IN	_	17	_	_	start_char=4040|end_char=4042
+19	Ethnologue	_	PROPN	NNP	Number=Sing	18	_	_	start_char=4043|end_char=4053
+20	for	_	ADP	IN	_	19	_	_	start_char=4054|end_char=4057
+21	Eegimaa	_	PROPN	NNP	Number=Sing	20	_	_	start_char=4058|end_char=4065
+22	)	_	PUNCT	-RRB-	_	21	_	_	start_char=4065|end_char=4066
+23	.	_	PUNCT	.	_	22	_	_	start_char=4066|end_char=4067
+
+# text = Although Dvořák was not aware of it, Johannes Brahms was the leading member of the jury and was highly impressed.
+# sent_id = 58
+1	Although	_	SCONJ	IN	_	0	_	_	start_char=4068|end_char=4076
+2	Dvořák	_	PROPN	NNP	Number=Sing	1	_	_	start_char=4077|end_char=4083
+3	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=4084|end_char=4087
+4	not	_	PART	RB	_	3	_	_	start_char=4088|end_char=4091
+5	aware	_	ADJ	JJ	Degree=Pos	4	_	_	start_char=4092|end_char=4097
+6	of	_	ADP	IN	_	5	_	_	start_char=4098|end_char=4100
+7	it	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=4101|end_char=4103
+8	,	_	PUNCT	,	_	7	_	_	start_char=4103|end_char=4104
+9	Johannes	_	PROPN	NNP	Number=Sing	8	_	_	start_char=4105|end_char=4113
+10	Brahms	_	PROPN	NNP	Number=Sing	9	_	_	start_char=4114|end_char=4120
+11	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=4121|end_char=4124
+12	the	_	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=4125|end_char=4128
+13	leading	_	VERB	VBG	VerbForm=Ger	12	_	_	start_char=4129|end_char=4136
+14	member	_	NOUN	NN	Number=Sing	13	_	_	start_char=4137|end_char=4143
+15	of	_	ADP	IN	_	14	_	_	start_char=4144|end_char=4146
+16	the	_	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=4147|end_char=4150
+17	jury	_	NOUN	NN	Number=Sing	16	_	_	start_char=4151|end_char=4155
+18	and	_	CCONJ	CC	_	17	_	_	start_char=4156|end_char=4159
+19	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=4160|end_char=4163
+20	highly	_	ADV	RB	_	19	_	_	start_char=4164|end_char=4170
+21	impressed	_	ADJ	JJ	Degree=Pos	20	_	_	start_char=4171|end_char=4180
+22	.	_	PUNCT	.	_	21	_	_	start_char=4180|end_char=4181
+
+# text = Peppermint oil cotton balls need to be replaced after 5 - 7 days, depending upon the quantity of oil you put on it.
+# sent_id = 59
+1	Peppermint	_	NOUN	NN	Number=Sing	0	_	_	start_char=4182|end_char=4192
+2	oil	_	NOUN	NN	Number=Sing	1	_	_	start_char=4193|end_char=4196
+3	cotton	_	NOUN	NN	Number=Sing	2	_	_	start_char=4197|end_char=4203
+4	balls	_	NOUN	NNS	Number=Plur	3	_	_	start_char=4204|end_char=4209
+5	need	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=4210|end_char=4214
+6	to	_	PART	TO	_	5	_	_	start_char=4215|end_char=4217
+7	be	_	AUX	VB	VerbForm=Inf	6	_	_	start_char=4218|end_char=4220
+8	replaced	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=4221|end_char=4229
+9	after	_	ADP	IN	_	8	_	_	start_char=4230|end_char=4235
+10	5	_	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=4236|end_char=4237
+11	-	_	SYM	SYM	_	10	_	_	start_char=4238|end_char=4239
+12	7	_	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=4240|end_char=4241
+13	days	_	NOUN	NNS	Number=Plur	12	_	_	start_char=4242|end_char=4246
+14	,	_	PUNCT	,	_	13	_	_	start_char=4246|end_char=4247
+15	depending	_	VERB	VBG	VerbForm=Ger	14	_	_	start_char=4248|end_char=4257
+16	upon	_	ADP	IN	_	15	_	_	start_char=4258|end_char=4262
+17	the	_	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=4263|end_char=4266
+18	quantity	_	NOUN	NN	Number=Sing	17	_	_	start_char=4267|end_char=4275
+19	of	_	ADP	IN	_	18	_	_	start_char=4276|end_char=4278
+20	oil	_	NOUN	NN	Number=Sing	19	_	_	start_char=4279|end_char=4282
+21	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=4283|end_char=4286
+22	put	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	_	_	start_char=4287|end_char=4290
+23	on	_	ADP	IN	_	22	_	_	start_char=4291|end_char=4293
+24	it	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=4294|end_char=4296
+25	.	_	PUNCT	.	_	24	_	_	start_char=4296|end_char=4297
+
+# text = Shelters and adoption agencies often do not know if a cat is a good mouse hunter, and generally do not test for this.
+# sent_id = 60
+1	Shelters	_	NOUN	NNS	Number=Plur	0	_	_	start_char=4298|end_char=4306
+2	and	_	CCONJ	CC	_	1	_	_	start_char=4307|end_char=4310
+3	adoption	_	NOUN	NN	Number=Sing	2	_	_	start_char=4311|end_char=4319
+4	agencies	_	NOUN	NNS	Number=Plur	3	_	_	start_char=4320|end_char=4328
+5	often	_	ADV	RB	_	4	_	_	start_char=4329|end_char=4334
+6	do	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=4335|end_char=4337
+7	not	_	PART	RB	_	6	_	_	start_char=4338|end_char=4341
+8	know	_	VERB	VB	VerbForm=Inf	7	_	_	start_char=4342|end_char=4346
+9	if	_	SCONJ	IN	_	8	_	_	start_char=4347|end_char=4349
+10	a	_	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=4350|end_char=4351
+11	cat	_	NOUN	NN	Number=Sing	10	_	_	start_char=4352|end_char=4355
+12	is	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=4356|end_char=4358
+13	a	_	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=4359|end_char=4360
+14	good	_	ADJ	JJ	Degree=Pos	13	_	_	start_char=4361|end_char=4365
+15	mouse	_	NOUN	NN	Number=Sing	14	_	_	start_char=4366|end_char=4371
+16	hunter	_	NOUN	NN	Number=Sing	15	_	_	start_char=4372|end_char=4378
+17	,	_	PUNCT	,	_	16	_	_	start_char=4378|end_char=4379
+18	and	_	CCONJ	CC	_	17	_	_	start_char=4380|end_char=4383
+19	generally	_	ADV	RB	_	18	_	_	start_char=4384|end_char=4393
+20	do	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=4394|end_char=4396
+21	not	_	PART	RB	_	20	_	_	start_char=4397|end_char=4400
+22	test	_	VERB	VB	VerbForm=Inf	21	_	_	start_char=4401|end_char=4405
+23	for	_	ADP	IN	_	22	_	_	start_char=4406|end_char=4409
+24	this	_	PRON	DT	Number=Sing|PronType=Dem	23	_	_	start_char=4410|end_char=4414
+25	.	_	PUNCT	.	_	24	_	_	start_char=4414|end_char=4415
+
+# text = Well-food indoor kitties might just see the mouse as a toy, and grow quickly bored of it after scaring it half witless.
+# sent_id = 61
+1	Well	_	INTJ	UH	_	0	_	_	start_char=4416|end_char=4420
+2	-	_	PUNCT	HYPH	_	1	_	_	start_char=4420|end_char=4421
+3	food	_	NOUN	NN	Number=Sing	2	_	_	start_char=4421|end_char=4425
+4	indoor	_	NOUN	NN	Number=Sing	3	_	_	start_char=4426|end_char=4432
+5	kitties	_	NOUN	NNS	Number=Plur	4	_	_	start_char=4433|end_char=4440
+6	might	_	AUX	MD	VerbForm=Fin	5	_	_	start_char=4441|end_char=4446
+7	just	_	ADV	RB	_	6	_	_	start_char=4447|end_char=4451
+8	see	_	VERB	VB	VerbForm=Inf	7	_	_	start_char=4452|end_char=4455
+9	the	_	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=4456|end_char=4459
+10	mouse	_	NOUN	NN	Number=Sing	9	_	_	start_char=4460|end_char=4465
+11	as	_	ADP	IN	_	10	_	_	start_char=4466|end_char=4468
+12	a	_	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=4469|end_char=4470
+13	toy	_	NOUN	NN	Number=Sing	12	_	_	start_char=4471|end_char=4474
+14	,	_	PUNCT	,	_	13	_	_	start_char=4474|end_char=4475
+15	and	_	CCONJ	CC	_	14	_	_	start_char=4476|end_char=4479
+16	grow	_	VERB	VB	VerbForm=Inf	15	_	_	start_char=4480|end_char=4484
+17	quickly	_	ADV	RB	_	16	_	_	start_char=4485|end_char=4492
+18	bored	_	ADJ	JJ	Degree=Pos	17	_	_	start_char=4493|end_char=4498
+19	of	_	ADP	IN	_	18	_	_	start_char=4499|end_char=4501
+20	it	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=4502|end_char=4504
+21	after	_	SCONJ	IN	_	20	_	_	start_char=4505|end_char=4510
+22	scaring	_	VERB	VBG	VerbForm=Ger	21	_	_	start_char=4511|end_char=4518
+23	it	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=4519|end_char=4521
+24	half	_	ADV	RB	NumType=Mult	23	_	_	start_char=4522|end_char=4526
+25	witless	_	ADJ	JJ	Degree=Pos	24	_	_	start_char=4527|end_char=4534
+26	.	_	PUNCT	.	_	25	_	_	start_char=4534|end_char=4535
+
+# text = The first public performances of his works were in Prague in 1872 and, with special success, in 1873, when he was aged 31.
+# sent_id = 62
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=4536|end_char=4539
+2	first	_	ADJ	JJ	Degree=Pos|NumType=Ord	1	_	_	start_char=4540|end_char=4545
+3	public	_	ADJ	JJ	Degree=Pos	2	_	_	start_char=4546|end_char=4552
+4	performances	_	NOUN	NNS	Number=Plur	3	_	_	start_char=4553|end_char=4565
+5	of	_	ADP	IN	_	4	_	_	start_char=4566|end_char=4568
+6	his	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=4569|end_char=4572
+7	works	_	NOUN	NNS	Number=Plur	6	_	_	start_char=4573|end_char=4578
+8	were	_	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=4579|end_char=4583
+9	in	_	ADP	IN	_	8	_	_	start_char=4584|end_char=4586
+10	Prague	_	PROPN	NNP	Number=Sing	9	_	_	start_char=4587|end_char=4593
+11	in	_	ADP	IN	_	10	_	_	start_char=4594|end_char=4596
+12	1872	_	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=4597|end_char=4601
+13	and	_	CCONJ	CC	_	12	_	_	start_char=4602|end_char=4605
+14	,	_	PUNCT	,	_	13	_	_	start_char=4605|end_char=4606
+15	with	_	ADP	IN	_	14	_	_	start_char=4607|end_char=4611
+16	special	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=4612|end_char=4619
+17	success	_	NOUN	NN	Number=Sing	16	_	_	start_char=4620|end_char=4627
+18	,	_	PUNCT	,	_	17	_	_	start_char=4627|end_char=4628
+19	in	_	ADP	IN	_	18	_	_	start_char=4629|end_char=4631
+20	1873	_	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=4632|end_char=4636
+21	,	_	PUNCT	,	_	20	_	_	start_char=4636|end_char=4637
+22	when	_	ADV	WRB	PronType=Int	21	_	_	start_char=4638|end_char=4642
+23	he	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=4643|end_char=4645
+24	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=4646|end_char=4649
+25	aged	_	ADJ	JJ	Degree=Pos	24	_	_	start_char=4650|end_char=4654
+26	31	_	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	start_char=4655|end_char=4657
+27	.	_	PUNCT	.	_	26	_	_	start_char=4657|end_char=4658
+
+# text = Compared to previous third party candidates at the gubernatorial level, you have done exceptionally well in opinion polling.
+# sent_id = 63
+1	Compared	_	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=4659|end_char=4667
+2	to	_	ADP	IN	_	1	_	_	start_char=4668|end_char=4670
+3	previous	_	ADJ	JJ	Degree=Pos	2	_	_	start_char=4671|end_char=4679
+4	third	_	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=4680|end_char=4685
+5	party	_	NOUN	NN	Number=Sing	4	_	_	start_char=4686|end_char=4691
+6	candidates	_	NOUN	NNS	Number=Plur	5	_	_	start_char=4692|end_char=4702
+7	at	_	ADP	IN	_	6	_	_	start_char=4703|end_char=4705
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=4706|end_char=4709
+9	gubernatorial	_	ADJ	JJ	Degree=Pos	8	_	_	start_char=4710|end_char=4723
+10	level	_	NOUN	NN	Number=Sing	9	_	_	start_char=4724|end_char=4729
+11	,	_	PUNCT	,	_	10	_	_	start_char=4729|end_char=4730
+12	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=4731|end_char=4734
+13	have	_	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=4735|end_char=4739
+14	done	_	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=4740|end_char=4744
+15	exceptionally	_	ADV	RB	_	14	_	_	start_char=4745|end_char=4758
+16	well	_	ADV	RB	Degree=Pos	15	_	_	start_char=4759|end_char=4763
+17	in	_	ADP	IN	_	16	_	_	start_char=4764|end_char=4766
+18	opinion	_	NOUN	NN	Number=Sing	17	_	_	start_char=4767|end_char=4774
+19	polling	_	NOUN	NN	Number=Sing	18	_	_	start_char=4775|end_char=4782
+20	.	_	PUNCT	.	_	19	_	_	start_char=4782|end_char=4783
+
+# text = On April 12, 1981, Space Shuttle Columbia lifted off from the Kennedy Space Center on STS-1, the first space shuttle mission.
+# sent_id = 64
+1	On	_	ADP	IN	_	0	_	_	start_char=4784|end_char=4786
+2	April	_	PROPN	NNP	Number=Sing	1	_	_	start_char=4787|end_char=4792
+3	12	_	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=4793|end_char=4795
+4	,	_	PUNCT	,	_	3	_	_	start_char=4795|end_char=4796
+5	1981	_	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=4797|end_char=4801
+6	,	_	PUNCT	,	_	5	_	_	start_char=4801|end_char=4802
+7	Space	_	PROPN	NNP	Number=Sing	6	_	_	start_char=4803|end_char=4808
+8	Shuttle	_	PROPN	NNP	Number=Sing	7	_	_	start_char=4809|end_char=4816
+9	Columbia	_	PROPN	NNP	Number=Sing	8	_	_	start_char=4817|end_char=4825
+10	lifted	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=4826|end_char=4832
+11	off	_	ADP	RP	_	10	_	_	start_char=4833|end_char=4836
+12	from	_	ADP	IN	_	11	_	_	start_char=4837|end_char=4841
+13	the	_	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=4842|end_char=4845
+14	Kennedy	_	PROPN	NNP	Number=Sing	13	_	_	start_char=4846|end_char=4853
+15	Space	_	PROPN	NNP	Number=Sing	14	_	_	start_char=4854|end_char=4859
+16	Center	_	PROPN	NNP	Number=Sing	15	_	_	start_char=4860|end_char=4866
+17	on	_	ADP	IN	_	16	_	_	start_char=4867|end_char=4869
+18	STS	_	PROPN	NNP	Number=Sing	17	_	_	start_char=4870|end_char=4873
+19	-	_	PUNCT	HYPH	_	18	_	_	start_char=4873|end_char=4874
+20	1	_	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=4874|end_char=4875
+21	,	_	PUNCT	,	_	20	_	_	start_char=4875|end_char=4876
+22	the	_	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=4877|end_char=4880
+23	first	_	ADJ	JJ	Degree=Pos|NumType=Ord	22	_	_	start_char=4881|end_char=4886
+24	space	_	NOUN	NN	Number=Sing	23	_	_	start_char=4887|end_char=4892
+25	shuttle	_	NOUN	NN	Number=Sing	24	_	_	start_char=4893|end_char=4900
+26	mission	_	NOUN	NN	Number=Sing	25	_	_	start_char=4901|end_char=4908
+27	.	_	PUNCT	.	_	26	_	_	start_char=4908|end_char=4909
+
+# text = The area attracts many humpback whales between June and November and there are lots of companies organising tours to see them.
+# sent_id = 65
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=4910|end_char=4913
+2	area	_	NOUN	NN	Number=Sing	1	_	_	start_char=4914|end_char=4918
+3	attracts	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=4919|end_char=4927
+4	many	_	ADJ	JJ	Degree=Pos	3	_	_	start_char=4928|end_char=4932
+5	humpback	_	NOUN	NN	Number=Sing	4	_	_	start_char=4933|end_char=4941
+6	whales	_	NOUN	NNS	Number=Plur	5	_	_	start_char=4942|end_char=4948
+7	between	_	ADP	IN	_	6	_	_	start_char=4949|end_char=4956
+8	June	_	PROPN	NNP	Number=Sing	7	_	_	start_char=4957|end_char=4961
+9	and	_	CCONJ	CC	_	8	_	_	start_char=4962|end_char=4965
+10	November	_	PROPN	NNP	Number=Sing	9	_	_	start_char=4966|end_char=4974
+11	and	_	CCONJ	CC	_	10	_	_	start_char=4975|end_char=4978
+12	there	_	PRON	EX	_	11	_	_	start_char=4979|end_char=4984
+13	are	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=4985|end_char=4988
+14	lots	_	NOUN	NNS	Number=Plur	13	_	_	start_char=4989|end_char=4993
+15	of	_	ADP	IN	_	14	_	_	start_char=4994|end_char=4996
+16	companies	_	NOUN	NNS	Number=Plur	15	_	_	start_char=4997|end_char=5006
+17	organising	_	VERB	VBG	VerbForm=Ger	16	_	_	start_char=5007|end_char=5017
+18	tours	_	NOUN	NNS	Number=Plur	17	_	_	start_char=5018|end_char=5023
+19	to	_	PART	TO	_	18	_	_	start_char=5024|end_char=5026
+20	see	_	VERB	VB	VerbForm=Inf	19	_	_	start_char=5027|end_char=5030
+21	them	_	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=5031|end_char=5035
+22	.	_	PUNCT	.	_	21	_	_	start_char=5035|end_char=5036
+
+# text = Columbia was lost tragically back on February 1, 2003 when it disintegrated during re-entry killing all seven astronauts aboard.
+# sent_id = 66
+1	Columbia	_	PROPN	NNP	Number=Sing	0	_	_	start_char=5037|end_char=5045
+2	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5046|end_char=5049
+3	lost	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=5050|end_char=5054
+4	tragically	_	ADV	RB	_	3	_	_	start_char=5055|end_char=5065
+5	back	_	ADV	RB	_	4	_	_	start_char=5066|end_char=5070
+6	on	_	ADP	IN	_	5	_	_	start_char=5071|end_char=5073
+7	February	_	PROPN	NNP	Number=Sing	6	_	_	start_char=5074|end_char=5082
+8	1	_	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=5083|end_char=5084
+9	,	_	PUNCT	,	_	8	_	_	start_char=5084|end_char=5085
+10	2003	_	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=5086|end_char=5090
+11	when	_	ADV	WRB	PronType=Int	10	_	_	start_char=5091|end_char=5095
+12	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=5096|end_char=5098
+13	disintegrated	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=5099|end_char=5112
+14	during	_	ADP	IN	_	13	_	_	start_char=5113|end_char=5119
+15	re-entry	_	NOUN	NN	Number=Sing	14	_	_	start_char=5120|end_char=5128
+16	killing	_	VERB	VBG	VerbForm=Ger	15	_	_	start_char=5129|end_char=5136
+17	all	_	DET	DT	_	16	_	_	start_char=5137|end_char=5140
+18	seven	_	NUM	CD	NumForm=Word|NumType=Card	17	_	_	start_char=5141|end_char=5146
+19	astronauts	_	NOUN	NNS	Number=Plur	18	_	_	start_char=5147|end_char=5157
+20	aboard	_	ADV	RB	_	19	_	_	start_char=5158|end_char=5164
+21	.	_	PUNCT	.	_	20	_	_	start_char=5164|end_char=5165
+
+# text = Dalton’s atomic theory provides a microscopic explanation of the many macroscopic properties of matter that you’ve learned about.
+# sent_id = 67
+1	Dalton	_	PROPN	NNP	Number=Sing	0	_	_	start_char=5166|end_char=5172
+2	’s	_	PART	POS	_	1	_	_	start_char=5172|end_char=5174
+3	atomic	_	ADJ	JJ	Degree=Pos	2	_	_	start_char=5175|end_char=5181
+4	theory	_	NOUN	NN	Number=Sing	3	_	_	start_char=5182|end_char=5188
+5	provides	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=5189|end_char=5197
+6	a	_	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=5198|end_char=5199
+7	microscopic	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=5200|end_char=5211
+8	explanation	_	NOUN	NN	Number=Sing	7	_	_	start_char=5212|end_char=5223
+9	of	_	ADP	IN	_	8	_	_	start_char=5224|end_char=5226
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=5227|end_char=5230
+11	many	_	ADJ	JJ	Degree=Pos	10	_	_	start_char=5231|end_char=5235
+12	macroscopic	_	ADJ	JJ	Degree=Pos	11	_	_	start_char=5236|end_char=5247
+13	properties	_	NOUN	NNS	Number=Plur	12	_	_	start_char=5248|end_char=5258
+14	of	_	ADP	IN	_	13	_	_	start_char=5259|end_char=5261
+15	matter	_	NOUN	NN	Number=Sing	14	_	_	start_char=5262|end_char=5268
+16	that	_	PRON	WDT	PronType=Rel	15	_	_	start_char=5269|end_char=5273
+17	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	_	_	start_char=5274|end_char=5277
+18	’ve	_	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	_	_	start_char=5277|end_char=5280
+19	learned	_	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=5281|end_char=5288
+20	about	_	ADP	IN	_	19	_	_	start_char=5289|end_char=5294
+21	.	_	PUNCT	.	_	20	_	_	start_char=5294|end_char=5295
+
+# text = She’s swept past the whalelike oval of the public pool on the 202nd, past the sloping mandala of the Google of offices on the 164th.
+# sent_id = 68
+1	She	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=5296|end_char=5299
+2	’s	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5299|end_char=5301
+3	swept	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=5302|end_char=5307
+4	past	_	ADP	IN	_	3	_	_	start_char=5308|end_char=5312
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=5313|end_char=5316
+6	whalelike	_	ADJ	JJ	Degree=Pos	5	_	_	start_char=5317|end_char=5326
+7	oval	_	NOUN	NN	Number=Sing	6	_	_	start_char=5327|end_char=5331
+8	of	_	ADP	IN	_	7	_	_	start_char=5332|end_char=5334
+9	the	_	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=5335|end_char=5338
+10	public	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=5339|end_char=5345
+11	pool	_	NOUN	NN	Number=Sing	10	_	_	start_char=5346|end_char=5350
+12	on	_	ADP	IN	_	11	_	_	start_char=5351|end_char=5353
+13	the	_	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=5354|end_char=5357
+14	202nd	_	NOUN	NN	NumType=Ord|Number=Sing	13	_	_	start_char=5358|end_char=5363
+15	,	_	PUNCT	,	_	14	_	_	start_char=5363|end_char=5364
+16	past	_	ADP	IN	_	15	_	_	start_char=5365|end_char=5369
+17	the	_	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=5370|end_char=5373
+18	sloping	_	VERB	VBG	VerbForm=Ger	17	_	_	start_char=5374|end_char=5381
+19	mandala	_	NOUN	NN	Number=Sing	18	_	_	start_char=5382|end_char=5389
+20	of	_	ADP	IN	_	19	_	_	start_char=5390|end_char=5392
+21	the	_	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=5393|end_char=5396
+22	Google	_	PROPN	NNP	Number=Sing	21	_	_	start_char=5397|end_char=5403
+23	of	_	ADP	IN	_	22	_	_	start_char=5404|end_char=5406
+24	offices	_	NOUN	NNS	Number=Plur	23	_	_	start_char=5407|end_char=5414
+25	on	_	ADP	IN	_	24	_	_	start_char=5415|end_char=5417
+26	the	_	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=5418|end_char=5421
+27	164th	_	NOUN	NN	NumType=Ord|Number=Sing	26	_	_	start_char=5422|end_char=5427
+28	.	_	PUNCT	.	_	27	_	_	start_char=5427|end_char=5428
+
+# text = I'm back home now, and I basically just typed up a little calendar laying out the chapters that I have left to review before Tuesday.
+# sent_id = 69
+1	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=5429|end_char=5430
+2	'm	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5430|end_char=5432
+3	back	_	ADV	RB	_	2	_	_	start_char=5433|end_char=5437
+4	home	_	ADV	RB	_	3	_	_	start_char=5438|end_char=5442
+5	now	_	ADV	RB	_	4	_	_	start_char=5443|end_char=5446
+6	,	_	PUNCT	,	_	5	_	_	start_char=5446|end_char=5447
+7	and	_	CCONJ	CC	_	6	_	_	start_char=5448|end_char=5451
+8	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=5452|end_char=5453
+9	basically	_	ADV	RB	_	8	_	_	start_char=5454|end_char=5463
+10	just	_	ADV	RB	_	9	_	_	start_char=5464|end_char=5468
+11	typed	_	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=5469|end_char=5474
+12	up	_	ADP	RP	_	11	_	_	start_char=5475|end_char=5477
+13	a	_	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=5478|end_char=5479
+14	little	_	ADJ	JJ	Degree=Pos	13	_	_	start_char=5480|end_char=5486
+15	calendar	_	NOUN	NN	Number=Sing	14	_	_	start_char=5487|end_char=5495
+16	laying	_	VERB	VBG	VerbForm=Ger	15	_	_	start_char=5496|end_char=5502
+17	out	_	ADP	RP	_	16	_	_	start_char=5503|end_char=5506
+18	the	_	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=5507|end_char=5510
+19	chapters	_	NOUN	NNS	Number=Plur	18	_	_	start_char=5511|end_char=5519
+20	that	_	PRON	WDT	PronType=Rel	19	_	_	start_char=5520|end_char=5524
+21	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	_	_	start_char=5525|end_char=5526
+22	have	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	_	_	start_char=5527|end_char=5531
+23	left	_	VERB	VBN	Tense=Past|VerbForm=Part	22	_	_	start_char=5532|end_char=5536
+24	to	_	PART	TO	_	23	_	_	start_char=5537|end_char=5539
+25	review	_	VERB	VB	VerbForm=Inf	24	_	_	start_char=5540|end_char=5546
+26	before	_	ADP	IN	_	25	_	_	start_char=5547|end_char=5553
+27	Tuesday	_	PROPN	NNP	Number=Sing	26	_	_	start_char=5554|end_char=5561
+28	.	_	PUNCT	.	_	27	_	_	start_char=5561|end_char=5562
+
+# text = Since the 1960s, Oakland has been a hub of radical culture, and is the birthplace of both the Black Panther Party and the Hell's Angels.
+# sent_id = 70
+1	Since	_	ADP	IN	_	0	_	_	start_char=5563|end_char=5568
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=5569|end_char=5572
+3	1960s	_	NOUN	NNS	Number=Plur	2	_	_	start_char=5573|end_char=5578
+4	,	_	PUNCT	,	_	3	_	_	start_char=5578|end_char=5579
+5	Oakland	_	PROPN	NNP	Number=Sing	4	_	_	start_char=5580|end_char=5587
+6	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=5588|end_char=5591
+7	been	_	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=5592|end_char=5596
+8	a	_	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=5597|end_char=5598
+9	hub	_	NOUN	NN	Number=Sing	8	_	_	start_char=5599|end_char=5602
+10	of	_	ADP	IN	_	9	_	_	start_char=5603|end_char=5605
+11	radical	_	ADJ	JJ	Degree=Pos	10	_	_	start_char=5606|end_char=5613
+12	culture	_	NOUN	NN	Number=Sing	11	_	_	start_char=5614|end_char=5621
+13	,	_	PUNCT	,	_	12	_	_	start_char=5621|end_char=5622
+14	and	_	CCONJ	CC	_	13	_	_	start_char=5623|end_char=5626
+15	is	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=5627|end_char=5629
+16	the	_	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=5630|end_char=5633
+17	birthplace	_	NOUN	NN	Number=Sing	16	_	_	start_char=5634|end_char=5644
+18	of	_	ADP	IN	_	17	_	_	start_char=5645|end_char=5647
+19	both	_	CCONJ	CC	_	18	_	_	start_char=5648|end_char=5652
+20	the	_	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=5653|end_char=5656
+21	Black	_	ADJ	NNP	Degree=Pos|Number=Sing	20	_	_	start_char=5657|end_char=5662
+22	Panther	_	PROPN	NNP	Number=Sing	21	_	_	start_char=5663|end_char=5670
+23	Party	_	PROPN	NNP	Number=Sing	22	_	_	start_char=5671|end_char=5676
+24	and	_	CCONJ	CC	_	23	_	_	start_char=5677|end_char=5680
+25	the	_	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=5681|end_char=5684
+26	Hell	_	PROPN	NNP	Number=Sing	25	_	_	start_char=5685|end_char=5689
+27	's	_	PART	POS	_	26	_	_	start_char=5689|end_char=5691
+28	Angels	_	PROPN	NNPS	Number=Plur	27	_	_	start_char=5692|end_char=5698
+29	.	_	PUNCT	.	_	28	_	_	start_char=5698|end_char=5699
+
+# text = Austria fully stands behind the campaign launched by the Secretary-General on Monday to achieve universal access to modern energy services.
+# sent_id = 71
+1	Austria	_	PROPN	NNP	Number=Sing	0	_	_	start_char=5700|end_char=5707
+2	fully	_	ADV	RB	_	1	_	_	start_char=5708|end_char=5713
+3	stands	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5714|end_char=5720
+4	behind	_	ADP	IN	_	3	_	_	start_char=5721|end_char=5727
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=5728|end_char=5731
+6	campaign	_	NOUN	NN	Number=Sing	5	_	_	start_char=5732|end_char=5740
+7	launched	_	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=5741|end_char=5749
+8	by	_	ADP	IN	_	7	_	_	start_char=5750|end_char=5752
+9	the	_	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=5753|end_char=5756
+10	Secretary	_	PROPN	NNP	Number=Sing	9	_	_	start_char=5757|end_char=5766
+11	-	_	PUNCT	HYPH	_	10	_	_	start_char=5766|end_char=5767
+12	General	_	PROPN	NNP	Number=Sing	11	_	_	start_char=5767|end_char=5774
+13	on	_	ADP	IN	_	12	_	_	start_char=5775|end_char=5777
+14	Monday	_	PROPN	NNP	Number=Sing	13	_	_	start_char=5778|end_char=5784
+15	to	_	PART	TO	_	14	_	_	start_char=5785|end_char=5787
+16	achieve	_	VERB	VB	VerbForm=Inf	15	_	_	start_char=5788|end_char=5795
+17	universal	_	ADJ	JJ	Degree=Pos	16	_	_	start_char=5796|end_char=5805
+18	access	_	NOUN	NN	Number=Sing	17	_	_	start_char=5806|end_char=5812
+19	to	_	ADP	IN	_	18	_	_	start_char=5813|end_char=5815
+20	modern	_	ADJ	JJ	Degree=Pos	19	_	_	start_char=5816|end_char=5822
+21	energy	_	NOUN	NN	Number=Sing	20	_	_	start_char=5823|end_char=5829
+22	services	_	NOUN	NNS	Number=Plur	21	_	_	start_char=5830|end_char=5838
+23	.	_	PUNCT	.	_	22	_	_	start_char=5838|end_char=5839
+
+# text = Sarvis has garnered double digits in opinion polls for the 2013 Virginia gubernatorial election, an unusual feat for a third party candidate.
+# sent_id = 72
+1	Sarvis	_	PROPN	NNP	Number=Sing	0	_	_	start_char=5840|end_char=5846
+2	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5847|end_char=5850
+3	garnered	_	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5851|end_char=5859
+4	double	_	ADJ	JJ	Degree=Pos	3	_	_	start_char=5860|end_char=5866
+5	digits	_	NOUN	NNS	Number=Plur	4	_	_	start_char=5867|end_char=5873
+6	in	_	ADP	IN	_	5	_	_	start_char=5874|end_char=5876
+7	opinion	_	NOUN	NN	Number=Sing	6	_	_	start_char=5877|end_char=5884
+8	polls	_	NOUN	NNS	Number=Plur	7	_	_	start_char=5885|end_char=5890
+9	for	_	ADP	IN	_	8	_	_	start_char=5891|end_char=5894
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=5895|end_char=5898
+11	2013	_	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=5899|end_char=5903
+12	Virginia	_	PROPN	NNP	Number=Sing	11	_	_	start_char=5904|end_char=5912
+13	gubernatorial	_	ADJ	JJ	Degree=Pos	12	_	_	start_char=5913|end_char=5926
+14	election	_	NOUN	NN	Number=Sing	13	_	_	start_char=5927|end_char=5935
+15	,	_	PUNCT	,	_	14	_	_	start_char=5935|end_char=5936
+16	an	_	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=5937|end_char=5939
+17	unusual	_	ADJ	JJ	Degree=Pos	16	_	_	start_char=5940|end_char=5947
+18	feat	_	NOUN	NN	Number=Sing	17	_	_	start_char=5948|end_char=5952
+19	for	_	ADP	IN	_	18	_	_	start_char=5953|end_char=5956
+20	a	_	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=5957|end_char=5958
+21	third	_	ADJ	JJ	Degree=Pos|NumType=Ord	20	_	_	start_char=5959|end_char=5964
+22	party	_	NOUN	NN	Number=Sing	21	_	_	start_char=5965|end_char=5970
+23	candidate	_	NOUN	NN	Number=Sing	22	_	_	start_char=5971|end_char=5980
+24	.	_	PUNCT	.	_	23	_	_	start_char=5980|end_char=5981
+
+# text = African American soldiers also received lower wages than their White counterparts: ten dollars per month, with three dollars deducted for clothing.
+# sent_id = 73
+1	African	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=5982|end_char=5989
+2	American	_	ADJ	JJ	Degree=Pos	1	_	_	start_char=5990|end_char=5998
+3	soldiers	_	NOUN	NNS	Number=Plur	2	_	_	start_char=5999|end_char=6007
+4	also	_	ADV	RB	_	3	_	_	start_char=6008|end_char=6012
+5	received	_	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=6013|end_char=6021
+6	lower	_	ADJ	JJR	Degree=Cmp	5	_	_	start_char=6022|end_char=6027
+7	wages	_	NOUN	NNS	Number=Plur	6	_	_	start_char=6028|end_char=6033
+8	than	_	ADP	IN	_	7	_	_	start_char=6034|end_char=6038
+9	their	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=6039|end_char=6044
+10	White	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=6045|end_char=6050
+11	counterparts	_	NOUN	NNS	Number=Plur	10	_	_	start_char=6051|end_char=6063
+12	:	_	PUNCT	:	_	11	_	_	start_char=6063|end_char=6064
+13	ten	_	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=6065|end_char=6068
+14	dollars	_	NOUN	NNS	Number=Plur	13	_	_	start_char=6069|end_char=6076
+15	per	_	ADP	IN	_	14	_	_	start_char=6077|end_char=6080
+16	month	_	NOUN	NN	Number=Sing	15	_	_	start_char=6081|end_char=6086
+17	,	_	PUNCT	,	_	16	_	_	start_char=6086|end_char=6087
+18	with	_	ADP	IN	_	17	_	_	start_char=6088|end_char=6092
+19	three	_	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=6093|end_char=6098
+20	dollars	_	NOUN	NNS	Number=Plur	19	_	_	start_char=6099|end_char=6106
+21	deducted	_	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=6107|end_char=6115
+22	for	_	ADP	IN	_	21	_	_	start_char=6116|end_char=6119
+23	clothing	_	NOUN	NN	Number=Sing	22	_	_	start_char=6120|end_char=6128
+24	.	_	PUNCT	.	_	23	_	_	start_char=6128|end_char=6129
+
+# text = In March, a bundle of blueprints for a new headquarters for the military's counterterrorism unit were found stuffed in the trash on a downtown street.
+# sent_id = 74
+1	In	_	ADP	IN	_	0	_	_	start_char=6130|end_char=6132
+2	March	_	PROPN	NNP	Number=Sing	1	_	_	start_char=6133|end_char=6138
+3	,	_	PUNCT	,	_	2	_	_	start_char=6138|end_char=6139
+4	a	_	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=6140|end_char=6141
+5	bundle	_	NOUN	NN	Number=Sing	4	_	_	start_char=6142|end_char=6148
+6	of	_	ADP	IN	_	5	_	_	start_char=6149|end_char=6151
+7	blueprints	_	NOUN	NNS	Number=Plur	6	_	_	start_char=6152|end_char=6162
+8	for	_	ADP	IN	_	7	_	_	start_char=6163|end_char=6166
+9	a	_	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=6167|end_char=6168
+10	new	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=6169|end_char=6172
+11	headquarters	_	NOUN	NN	Number=Sing	10	_	_	start_char=6173|end_char=6185
+12	for	_	ADP	IN	_	11	_	_	start_char=6186|end_char=6189
+13	the	_	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=6190|end_char=6193
+14	military	_	NOUN	NN	Number=Sing	13	_	_	start_char=6194|end_char=6202
+15	's	_	PART	POS	_	14	_	_	start_char=6202|end_char=6204
+16	counterterrorism	_	NOUN	NN	Number=Sing	15	_	_	start_char=6205|end_char=6221
+17	unit	_	NOUN	NN	Number=Sing	16	_	_	start_char=6222|end_char=6226
+18	were	_	AUX	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=6227|end_char=6231
+19	found	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	_	_	start_char=6232|end_char=6237
+20	stuffed	_	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=6238|end_char=6245
+21	in	_	ADP	IN	_	20	_	_	start_char=6246|end_char=6248
+22	the	_	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=6249|end_char=6252
+23	trash	_	NOUN	NN	Number=Sing	22	_	_	start_char=6253|end_char=6258
+24	on	_	ADP	IN	_	23	_	_	start_char=6259|end_char=6261
+25	a	_	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=6262|end_char=6263
+26	downtown	_	ADJ	JJ	Degree=Pos	25	_	_	start_char=6264|end_char=6272
+27	street	_	NOUN	NN	Number=Sing	26	_	_	start_char=6273|end_char=6279
+28	.	_	PUNCT	.	_	27	_	_	start_char=6279|end_char=6280
+
+# text = I'm starting the review for all the chapters for my final exam, and it is a lot of information so I already planned on getting up early today and going.
+# sent_id = 75
+1	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=6281|end_char=6282
+2	'm	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6282|end_char=6284
+3	starting	_	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6285|end_char=6293
+4	the	_	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=6294|end_char=6297
+5	review	_	NOUN	NN	Number=Sing	4	_	_	start_char=6298|end_char=6304
+6	for	_	ADP	IN	_	5	_	_	start_char=6305|end_char=6308
+7	all	_	DET	PDT	_	6	_	_	start_char=6309|end_char=6312
+8	the	_	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=6313|end_char=6316
+9	chapters	_	NOUN	NNS	Number=Plur	8	_	_	start_char=6317|end_char=6325
+10	for	_	ADP	IN	_	9	_	_	start_char=6326|end_char=6329
+11	my	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=6330|end_char=6332
+12	final	_	ADJ	JJ	Degree=Pos	11	_	_	start_char=6333|end_char=6338
+13	exam	_	NOUN	NN	Number=Sing	12	_	_	start_char=6339|end_char=6343
+14	,	_	PUNCT	,	_	13	_	_	start_char=6343|end_char=6344
+15	and	_	CCONJ	CC	_	14	_	_	start_char=6345|end_char=6348
+16	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=6349|end_char=6351
+17	is	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=6352|end_char=6354
+18	a	_	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=6355|end_char=6356
+19	lot	_	NOUN	NN	Number=Sing	18	_	_	start_char=6357|end_char=6360
+20	of	_	ADP	IN	_	19	_	_	start_char=6361|end_char=6363
+21	information	_	NOUN	NN	Number=Sing	20	_	_	start_char=6364|end_char=6375
+22	so	_	ADV	RB	_	21	_	_	start_char=6376|end_char=6378
+23	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	_	_	start_char=6379|end_char=6380
+24	already	_	ADV	RB	_	23	_	_	start_char=6381|end_char=6388
+25	planned	_	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	_	_	start_char=6389|end_char=6396
+26	on	_	SCONJ	IN	_	25	_	_	start_char=6397|end_char=6399
+27	getting	_	VERB	VBG	VerbForm=Ger	26	_	_	start_char=6400|end_char=6407
+28	up	_	ADV	RB	_	27	_	_	start_char=6408|end_char=6410
+29	early	_	ADV	RB	Degree=Pos	28	_	_	start_char=6411|end_char=6416
+30	today	_	NOUN	NN	Number=Sing	29	_	_	start_char=6417|end_char=6422
+31	and	_	CCONJ	CC	_	30	_	_	start_char=6423|end_char=6426
+32	going	_	VERB	VBG	VerbForm=Ger	31	_	_	start_char=6427|end_char=6432
+33	.	_	PUNCT	.	_	32	_	_	start_char=6432|end_char=6433
+
+# text = It's a burgeoning neighborhood of performing arts ranging from nightclubs to music halls, avant-garde performance art, and even an improv theater company.
+# sent_id = 76
+1	It	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=6434|end_char=6436
+2	's	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6436|end_char=6438
+3	a	_	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6439|end_char=6440
+4	burgeoning	_	ADJ	JJ	Degree=Pos	3	_	_	start_char=6441|end_char=6451
+5	neighborhood	_	NOUN	NN	Number=Sing	4	_	_	start_char=6452|end_char=6464
+6	of	_	ADP	IN	_	5	_	_	start_char=6465|end_char=6467
+7	performing	_	VERB	VBG	VerbForm=Ger	6	_	_	start_char=6468|end_char=6478
+8	arts	_	NOUN	NNS	Number=Plur	7	_	_	start_char=6479|end_char=6483
+9	ranging	_	VERB	VBG	VerbForm=Ger	8	_	_	start_char=6484|end_char=6491
+10	from	_	ADP	IN	_	9	_	_	start_char=6492|end_char=6496
+11	nightclubs	_	NOUN	NNS	Number=Plur	10	_	_	start_char=6497|end_char=6507
+12	to	_	ADP	IN	_	11	_	_	start_char=6508|end_char=6510
+13	music	_	NOUN	NN	Number=Sing	12	_	_	start_char=6511|end_char=6516
+14	halls	_	NOUN	NNS	Number=Plur	13	_	_	start_char=6517|end_char=6522
+15	,	_	PUNCT	,	_	14	_	_	start_char=6522|end_char=6523
+16	avant	_	NOUN	NN	Number=Sing	15	_	_	start_char=6524|end_char=6529
+17	-	_	PUNCT	HYPH	_	16	_	_	start_char=6529|end_char=6530
+18	garde	_	NOUN	NN	Number=Sing	17	_	_	start_char=6530|end_char=6535
+19	performance	_	NOUN	NN	Number=Sing	18	_	_	start_char=6536|end_char=6547
+20	art	_	NOUN	NN	Number=Sing	19	_	_	start_char=6548|end_char=6551
+21	,	_	PUNCT	,	_	20	_	_	start_char=6551|end_char=6552
+22	and	_	CCONJ	CC	_	21	_	_	start_char=6553|end_char=6556
+23	even	_	ADV	RB	_	22	_	_	start_char=6557|end_char=6561
+24	an	_	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=6562|end_char=6564
+25	improv	_	NOUN	NN	Number=Sing	24	_	_	start_char=6565|end_char=6571
+26	theater	_	NOUN	NN	Number=Sing	25	_	_	start_char=6572|end_char=6579
+27	company	_	NOUN	NN	Number=Sing	26	_	_	start_char=6580|end_char=6587
+28	.	_	PUNCT	.	_	27	_	_	start_char=6587|end_char=6588
+
+# text = The Museum of Flight in Seattle, Washington was also proposed as another location for a shuttle, going so far as to build a new building to house an orbiter.
+# sent_id = 77
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=6589|end_char=6592
+2	Museum	_	PROPN	NNP	Number=Sing	1	_	_	start_char=6593|end_char=6599
+3	of	_	ADP	IN	_	2	_	_	start_char=6600|end_char=6602
+4	Flight	_	PROPN	NNP	Number=Sing	3	_	_	start_char=6603|end_char=6609
+5	in	_	ADP	IN	_	4	_	_	start_char=6610|end_char=6612
+6	Seattle	_	PROPN	NNP	Number=Sing	5	_	_	start_char=6613|end_char=6620
+7	,	_	PUNCT	,	_	6	_	_	start_char=6620|end_char=6621
+8	Washington	_	PROPN	NNP	Number=Sing	7	_	_	start_char=6622|end_char=6632
+9	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=6633|end_char=6636
+10	also	_	ADV	RB	_	9	_	_	start_char=6637|end_char=6641
+11	proposed	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=6642|end_char=6650
+12	as	_	ADP	IN	_	11	_	_	start_char=6651|end_char=6653
+13	another	_	DET	DT	_	12	_	_	start_char=6654|end_char=6661
+14	location	_	NOUN	NN	Number=Sing	13	_	_	start_char=6662|end_char=6670
+15	for	_	ADP	IN	_	14	_	_	start_char=6671|end_char=6674
+16	a	_	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=6675|end_char=6676
+17	shuttle	_	NOUN	NN	Number=Sing	16	_	_	start_char=6677|end_char=6684
+18	,	_	PUNCT	,	_	17	_	_	start_char=6684|end_char=6685
+19	going	_	VERB	VBG	VerbForm=Ger	18	_	_	start_char=6686|end_char=6691
+20	so	_	ADV	RB	_	19	_	_	start_char=6692|end_char=6694
+21	far	_	ADV	RB	Degree=Pos	20	_	_	start_char=6695|end_char=6698
+22	as	_	SCONJ	IN	_	21	_	_	start_char=6699|end_char=6701
+23	to	_	PART	TO	_	22	_	_	start_char=6702|end_char=6704
+24	build	_	VERB	VB	VerbForm=Inf	23	_	_	start_char=6705|end_char=6710
+25	a	_	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=6711|end_char=6712
+26	new	_	ADJ	JJ	Degree=Pos	25	_	_	start_char=6713|end_char=6716
+27	building	_	NOUN	NN	Number=Sing	26	_	_	start_char=6717|end_char=6725
+28	to	_	PART	TO	_	27	_	_	start_char=6726|end_char=6728
+29	house	_	VERB	VB	VerbForm=Inf	28	_	_	start_char=6729|end_char=6734
+30	an	_	DET	DT	Definite=Ind|PronType=Art	29	_	_	start_char=6735|end_char=6737
+31	orbiter	_	NOUN	NN	Number=Sing	30	_	_	start_char=6738|end_char=6745
+32	.	_	PUNCT	.	_	31	_	_	start_char=6745|end_char=6746
+
+# text = Copper(II) oxide, a powdery, black compound, results from the combination of two types of atoms—copper (brown spheres) and oxygen (red spheres)—in a 1:1 ratio.
+# sent_id = 78
+1	Copper	_	PROPN	NNP	Number=Sing	0	_	_	start_char=6747|end_char=6753
+2	(	_	PUNCT	-LRB-	_	1	_	_	start_char=6753|end_char=6754
+3	II	_	NUM	CD	NumForm=Roman|NumType=Card	2	_	_	start_char=6754|end_char=6756
+4	)	_	PUNCT	-RRB-	_	3	_	_	start_char=6756|end_char=6757
+5	oxide	_	NOUN	NN	Number=Sing	4	_	_	start_char=6758|end_char=6763
+6	,	_	PUNCT	,	_	5	_	_	start_char=6763|end_char=6764
+7	a	_	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=6765|end_char=6766
+8	powdery	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=6767|end_char=6774
+9	,	_	PUNCT	,	_	8	_	_	start_char=6774|end_char=6775
+10	black	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=6776|end_char=6781
+11	compound	_	NOUN	NN	Number=Sing	10	_	_	start_char=6782|end_char=6790
+12	,	_	PUNCT	,	_	11	_	_	start_char=6790|end_char=6791
+13	results	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=6792|end_char=6799
+14	from	_	ADP	IN	_	13	_	_	start_char=6800|end_char=6804
+15	the	_	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=6805|end_char=6808
+16	combination	_	NOUN	NN	Number=Sing	15	_	_	start_char=6809|end_char=6820
+17	of	_	ADP	IN	_	16	_	_	start_char=6821|end_char=6823
+18	two	_	NUM	CD	NumForm=Word|NumType=Card	17	_	_	start_char=6824|end_char=6827
+19	types	_	NOUN	NNS	Number=Plur	18	_	_	start_char=6828|end_char=6833
+20	of	_	ADP	IN	_	19	_	_	start_char=6834|end_char=6836
+21	atoms	_	NOUN	NNS	Number=Plur	20	_	_	start_char=6837|end_char=6842
+22	—	_	PUNCT	:	_	21	_	_	start_char=6842|end_char=6843
+23	copper	_	NOUN	NN	Number=Sing	22	_	_	start_char=6843|end_char=6849
+24	(	_	PUNCT	-LRB-	_	23	_	_	start_char=6850|end_char=6851
+25	brown	_	ADJ	JJ	Degree=Pos	24	_	_	start_char=6851|end_char=6856
+26	spheres	_	NOUN	NNS	Number=Plur	25	_	_	start_char=6857|end_char=6864
+27	)	_	PUNCT	-RRB-	_	26	_	_	start_char=6864|end_char=6865
+28	and	_	CCONJ	CC	_	27	_	_	start_char=6866|end_char=6869
+29	oxygen	_	NOUN	NN	Number=Sing	28	_	_	start_char=6870|end_char=6876
+30	(	_	PUNCT	-LRB-	_	29	_	_	start_char=6877|end_char=6878
+31	red	_	ADJ	JJ	Degree=Pos	30	_	_	start_char=6878|end_char=6881
+32	spheres	_	NOUN	NNS	Number=Plur	31	_	_	start_char=6882|end_char=6889
+33	)	_	PUNCT	-RRB-	_	32	_	_	start_char=6889|end_char=6890
+34	—	_	PUNCT	:	_	33	_	_	start_char=6890|end_char=6891
+35	in	_	ADP	IN	_	34	_	_	start_char=6891|end_char=6893
+36	a	_	DET	DT	Definite=Ind|PronType=Art	35	_	_	start_char=6894|end_char=6895
+37	1:1	_	NUM	CD	NumForm=Digit|NumType=Card	36	_	_	start_char=6896|end_char=6899
+38	ratio	_	NOUN	NN	Number=Sing	37	_	_	start_char=6900|end_char=6905
+39	.	_	PUNCT	.	_	38	_	_	start_char=6905|end_char=6906
+
+# text = European intervention in the conflict remained a strong possibility, but when it did occur, it was not in a way anticipated by either the Confederacy or the Union.
+# sent_id = 79
+1	European	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=6907|end_char=6915
+2	intervention	_	NOUN	NN	Number=Sing	1	_	_	start_char=6916|end_char=6928
+3	in	_	ADP	IN	_	2	_	_	start_char=6929|end_char=6931
+4	the	_	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=6932|end_char=6935
+5	conflict	_	NOUN	NN	Number=Sing	4	_	_	start_char=6936|end_char=6944
+6	remained	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=6945|end_char=6953
+7	a	_	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=6954|end_char=6955
+8	strong	_	ADJ	JJ	Degree=Pos	7	_	_	start_char=6956|end_char=6962
+9	possibility	_	NOUN	NN	Number=Sing	8	_	_	start_char=6963|end_char=6974
+10	,	_	PUNCT	,	_	9	_	_	start_char=6974|end_char=6975
+11	but	_	CCONJ	CC	_	10	_	_	start_char=6976|end_char=6979
+12	when	_	ADV	WRB	PronType=Int	11	_	_	start_char=6980|end_char=6984
+13	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=6985|end_char=6987
+14	did	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=6988|end_char=6991
+15	occur	_	VERB	VB	VerbForm=Inf	14	_	_	start_char=6992|end_char=6997
+16	,	_	PUNCT	,	_	15	_	_	start_char=6997|end_char=6998
+17	it	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=6999|end_char=7001
+18	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=7002|end_char=7005
+19	not	_	PART	RB	_	18	_	_	start_char=7006|end_char=7009
+20	in	_	ADP	IN	_	19	_	_	start_char=7010|end_char=7012
+21	a	_	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=7013|end_char=7014
+22	way	_	NOUN	NN	Number=Sing	21	_	_	start_char=7015|end_char=7018
+23	anticipated	_	VERB	VBN	Tense=Past|VerbForm=Part	22	_	_	start_char=7019|end_char=7030
+24	by	_	ADP	IN	_	23	_	_	start_char=7031|end_char=7033
+25	either	_	CCONJ	CC	_	24	_	_	start_char=7034|end_char=7040
+26	the	_	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=7041|end_char=7044
+27	Confederacy	_	PROPN	NNP	Number=Sing	26	_	_	start_char=7045|end_char=7056
+28	or	_	CCONJ	CC	_	27	_	_	start_char=7057|end_char=7059
+29	the	_	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=7060|end_char=7063
+30	Union	_	PROPN	NNP	Number=Sing	29	_	_	start_char=7064|end_char=7069
+31	.	_	PUNCT	.	_	30	_	_	start_char=7069|end_char=7070
+
+# text = Confederate troops under Major General Nathan Bedford Forrest, the future founder of the Ku Klux Klan, quickly overran the fort, and the Union defenders surrendered.
+# sent_id = 80
+1	Confederate	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=7071|end_char=7082
+2	troops	_	NOUN	NNS	Number=Plur	1	_	_	start_char=7083|end_char=7089
+3	under	_	ADP	IN	_	2	_	_	start_char=7090|end_char=7095
+4	Major	_	ADJ	NNP	Degree=Pos	3	_	_	start_char=7096|end_char=7101
+5	General	_	PROPN	NNP	Number=Sing	4	_	_	start_char=7102|end_char=7109
+6	Nathan	_	PROPN	NNP	Number=Sing	5	_	_	start_char=7110|end_char=7116
+7	Bedford	_	PROPN	NNP	Number=Sing	6	_	_	start_char=7117|end_char=7124
+8	Forrest	_	PROPN	NNP	Number=Sing	7	_	_	start_char=7125|end_char=7132
+9	,	_	PUNCT	,	_	8	_	_	start_char=7132|end_char=7133
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=7134|end_char=7137
+11	future	_	ADJ	JJ	Degree=Pos	10	_	_	start_char=7138|end_char=7144
+12	founder	_	NOUN	NN	Number=Sing	11	_	_	start_char=7145|end_char=7152
+13	of	_	ADP	IN	_	12	_	_	start_char=7153|end_char=7155
+14	the	_	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=7156|end_char=7159
+15	Ku	_	PROPN	NNP	Number=Sing	14	_	_	start_char=7160|end_char=7162
+16	Klux	_	PROPN	NNP	Number=Sing	15	_	_	start_char=7163|end_char=7167
+17	Klan	_	PROPN	NNP	Number=Sing	16	_	_	start_char=7168|end_char=7172
+18	,	_	PUNCT	,	_	17	_	_	start_char=7172|end_char=7173
+19	quickly	_	ADV	RB	_	18	_	_	start_char=7174|end_char=7181
+20	overran	_	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	_	_	start_char=7182|end_char=7189
+21	the	_	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=7190|end_char=7193
+22	fort	_	NOUN	NN	Number=Sing	21	_	_	start_char=7194|end_char=7198
+23	,	_	PUNCT	,	_	22	_	_	start_char=7198|end_char=7199
+24	and	_	CCONJ	CC	_	23	_	_	start_char=7200|end_char=7203
+25	the	_	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=7204|end_char=7207
+26	Union	_	PROPN	NNP	Number=Sing	25	_	_	start_char=7208|end_char=7213
+27	defenders	_	NOUN	NNS	Number=Plur	26	_	_	start_char=7214|end_char=7223
+28	surrendered	_	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	_	_	start_char=7224|end_char=7235
+29	.	_	PUNCT	.	_	28	_	_	start_char=7235|end_char=7236
+
+# text = Steven jiggled the handle that stuck out beyond your front teeth like some metallic duck’s bill, turning and twisting it most professionally and murmuring encouragements.
+# sent_id = 81
+1	Steven	_	PROPN	NNP	Number=Sing	0	_	_	start_char=7237|end_char=7243
+2	jiggled	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=7244|end_char=7251
+3	the	_	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7252|end_char=7255
+4	handle	_	NOUN	NN	Number=Sing	3	_	_	start_char=7256|end_char=7262
+5	that	_	PRON	WDT	PronType=Rel	4	_	_	start_char=7263|end_char=7267
+6	stuck	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=7268|end_char=7273
+7	out	_	ADP	RP	_	6	_	_	start_char=7274|end_char=7277
+8	beyond	_	ADP	IN	_	7	_	_	start_char=7278|end_char=7284
+9	your	_	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=7285|end_char=7289
+10	front	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=7290|end_char=7295
+11	teeth	_	NOUN	NNS	Number=Plur	10	_	_	start_char=7296|end_char=7301
+12	like	_	ADP	IN	_	11	_	_	start_char=7302|end_char=7306
+13	some	_	DET	DT	_	12	_	_	start_char=7307|end_char=7311
+14	metallic	_	ADJ	JJ	Degree=Pos	13	_	_	start_char=7312|end_char=7320
+15	duck	_	NOUN	NN	Number=Sing	14	_	_	start_char=7321|end_char=7325
+16	’s	_	PART	POS	_	15	_	_	start_char=7325|end_char=7327
+17	bill	_	NOUN	NN	Number=Sing	16	_	_	start_char=7328|end_char=7332
+18	,	_	PUNCT	,	_	17	_	_	start_char=7332|end_char=7333
+19	turning	_	VERB	VBG	VerbForm=Ger	18	_	_	start_char=7334|end_char=7341
+20	and	_	CCONJ	CC	_	19	_	_	start_char=7342|end_char=7345
+21	twisting	_	VERB	VBG	VerbForm=Ger	20	_	_	start_char=7346|end_char=7354
+22	it	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=7355|end_char=7357
+23	most	_	ADV	RBS	Degree=Sup	22	_	_	start_char=7358|end_char=7362
+24	professionally	_	ADV	RB	_	23	_	_	start_char=7363|end_char=7377
+25	and	_	CCONJ	CC	_	24	_	_	start_char=7378|end_char=7381
+26	murmuring	_	VERB	VBG	VerbForm=Ger	25	_	_	start_char=7382|end_char=7391
+27	encouragements	_	NOUN	NNS	Number=Plur	26	_	_	start_char=7392|end_char=7406
+28	.	_	PUNCT	.	_	27	_	_	start_char=7406|end_char=7407
+
+# text = Many of the neighborhoods are commercial centers and absolute heaven for foodies or those who seek quieter surroundings than the hustle and bustle of Downtown and Chinatown.
+# sent_id = 82
+1	Many	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=7408|end_char=7412
+2	of	_	ADP	IN	_	1	_	_	start_char=7413|end_char=7415
+3	the	_	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7416|end_char=7419
+4	neighborhoods	_	NOUN	NNS	Number=Plur	3	_	_	start_char=7420|end_char=7433
+5	are	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=7434|end_char=7437
+6	commercial	_	ADJ	JJ	Degree=Pos	5	_	_	start_char=7438|end_char=7448
+7	centers	_	NOUN	NNS	Number=Plur	6	_	_	start_char=7449|end_char=7456
+8	and	_	CCONJ	CC	_	7	_	_	start_char=7457|end_char=7460
+9	absolute	_	ADJ	JJ	Degree=Pos	8	_	_	start_char=7461|end_char=7469
+10	heaven	_	NOUN	NN	Number=Sing	9	_	_	start_char=7470|end_char=7476
+11	for	_	ADP	IN	_	10	_	_	start_char=7477|end_char=7480
+12	foodies	_	NOUN	NNS	Number=Plur	11	_	_	start_char=7481|end_char=7488
+13	or	_	CCONJ	CC	_	12	_	_	start_char=7489|end_char=7491
+14	those	_	PRON	DT	Number=Plur|PronType=Dem	13	_	_	start_char=7492|end_char=7497
+15	who	_	PRON	WP	PronType=Rel	14	_	_	start_char=7498|end_char=7501
+16	seek	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=7502|end_char=7506
+17	quieter	_	ADJ	JJR	Degree=Cmp	16	_	_	start_char=7507|end_char=7514
+18	surroundings	_	NOUN	NNS	Number=Plur	17	_	_	start_char=7515|end_char=7527
+19	than	_	ADP	IN	_	18	_	_	start_char=7528|end_char=7532
+20	the	_	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=7533|end_char=7536
+21	hustle	_	NOUN	NN	Number=Sing	20	_	_	start_char=7537|end_char=7543
+22	and	_	CCONJ	CC	_	21	_	_	start_char=7544|end_char=7547
+23	bustle	_	NOUN	NN	Number=Sing	22	_	_	start_char=7548|end_char=7554
+24	of	_	ADP	IN	_	23	_	_	start_char=7555|end_char=7557
+25	Downtown	_	PROPN	NNP	Number=Sing	24	_	_	start_char=7558|end_char=7566
+26	and	_	CCONJ	CC	_	25	_	_	start_char=7567|end_char=7570
+27	Chinatown	_	PROPN	NNP	Number=Sing	26	_	_	start_char=7571|end_char=7580
+28	.	_	PUNCT	.	_	27	_	_	start_char=7580|end_char=7581
+
+# text = At every step, the Government has taken decisions in the interests of health and safety of the wider public, and so far we have been among the best at keeping COVID-19 at bay.
+# sent_id = 83
+1	At	_	ADP	IN	_	0	_	_	start_char=7582|end_char=7584
+2	every	_	DET	DT	_	1	_	_	start_char=7585|end_char=7590
+3	step	_	NOUN	NN	Number=Sing	2	_	_	start_char=7591|end_char=7595
+4	,	_	PUNCT	,	_	3	_	_	start_char=7595|end_char=7596
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=7597|end_char=7600
+6	Government	_	NOUN	NN	Number=Sing	5	_	_	start_char=7601|end_char=7611
+7	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=7612|end_char=7615
+8	taken	_	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=7616|end_char=7621
+9	decisions	_	NOUN	NNS	Number=Plur	8	_	_	start_char=7622|end_char=7631
+10	in	_	ADP	IN	_	9	_	_	start_char=7632|end_char=7634
+11	the	_	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=7635|end_char=7638
+12	interests	_	NOUN	NNS	Number=Plur	11	_	_	start_char=7639|end_char=7648
+13	of	_	ADP	IN	_	12	_	_	start_char=7649|end_char=7651
+14	health	_	NOUN	NN	Number=Sing	13	_	_	start_char=7652|end_char=7658
+15	and	_	CCONJ	CC	_	14	_	_	start_char=7659|end_char=7662
+16	safety	_	NOUN	NN	Number=Sing	15	_	_	start_char=7663|end_char=7669
+17	of	_	ADP	IN	_	16	_	_	start_char=7670|end_char=7672
+18	the	_	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=7673|end_char=7676
+19	wider	_	ADJ	JJR	Degree=Cmp	18	_	_	start_char=7677|end_char=7682
+20	public	_	NOUN	NN	Number=Sing	19	_	_	start_char=7683|end_char=7689
+21	,	_	PUNCT	,	_	20	_	_	start_char=7689|end_char=7690
+22	and	_	CCONJ	CC	_	21	_	_	start_char=7691|end_char=7694
+23	so	_	ADV	RB	_	22	_	_	start_char=7695|end_char=7697
+24	far	_	ADV	RB	Degree=Pos	23	_	_	start_char=7698|end_char=7701
+25	we	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	_	_	start_char=7702|end_char=7704
+26	have	_	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	_	_	start_char=7705|end_char=7709
+27	been	_	AUX	VBN	Tense=Past|VerbForm=Part	26	_	_	start_char=7710|end_char=7714
+28	among	_	ADP	IN	_	27	_	_	start_char=7715|end_char=7720
+29	the	_	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=7721|end_char=7724
+30	best	_	ADJ	JJS	Degree=Sup	29	_	_	start_char=7725|end_char=7729
+31	at	_	SCONJ	IN	_	30	_	_	start_char=7730|end_char=7732
+32	keeping	_	VERB	VBG	VerbForm=Ger	31	_	_	start_char=7733|end_char=7740
+33	COVID	_	PROPN	NNP	Number=Sing	32	_	_	start_char=7741|end_char=7746
+34	-	_	PUNCT	HYPH	_	33	_	_	start_char=7746|end_char=7747
+35	19	_	NUM	CD	NumForm=Digit|NumType=Card	34	_	_	start_char=7747|end_char=7749
+36	at	_	ADP	IN	_	35	_	_	start_char=7750|end_char=7752
+37	bay	_	NOUN	NN	Number=Sing	36	_	_	start_char=7753|end_char=7756
+38	.	_	PUNCT	.	_	37	_	_	start_char=7756|end_char=7757
+
+# text = Jens Otto Harry Jespersen or Otto Jespersen (Danish: [ʌtˢo ˈjɛsb̥ɐsn̩]; 16 July 1860 – 30 April 1943) was a Danish linguist who specialized in the grammar of the English language.
+# sent_id = 84
+1	Jens	_	PROPN	NNP	Number=Sing	0	_	_	start_char=7758|end_char=7762
+2	Otto	_	PROPN	NNP	Number=Sing	1	_	_	start_char=7763|end_char=7767
+3	Harry	_	PROPN	NNP	Number=Sing	2	_	_	start_char=7768|end_char=7773
+4	Jespersen	_	PROPN	NNP	Number=Sing	3	_	_	start_char=7774|end_char=7783
+5	or	_	CCONJ	CC	_	4	_	_	start_char=7784|end_char=7786
+6	Otto	_	PROPN	NNP	Number=Sing	5	_	_	start_char=7787|end_char=7791
+7	Jespersen	_	PROPN	NNP	Number=Sing	6	_	_	start_char=7792|end_char=7801
+8	(	_	PUNCT	-LRB-	_	7	_	_	start_char=7802|end_char=7803
+9	Danish	_	PROPN	NNP	Number=Sing	8	_	_	start_char=7803|end_char=7809
+10	:	_	PUNCT	:	_	9	_	_	start_char=7809|end_char=7810
+11	[	_	PUNCT	-LRB-	_	10	_	_	start_char=7811|end_char=7812
+12	ʌtˢo	_	PROPN	NNP	Number=Sing	11	_	_	start_char=7812|end_char=7816
+13	ˈjɛsb̥ɐsn̩	_	PROPN	NNP	Number=Sing	12	_	_	start_char=7817|end_char=7827
+14	]	_	PUNCT	-RRB-	_	13	_	_	start_char=7827|end_char=7828
+15	;	_	PUNCT	,	_	14	_	_	start_char=7828|end_char=7829
+16	16	_	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=7830|end_char=7832
+17	July	_	PROPN	NNP	Number=Sing	16	_	_	start_char=7833|end_char=7837
+18	1860	_	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=7838|end_char=7842
+19	–	_	SYM	SYM	_	18	_	_	start_char=7843|end_char=7844
+20	30	_	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=7845|end_char=7847
+21	April	_	PROPN	NNP	Number=Sing	20	_	_	start_char=7848|end_char=7853
+22	1943	_	NUM	CD	NumForm=Digit|NumType=Card	21	_	_	start_char=7854|end_char=7858
+23	)	_	PUNCT	-RRB-	_	22	_	_	start_char=7858|end_char=7859
+24	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=7860|end_char=7863
+25	a	_	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=7864|end_char=7865
+26	Danish	_	ADJ	JJ	Degree=Pos	25	_	_	start_char=7866|end_char=7872
+27	linguist	_	NOUN	NN	Number=Sing	26	_	_	start_char=7873|end_char=7881
+28	who	_	PRON	WP	PronType=Rel	27	_	_	start_char=7882|end_char=7885
+29	specialized	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	_	_	start_char=7886|end_char=7897
+30	in	_	ADP	IN	_	29	_	_	start_char=7898|end_char=7900
+31	the	_	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=7901|end_char=7904
+32	grammar	_	NOUN	NN	Number=Sing	31	_	_	start_char=7905|end_char=7912
+33	of	_	ADP	IN	_	32	_	_	start_char=7913|end_char=7915
+34	the	_	DET	DT	Definite=Def|PronType=Art	33	_	_	start_char=7916|end_char=7919
+35	English	_	ADJ	JJ	Degree=Pos	34	_	_	start_char=7920|end_char=7927
+36	language	_	NOUN	NN	Number=Sing	35	_	_	start_char=7928|end_char=7936
+37	.	_	PUNCT	.	_	36	_	_	start_char=7936|end_char=7937
+
+# text = Dewar says that bureaucrats of the Conservative government have complained to him about document security to the point that they can`t share the information with their own colleagues.
+# sent_id = 85
+1	Dewar	_	PROPN	NNP	Number=Sing	0	_	_	start_char=7938|end_char=7943
+2	says	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7944|end_char=7948
+3	that	_	SCONJ	IN	_	2	_	_	start_char=7949|end_char=7953
+4	bureaucrats	_	NOUN	NNS	Number=Plur	3	_	_	start_char=7954|end_char=7965
+5	of	_	ADP	IN	_	4	_	_	start_char=7966|end_char=7968
+6	the	_	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=7969|end_char=7972
+7	Conservative	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=7973|end_char=7985
+8	government	_	NOUN	NN	Number=Sing	7	_	_	start_char=7986|end_char=7996
+9	have	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=7997|end_char=8001
+10	complained	_	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=8002|end_char=8012
+11	to	_	ADP	IN	_	10	_	_	start_char=8013|end_char=8015
+12	him	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=8016|end_char=8019
+13	about	_	ADP	IN	_	12	_	_	start_char=8020|end_char=8025
+14	document	_	NOUN	NN	Number=Sing	13	_	_	start_char=8026|end_char=8034
+15	security	_	NOUN	NN	Number=Sing	14	_	_	start_char=8035|end_char=8043
+16	to	_	ADP	IN	_	15	_	_	start_char=8044|end_char=8046
+17	the	_	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=8047|end_char=8050
+18	point	_	NOUN	NN	Number=Sing	17	_	_	start_char=8051|end_char=8056
+19	that	_	SCONJ	IN	_	18	_	_	start_char=8057|end_char=8061
+20	they	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=8062|end_char=8066
+21	can`t	_	AUX	MD	VerbForm=Fin	20	_	_	start_char=8067|end_char=8072
+22	share	_	VERB	VB	VerbForm=Inf	21	_	_	start_char=8073|end_char=8078
+23	the	_	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=8079|end_char=8082
+24	information	_	NOUN	NN	Number=Sing	23	_	_	start_char=8083|end_char=8094
+25	with	_	ADP	IN	_	24	_	_	start_char=8095|end_char=8099
+26	their	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	_	_	start_char=8100|end_char=8105
+27	own	_	ADJ	JJ	Degree=Pos	26	_	_	start_char=8106|end_char=8109
+28	colleagues	_	NOUN	NNS	Number=Plur	27	_	_	start_char=8110|end_char=8120
+29	.	_	PUNCT	.	_	28	_	_	start_char=8120|end_char=8121
+
+# text = The point was, I could have mentioned what was in the paper about him, that he was related and, you know, had business with Steitler, and I just said, and there's Doctor Duvall, you know?
+# sent_id = 86
+1	The	_	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=8122|end_char=8125
+2	point	_	NOUN	NN	Number=Sing	1	_	_	start_char=8126|end_char=8131
+3	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8132|end_char=8135
+4	,	_	PUNCT	,	_	3	_	_	start_char=8135|end_char=8136
+5	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=8137|end_char=8138
+6	could	_	AUX	MD	VerbForm=Fin	5	_	_	start_char=8139|end_char=8144
+7	have	_	AUX	VB	VerbForm=Inf	6	_	_	start_char=8145|end_char=8149
+8	mentioned	_	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=8150|end_char=8159
+9	what	_	PRON	WP	PronType=Int	8	_	_	start_char=8160|end_char=8164
+10	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=8165|end_char=8168
+11	in	_	ADP	IN	_	10	_	_	start_char=8169|end_char=8171
+12	the	_	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=8172|end_char=8175
+13	paper	_	NOUN	NN	Number=Sing	12	_	_	start_char=8176|end_char=8181
+14	about	_	ADP	IN	_	13	_	_	start_char=8182|end_char=8187
+15	him	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=8188|end_char=8191
+16	,	_	PUNCT	,	_	15	_	_	start_char=8191|end_char=8192
+17	that	_	SCONJ	IN	_	16	_	_	start_char=8193|end_char=8197
+18	he	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=8198|end_char=8200
+19	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=8201|end_char=8204
+20	related	_	ADJ	JJ	Degree=Pos	19	_	_	start_char=8205|end_char=8212
+21	and	_	CCONJ	CC	_	20	_	_	start_char=8213|end_char=8216
+22	,	_	PUNCT	,	_	21	_	_	start_char=8216|end_char=8217
+23	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	_	_	start_char=8218|end_char=8221
+24	know	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=8222|end_char=8226
+25	,	_	PUNCT	,	_	24	_	_	start_char=8226|end_char=8227
+26	had	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	_	_	start_char=8228|end_char=8231
+27	business	_	NOUN	NN	Number=Sing	26	_	_	start_char=8232|end_char=8240
+28	with	_	ADP	IN	_	27	_	_	start_char=8241|end_char=8245
+29	Steitler	_	PROPN	NNP	Number=Sing	28	_	_	start_char=8246|end_char=8254
+30	,	_	PUNCT	,	_	29	_	_	start_char=8254|end_char=8255
+31	and	_	CCONJ	CC	_	30	_	_	start_char=8256|end_char=8259
+32	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	_	_	start_char=8260|end_char=8261
+33	just	_	ADV	RB	_	32	_	_	start_char=8262|end_char=8266
+34	said	_	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	33	_	_	start_char=8267|end_char=8271
+35	,	_	PUNCT	,	_	34	_	_	start_char=8271|end_char=8272
+36	and	_	CCONJ	CC	_	35	_	_	start_char=8273|end_char=8276
+37	there	_	PRON	EX	_	36	_	_	start_char=8277|end_char=8282
+38	's	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	start_char=8282|end_char=8284
+39	Doctor	_	PROPN	NNP	Number=Sing	38	_	_	start_char=8285|end_char=8291
+40	Duvall	_	PROPN	NNP	Number=Sing	39	_	_	start_char=8292|end_char=8298
+41	,	_	PUNCT	,	_	40	_	_	start_char=8298|end_char=8299
+42	you	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	41	_	_	start_char=8300|end_char=8303
+43	know	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	42	_	_	start_char=8304|end_char=8308
+44	?	_	PUNCT	.	_	43	_	_	start_char=8308|end_char=8309
+
+# text = In the fifth century BC, Leucippus and Democritus argued that all matter was composed of small, finite particles that they called atomos, a term derived from the Greek word for “indivisible.”
+# sent_id = 87
+1	In	_	ADP	IN	_	0	_	_	start_char=8310|end_char=8312
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=8313|end_char=8316
+3	fifth	_	ADJ	JJ	Degree=Pos|NumType=Ord	2	_	_	start_char=8317|end_char=8322
+4	century	_	NOUN	NN	Number=Sing	3	_	_	start_char=8323|end_char=8330
+5	BC	_	NOUN	NN	Number=Sing	4	_	_	start_char=8331|end_char=8333
+6	,	_	PUNCT	,	_	5	_	_	start_char=8333|end_char=8334
+7	Leucippus	_	PROPN	NNP	Number=Sing	6	_	_	start_char=8335|end_char=8344
+8	and	_	CCONJ	CC	_	7	_	_	start_char=8345|end_char=8348
+9	Democritus	_	PROPN	NNP	Number=Sing	8	_	_	start_char=8349|end_char=8359
+10	argued	_	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	_	_	start_char=8360|end_char=8366
+11	that	_	SCONJ	IN	_	10	_	_	start_char=8367|end_char=8371
+12	all	_	DET	DT	_	11	_	_	start_char=8372|end_char=8375
+13	matter	_	NOUN	NN	Number=Sing	12	_	_	start_char=8376|end_char=8382
+14	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=8383|end_char=8386
+15	composed	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=8387|end_char=8395
+16	of	_	ADP	IN	_	15	_	_	start_char=8396|end_char=8398
+17	small	_	ADJ	JJ	Degree=Pos	16	_	_	start_char=8399|end_char=8404
+18	,	_	PUNCT	,	_	17	_	_	start_char=8404|end_char=8405
+19	finite	_	ADJ	JJ	Degree=Pos	18	_	_	start_char=8406|end_char=8412
+20	particles	_	NOUN	NNS	Number=Plur	19	_	_	start_char=8413|end_char=8422
+21	that	_	PRON	WDT	PronType=Rel	20	_	_	start_char=8423|end_char=8427
+22	they	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=8428|end_char=8432
+23	called	_	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=8433|end_char=8439
+24	atomos	_	NOUN	NN	Number=Sing	23	_	_	start_char=8440|end_char=8446
+25	,	_	PUNCT	,	_	24	_	_	start_char=8446|end_char=8447
+26	a	_	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=8448|end_char=8449
+27	term	_	NOUN	NN	Number=Sing	26	_	_	start_char=8450|end_char=8454
+28	derived	_	VERB	VBN	Tense=Past|VerbForm=Part	27	_	_	start_char=8455|end_char=8462
+29	from	_	ADP	IN	_	28	_	_	start_char=8463|end_char=8467
+30	the	_	DET	DT	Definite=Def|PronType=Art	29	_	_	start_char=8468|end_char=8471
+31	Greek	_	ADJ	JJ	Degree=Pos	30	_	_	start_char=8472|end_char=8477
+32	word	_	NOUN	NN	Number=Sing	31	_	_	start_char=8478|end_char=8482
+33	for	_	ADP	IN	_	32	_	_	start_char=8483|end_char=8486
+34	“	_	PUNCT	``	_	33	_	_	start_char=8487|end_char=8488
+35	indivisible	_	ADJ	JJ	Degree=Pos	34	_	_	start_char=8488|end_char=8499
+36	.	_	PUNCT	.	_	35	_	_	start_char=8499|end_char=8500
+37	”	_	PUNCT	''	_	36	_	_	start_char=8500|end_char=8501
+
+# text = One such regiment, the Fifty-Fourth Regiment of Massachusetts Volunteers, distinguished itself at Fort Wagner in South Carolina by fighting valiantly against an entrenched Confederate position.
+# sent_id = 88
+1	One	_	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=8502|end_char=8505
+2	such	_	ADJ	JJ	Degree=Pos	1	_	_	start_char=8506|end_char=8510
+3	regiment	_	NOUN	NN	Number=Sing	2	_	_	start_char=8511|end_char=8519
+4	,	_	PUNCT	,	_	3	_	_	start_char=8519|end_char=8520
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=8521|end_char=8524
+6	Fifty	_	NUM	NNP	NumForm=Word|NumType=Card	5	_	_	start_char=8525|end_char=8530
+7	-	_	PUNCT	HYPH	_	6	_	_	start_char=8530|end_char=8531
+8	Fourth	_	ADJ	NNP	Degree=Pos|NumType=Ord	7	_	_	start_char=8531|end_char=8537
+9	Regiment	_	PROPN	NNP	Number=Sing	8	_	_	start_char=8538|end_char=8546
+10	of	_	ADP	IN	_	9	_	_	start_char=8547|end_char=8549
+11	Massachusetts	_	PROPN	NNP	Number=Sing	10	_	_	start_char=8550|end_char=8563
+12	Volunteers	_	PROPN	NNPS	Number=Plur	11	_	_	start_char=8564|end_char=8574
+13	,	_	PUNCT	,	_	12	_	_	start_char=8574|end_char=8575
+14	distinguished	_	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	_	_	start_char=8576|end_char=8589
+15	itself	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	14	_	_	start_char=8590|end_char=8596
+16	at	_	ADP	IN	_	15	_	_	start_char=8597|end_char=8599
+17	Fort	_	PROPN	NNP	Number=Sing	16	_	_	start_char=8600|end_char=8604
+18	Wagner	_	PROPN	NNP	Number=Sing	17	_	_	start_char=8605|end_char=8611
+19	in	_	ADP	IN	_	18	_	_	start_char=8612|end_char=8614
+20	South	_	PROPN	NNP	Number=Sing	19	_	_	start_char=8615|end_char=8620
+21	Carolina	_	PROPN	NNP	Number=Sing	20	_	_	start_char=8621|end_char=8629
+22	by	_	SCONJ	IN	_	21	_	_	start_char=8630|end_char=8632
+23	fighting	_	VERB	VBG	VerbForm=Ger	22	_	_	start_char=8633|end_char=8641
+24	valiantly	_	ADV	RB	_	23	_	_	start_char=8642|end_char=8651
+25	against	_	ADP	IN	_	24	_	_	start_char=8652|end_char=8659
+26	an	_	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=8660|end_char=8662
+27	entrenched	_	VERB	VBN	Tense=Past|VerbForm=Part	26	_	_	start_char=8663|end_char=8673
+28	Confederate	_	ADJ	JJ	Degree=Pos	27	_	_	start_char=8674|end_char=8685
+29	position	_	NOUN	NN	Number=Sing	28	_	_	start_char=8686|end_char=8694
+30	.	_	PUNCT	.	_	29	_	_	start_char=8694|end_char=8695
+
+# text = We encourage the newly empowered authorities to create a constitutional framework based on democracy and human rights, in order to fulfil their mandate for democratic change responsibly and peacefully.
+# sent_id = 89
+1	We	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=8696|end_char=8698
+2	encourage	_	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8699|end_char=8708
+3	the	_	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8709|end_char=8712
+4	newly	_	ADV	RB	_	3	_	_	start_char=8713|end_char=8718
+5	empowered	_	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=8719|end_char=8728
+6	authorities	_	NOUN	NNS	Number=Plur	5	_	_	start_char=8729|end_char=8740
+7	to	_	PART	TO	_	6	_	_	start_char=8741|end_char=8743
+8	create	_	VERB	VB	VerbForm=Inf	7	_	_	start_char=8744|end_char=8750
+9	a	_	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=8751|end_char=8752
+10	constitutional	_	ADJ	JJ	Degree=Pos	9	_	_	start_char=8753|end_char=8767
+11	framework	_	NOUN	NN	Number=Sing	10	_	_	start_char=8768|end_char=8777
+12	based	_	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=8778|end_char=8783
+13	on	_	ADP	IN	_	12	_	_	start_char=8784|end_char=8786
+14	democracy	_	NOUN	NN	Number=Sing	13	_	_	start_char=8787|end_char=8796
+15	and	_	CCONJ	CC	_	14	_	_	start_char=8797|end_char=8800
+16	human	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=8801|end_char=8806
+17	rights	_	NOUN	NNS	Number=Plur	16	_	_	start_char=8807|end_char=8813
+18	,	_	PUNCT	,	_	17	_	_	start_char=8813|end_char=8814
+19	in	_	SCONJ	IN	_	18	_	_	start_char=8815|end_char=8817
+20	order	_	NOUN	NN	Number=Sing	19	_	_	start_char=8818|end_char=8823
+21	to	_	PART	TO	_	20	_	_	start_char=8824|end_char=8826
+22	fulfil	_	VERB	VB	VerbForm=Inf	21	_	_	start_char=8827|end_char=8833
+23	their	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=8834|end_char=8839
+24	mandate	_	NOUN	NN	Number=Sing	23	_	_	start_char=8840|end_char=8847
+25	for	_	ADP	IN	_	24	_	_	start_char=8848|end_char=8851
+26	democratic	_	ADJ	JJ	Degree=Pos	25	_	_	start_char=8852|end_char=8862
+27	change	_	NOUN	NN	Number=Sing	26	_	_	start_char=8863|end_char=8869
+28	responsibly	_	ADV	RB	_	27	_	_	start_char=8870|end_char=8881
+29	and	_	CCONJ	CC	_	28	_	_	start_char=8882|end_char=8885
+30	peacefully	_	ADV	RB	_	29	_	_	start_char=8886|end_char=8896
+31	.	_	PUNCT	.	_	30	_	_	start_char=8896|end_char=8897
+
+# text = These were highly praised by the Berlin music critic Louis Ehlert in 1878, the sheet music (of the original piano 4-hands version) had excellent sales, and Dvořák's international reputation was launched at last.
+# sent_id = 90
+1	These	_	PRON	DT	Number=Plur|PronType=Dem	0	_	_	start_char=8898|end_char=8903
+2	were	_	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=8904|end_char=8908
+3	highly	_	ADV	RB	_	2	_	_	start_char=8909|end_char=8915
+4	praised	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=8916|end_char=8923
+5	by	_	ADP	IN	_	4	_	_	start_char=8924|end_char=8926
+6	the	_	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=8927|end_char=8930
+7	Berlin	_	PROPN	NNP	Number=Sing	6	_	_	start_char=8931|end_char=8937
+8	music	_	NOUN	NN	Number=Sing	7	_	_	start_char=8938|end_char=8943
+9	critic	_	NOUN	NN	Number=Sing	8	_	_	start_char=8944|end_char=8950
+10	Louis	_	PROPN	NNP	Number=Sing	9	_	_	start_char=8951|end_char=8956
+11	Ehlert	_	PROPN	NNP	Number=Sing	10	_	_	start_char=8957|end_char=8963
+12	in	_	ADP	IN	_	11	_	_	start_char=8964|end_char=8966
+13	1878	_	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=8967|end_char=8971
+14	,	_	PUNCT	,	_	13	_	_	start_char=8971|end_char=8972
+15	the	_	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=8973|end_char=8976
+16	sheet	_	NOUN	NN	Number=Sing	15	_	_	start_char=8977|end_char=8982
+17	music	_	NOUN	NN	Number=Sing	16	_	_	start_char=8983|end_char=8988
+18	(	_	PUNCT	-LRB-	_	17	_	_	start_char=8989|end_char=8990
+19	of	_	ADP	IN	_	18	_	_	start_char=8990|end_char=8992
+20	the	_	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=8993|end_char=8996
+21	original	_	ADJ	JJ	Degree=Pos	20	_	_	start_char=8997|end_char=9005
+22	piano	_	NOUN	NN	Number=Sing	21	_	_	start_char=9006|end_char=9011
+23	4	_	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=9012|end_char=9013
+24	-	_	PUNCT	HYPH	_	23	_	_	start_char=9013|end_char=9014
+25	hands	_	NOUN	NNS	Number=Plur	24	_	_	start_char=9014|end_char=9019
+26	version	_	NOUN	NN	Number=Sing	25	_	_	start_char=9020|end_char=9027
+27	)	_	PUNCT	-RRB-	_	26	_	_	start_char=9027|end_char=9028
+28	had	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=9029|end_char=9032
+29	excellent	_	ADJ	JJ	Degree=Pos	28	_	_	start_char=9033|end_char=9042
+30	sales	_	NOUN	NNS	Number=Plur	29	_	_	start_char=9043|end_char=9048
+31	,	_	PUNCT	,	_	30	_	_	start_char=9048|end_char=9049
+32	and	_	CCONJ	CC	_	31	_	_	start_char=9050|end_char=9053
+33	Dvořák	_	PROPN	NNP	Number=Sing	32	_	_	start_char=9054|end_char=9060
+34	's	_	PART	POS	_	33	_	_	start_char=9060|end_char=9062
+35	international	_	ADJ	JJ	Degree=Pos	34	_	_	start_char=9063|end_char=9076
+36	reputation	_	NOUN	NN	Number=Sing	35	_	_	start_char=9077|end_char=9087
+37	was	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	_	_	start_char=9088|end_char=9091
+38	launched	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	37	_	_	start_char=9092|end_char=9100
+39	at	_	ADP	IN	_	38	_	_	start_char=9101|end_char=9103
+40	last	_	ADJ	JJ	Degree=Pos	39	_	_	start_char=9104|end_char=9108
+41	.	_	PUNCT	.	_	40	_	_	start_char=9108|end_char=9109
+
+# text = More recently, he erred in accepting a transportation bill that had huge flaws and huge tax increases, rather than prioritizing spending and seeking more rational, efficient, decentralized transportation decision-making.
+# sent_id = 91
+1	More	_	ADV	RBR	Degree=Cmp	0	_	_	start_char=9110|end_char=9114
+2	recently	_	ADV	RB	_	1	_	_	start_char=9115|end_char=9123
+3	,	_	PUNCT	,	_	2	_	_	start_char=9123|end_char=9124
+4	he	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=9125|end_char=9127
+5	erred	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=9128|end_char=9133
+6	in	_	SCONJ	IN	_	5	_	_	start_char=9134|end_char=9136
+7	accepting	_	VERB	VBG	VerbForm=Ger	6	_	_	start_char=9137|end_char=9146
+8	a	_	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=9147|end_char=9148
+9	transportation	_	NOUN	NN	Number=Sing	8	_	_	start_char=9149|end_char=9163
+10	bill	_	NOUN	NN	Number=Sing	9	_	_	start_char=9164|end_char=9168
+11	that	_	PRON	WDT	PronType=Rel	10	_	_	start_char=9169|end_char=9173
+12	had	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=9174|end_char=9177
+13	huge	_	ADJ	JJ	Degree=Pos	12	_	_	start_char=9178|end_char=9182
+14	flaws	_	NOUN	NNS	Number=Plur	13	_	_	start_char=9183|end_char=9188
+15	and	_	CCONJ	CC	_	14	_	_	start_char=9189|end_char=9192
+16	huge	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=9193|end_char=9197
+17	tax	_	NOUN	NN	Number=Sing	16	_	_	start_char=9198|end_char=9201
+18	increases	_	NOUN	NNS	Number=Plur	17	_	_	start_char=9202|end_char=9211
+19	,	_	PUNCT	,	_	18	_	_	start_char=9211|end_char=9212
+20	rather	_	ADV	RB	_	19	_	_	start_char=9213|end_char=9219
+21	than	_	ADP	IN	_	20	_	_	start_char=9220|end_char=9224
+22	prioritizing	_	VERB	VBG	VerbForm=Ger	21	_	_	start_char=9225|end_char=9237
+23	spending	_	NOUN	NN	Number=Sing	22	_	_	start_char=9238|end_char=9246
+24	and	_	CCONJ	CC	_	23	_	_	start_char=9247|end_char=9250
+25	seeking	_	VERB	VBG	VerbForm=Ger	24	_	_	start_char=9251|end_char=9258
+26	more	_	ADV	RBR	Degree=Cmp	25	_	_	start_char=9259|end_char=9263
+27	rational	_	ADJ	JJ	Degree=Pos	26	_	_	start_char=9264|end_char=9272
+28	,	_	PUNCT	,	_	27	_	_	start_char=9272|end_char=9273
+29	efficient	_	ADJ	JJ	Degree=Pos	28	_	_	start_char=9274|end_char=9283
+30	,	_	PUNCT	,	_	29	_	_	start_char=9283|end_char=9284
+31	decentralized	_	ADJ	JJ	Degree=Pos	30	_	_	start_char=9285|end_char=9298
+32	transportation	_	NOUN	NN	Number=Sing	31	_	_	start_char=9299|end_char=9313
+33	decision	_	NOUN	NN	Number=Sing	32	_	_	start_char=9314|end_char=9322
+34	-	_	PUNCT	HYPH	_	33	_	_	start_char=9322|end_char=9323
+35	making	_	NOUN	NN	Number=Sing	34	_	_	start_char=9323|end_char=9329
+36	.	_	PUNCT	.	_	35	_	_	start_char=9329|end_char=9330
+
+# text = So I'm gonna be studying on Thanksgiving Day, Black Friday, and the whole weekend even though we're going getting our Christmas tree I think on Saturday, and I I'm not decorating I'm not doing anything fun, like I have to study.
+# sent_id = 92
+1	So	_	ADV	RB	_	0	_	_	start_char=9331|end_char=9333
+2	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=9334|end_char=9335
+3	'm	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9335|end_char=9337
+4	gonna	_	PART	TO	_	3	_	_	start_char=9338|end_char=9343
+5	be	_	AUX	VB	VerbForm=Inf	4	_	_	start_char=9344|end_char=9346
+6	studying	_	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=9347|end_char=9355
+7	on	_	ADP	IN	_	6	_	_	start_char=9356|end_char=9358
+8	Thanksgiving	_	PROPN	NNP	Number=Sing	7	_	_	start_char=9359|end_char=9371
+9	Day	_	PROPN	NNP	Number=Sing	8	_	_	start_char=9372|end_char=9375
+10	,	_	PUNCT	,	_	9	_	_	start_char=9375|end_char=9376
+11	Black	_	ADJ	NNP	Degree=Pos	10	_	_	start_char=9377|end_char=9382
+12	Friday	_	PROPN	NNP	Number=Sing	11	_	_	start_char=9383|end_char=9389
+13	,	_	PUNCT	,	_	12	_	_	start_char=9389|end_char=9390
+14	and	_	CCONJ	CC	_	13	_	_	start_char=9391|end_char=9394
+15	the	_	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=9395|end_char=9398
+16	whole	_	ADJ	JJ	Degree=Pos	15	_	_	start_char=9399|end_char=9404
+17	weekend	_	NOUN	NN	Number=Sing	16	_	_	start_char=9405|end_char=9412
+18	even	_	ADV	RB	_	17	_	_	start_char=9413|end_char=9417
+19	though	_	SCONJ	IN	_	18	_	_	start_char=9418|end_char=9424
+20	we	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	_	_	start_char=9425|end_char=9427
+21	're	_	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	start_char=9427|end_char=9430
+22	going	_	VERB	VBG	Tense=Pres|VerbForm=Part	21	_	_	start_char=9431|end_char=9436
+23	getting	_	VERB	VBG	VerbForm=Ger	22	_	_	start_char=9437|end_char=9444
+24	our	_	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	_	_	start_char=9445|end_char=9448
+25	Christmas	_	PROPN	NNP	Number=Sing	24	_	_	start_char=9449|end_char=9458
+26	tree	_	NOUN	NN	Number=Sing	25	_	_	start_char=9459|end_char=9463
+27	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	_	_	start_char=9464|end_char=9465
+28	think	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	_	_	start_char=9466|end_char=9471
+29	on	_	ADP	IN	_	28	_	_	start_char=9472|end_char=9474
+30	Saturday	_	PROPN	NNP	Number=Sing	29	_	_	start_char=9475|end_char=9483
+31	,	_	PUNCT	,	_	30	_	_	start_char=9483|end_char=9484
+32	and	_	CCONJ	CC	_	31	_	_	start_char=9485|end_char=9488
+33	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	_	_	start_char=9489|end_char=9490
+34	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	_	_	start_char=9491|end_char=9492
+35	'm	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	_	_	start_char=9492|end_char=9494
+36	not	_	PART	RB	_	35	_	_	start_char=9495|end_char=9498
+37	decorating	_	VERB	VBG	Tense=Pres|VerbForm=Part	36	_	_	start_char=9499|end_char=9509
+38	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	_	_	start_char=9510|end_char=9511
+39	'm	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	_	_	start_char=9511|end_char=9513
+40	not	_	PART	RB	_	39	_	_	start_char=9514|end_char=9517
+41	doing	_	VERB	VBG	Tense=Pres|VerbForm=Part	40	_	_	start_char=9518|end_char=9523
+42	anything	_	PRON	NN	Number=Sing|PronType=Ind	41	_	_	start_char=9524|end_char=9532
+43	fun	_	ADJ	JJ	Degree=Pos	42	_	_	start_char=9533|end_char=9536
+44	,	_	PUNCT	,	_	43	_	_	start_char=9536|end_char=9537
+45	like	_	SCONJ	IN	_	44	_	_	start_char=9538|end_char=9542
+46	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	_	_	start_char=9543|end_char=9544
+47	have	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	_	_	start_char=9545|end_char=9549
+48	to	_	PART	TO	_	47	_	_	start_char=9550|end_char=9552
+49	study	_	VERB	VB	VerbForm=Inf	48	_	_	start_char=9553|end_char=9558
+50	.	_	PUNCT	.	_	49	_	_	start_char=9558|end_char=9559
+
+# text = You’re leaning on the railing, waiting to ask Derya about a job, watching the glittering stream of mites that arc over half the sky — flying up to rewind their nanosprings in the stratospheric sunlight, flying down to make Frankfurt run.
+# sent_id = 93
+1	You	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=9560|end_char=9563
+2	’re	_	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9563|end_char=9566
+3	leaning	_	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=9567|end_char=9574
+4	on	_	ADP	IN	_	3	_	_	start_char=9575|end_char=9577
+5	the	_	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=9578|end_char=9581
+6	railing	_	NOUN	NN	Number=Sing	5	_	_	start_char=9582|end_char=9589
+7	,	_	PUNCT	,	_	6	_	_	start_char=9589|end_char=9590
+8	waiting	_	VERB	VBG	VerbForm=Ger	7	_	_	start_char=9591|end_char=9598
+9	to	_	PART	TO	_	8	_	_	start_char=9599|end_char=9601
+10	ask	_	VERB	VB	VerbForm=Inf	9	_	_	start_char=9602|end_char=9605
+11	Derya	_	PROPN	NNP	Number=Sing	10	_	_	start_char=9606|end_char=9611
+12	about	_	ADP	IN	_	11	_	_	start_char=9612|end_char=9617
+13	a	_	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=9618|end_char=9619
+14	job	_	NOUN	NN	Number=Sing	13	_	_	start_char=9620|end_char=9623
+15	,	_	PUNCT	,	_	14	_	_	start_char=9623|end_char=9624
+16	watching	_	VERB	VBG	VerbForm=Ger	15	_	_	start_char=9625|end_char=9633
+17	the	_	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=9634|end_char=9637
+18	glittering	_	VERB	VBG	VerbForm=Ger	17	_	_	start_char=9638|end_char=9648
+19	stream	_	NOUN	NN	Number=Sing	18	_	_	start_char=9649|end_char=9655
+20	of	_	ADP	IN	_	19	_	_	start_char=9656|end_char=9658
+21	mites	_	NOUN	NNS	Number=Plur	20	_	_	start_char=9659|end_char=9664
+22	that	_	PRON	WDT	PronType=Rel	21	_	_	start_char=9665|end_char=9669
+23	arc	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=9670|end_char=9673
+24	over	_	ADP	IN	_	23	_	_	start_char=9674|end_char=9678
+25	half	_	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	24	_	_	start_char=9679|end_char=9683
+26	the	_	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=9684|end_char=9687
+27	sky	_	NOUN	NN	Number=Sing	26	_	_	start_char=9688|end_char=9691
+28	—	_	PUNCT	:	_	27	_	_	start_char=9692|end_char=9693
+29	flying	_	VERB	VBG	VerbForm=Ger	28	_	_	start_char=9694|end_char=9700
+30	up	_	ADV	RB	_	29	_	_	start_char=9701|end_char=9703
+31	to	_	PART	TO	_	30	_	_	start_char=9704|end_char=9706
+32	rewind	_	VERB	VB	VerbForm=Inf	31	_	_	start_char=9707|end_char=9713
+33	their	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	_	_	start_char=9714|end_char=9719
+34	nanosprings	_	NOUN	NNS	Number=Plur	33	_	_	start_char=9720|end_char=9731
+35	in	_	ADP	IN	_	34	_	_	start_char=9732|end_char=9734
+36	the	_	DET	DT	Definite=Def|PronType=Art	35	_	_	start_char=9735|end_char=9738
+37	stratospheric	_	ADJ	JJ	Degree=Pos	36	_	_	start_char=9739|end_char=9752
+38	sunlight	_	NOUN	NN	Number=Sing	37	_	_	start_char=9753|end_char=9761
+39	,	_	PUNCT	,	_	38	_	_	start_char=9761|end_char=9762
+40	flying	_	VERB	VBG	VerbForm=Ger	39	_	_	start_char=9763|end_char=9769
+41	down	_	ADV	RB	_	40	_	_	start_char=9770|end_char=9774
+42	to	_	PART	TO	_	41	_	_	start_char=9775|end_char=9777
+43	make	_	VERB	VB	VerbForm=Inf	42	_	_	start_char=9778|end_char=9782
+44	Frankfurt	_	PROPN	NNP	Number=Sing	43	_	_	start_char=9783|end_char=9792
+45	run	_	VERB	VB	VerbForm=Inf	44	_	_	start_char=9793|end_char=9796
+46	.	_	PUNCT	.	_	45	_	_	start_char=9796|end_char=9797
+
+# text = When the elements copper (a shiny, red-brown solid, shown here as brown spheres) and oxygen (a clear and colorless gas, shown here as red spheres) react, their atoms rearrange to form a compound containing copper and oxygen (a powdery, black solid).
+# sent_id = 94
+1	When	_	ADV	WRB	PronType=Int	0	_	_	start_char=9798|end_char=9802
+2	the	_	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=9803|end_char=9806
+3	elements	_	NOUN	NNS	Number=Plur	2	_	_	start_char=9807|end_char=9815
+4	copper	_	NOUN	NN	Number=Sing	3	_	_	start_char=9816|end_char=9822
+5	(	_	PUNCT	-LRB-	_	4	_	_	start_char=9823|end_char=9824
+6	a	_	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=9824|end_char=9825
+7	shiny	_	ADJ	JJ	Degree=Pos	6	_	_	start_char=9826|end_char=9831
+8	,	_	PUNCT	,	_	7	_	_	start_char=9831|end_char=9832
+9	red	_	ADJ	JJ	Degree=Pos	8	_	_	start_char=9833|end_char=9836
+10	-	_	PUNCT	HYPH	_	9	_	_	start_char=9836|end_char=9837
+11	brown	_	ADJ	JJ	Degree=Pos	10	_	_	start_char=9837|end_char=9842
+12	solid	_	NOUN	NN	Number=Sing	11	_	_	start_char=9843|end_char=9848
+13	,	_	PUNCT	,	_	12	_	_	start_char=9848|end_char=9849
+14	shown	_	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=9850|end_char=9855
+15	here	_	ADV	RB	PronType=Dem	14	_	_	start_char=9856|end_char=9860
+16	as	_	ADP	IN	_	15	_	_	start_char=9861|end_char=9863
+17	brown	_	ADJ	JJ	Degree=Pos	16	_	_	start_char=9864|end_char=9869
+18	spheres	_	NOUN	NNS	Number=Plur	17	_	_	start_char=9870|end_char=9877
+19	)	_	PUNCT	-RRB-	_	18	_	_	start_char=9877|end_char=9878
+20	and	_	CCONJ	CC	_	19	_	_	start_char=9879|end_char=9882
+21	oxygen	_	NOUN	NN	Number=Sing	20	_	_	start_char=9883|end_char=9889
+22	(	_	PUNCT	-LRB-	_	21	_	_	start_char=9890|end_char=9891
+23	a	_	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=9891|end_char=9892
+24	clear	_	ADJ	JJ	Degree=Pos	23	_	_	start_char=9893|end_char=9898
+25	and	_	CCONJ	CC	_	24	_	_	start_char=9899|end_char=9902
+26	colorless	_	ADJ	JJ	Degree=Pos	25	_	_	start_char=9903|end_char=9912
+27	gas	_	NOUN	NN	Number=Sing	26	_	_	start_char=9913|end_char=9916
+28	,	_	PUNCT	,	_	27	_	_	start_char=9916|end_char=9917
+29	shown	_	VERB	VBN	Tense=Past|VerbForm=Part	28	_	_	start_char=9918|end_char=9923
+30	here	_	ADV	RB	PronType=Dem	29	_	_	start_char=9924|end_char=9928
+31	as	_	ADP	IN	_	30	_	_	start_char=9929|end_char=9931
+32	red	_	ADJ	JJ	Degree=Pos	31	_	_	start_char=9932|end_char=9935
+33	spheres	_	NOUN	NNS	Number=Plur	32	_	_	start_char=9936|end_char=9943
+34	)	_	PUNCT	-RRB-	_	33	_	_	start_char=9943|end_char=9944
+35	react	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	_	_	start_char=9945|end_char=9950
+36	,	_	PUNCT	,	_	35	_	_	start_char=9950|end_char=9951
+37	their	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	_	_	start_char=9952|end_char=9957
+38	atoms	_	NOUN	NNS	Number=Plur	37	_	_	start_char=9958|end_char=9963
+39	rearrange	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	_	_	start_char=9964|end_char=9973
+40	to	_	PART	TO	_	39	_	_	start_char=9974|end_char=9976
+41	form	_	VERB	VB	VerbForm=Inf	40	_	_	start_char=9977|end_char=9981
+42	a	_	DET	DT	Definite=Ind|PronType=Art	41	_	_	start_char=9982|end_char=9983
+43	compound	_	NOUN	NN	Number=Sing	42	_	_	start_char=9984|end_char=9992
+44	containing	_	VERB	VBG	VerbForm=Ger	43	_	_	start_char=9993|end_char=10003
+45	copper	_	NOUN	NN	Number=Sing	44	_	_	start_char=10004|end_char=10010
+46	and	_	CCONJ	CC	_	45	_	_	start_char=10011|end_char=10014
+47	oxygen	_	NOUN	NN	Number=Sing	46	_	_	start_char=10015|end_char=10021
+48	(	_	PUNCT	-LRB-	_	47	_	_	start_char=10022|end_char=10023
+49	a	_	DET	DT	Definite=Ind|PronType=Art	48	_	_	start_char=10023|end_char=10024
+50	powdery	_	NOUN	NN	Number=Sing	49	_	_	start_char=10025|end_char=10032
+51	,	_	PUNCT	,	_	50	_	_	start_char=10032|end_char=10033
+52	black	_	ADJ	JJ	Degree=Pos	51	_	_	start_char=10034|end_char=10039
+53	solid	_	NOUN	NN	Number=Sing	52	_	_	start_char=10040|end_char=10045
+54	)	_	PUNCT	-RRB-	_	53	_	_	start_char=10045|end_char=10046
+55	.	_	PUNCT	.	_	54	_	_	start_char=10046|end_char=10047
+
+# text = We must build trust and we have to foster the belief among Israelis and Palestinians that a negotiated settlement can be achieved — a sustainable solution based on two States living side by side in a secure and peaceful neighbourhood within mutually recognized borders.
+# sent_id = 95
+1	We	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=10048|end_char=10050
+2	must	_	AUX	MD	VerbForm=Fin	1	_	_	start_char=10051|end_char=10055
+3	build	_	VERB	VB	VerbForm=Inf	2	_	_	start_char=10056|end_char=10061
+4	trust	_	NOUN	NN	Number=Sing	3	_	_	start_char=10062|end_char=10067
+5	and	_	CCONJ	CC	_	4	_	_	start_char=10068|end_char=10071
+6	we	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=10072|end_char=10074
+7	have	_	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=10075|end_char=10079
+8	to	_	PART	TO	_	7	_	_	start_char=10080|end_char=10082
+9	foster	_	VERB	VB	VerbForm=Inf	8	_	_	start_char=10083|end_char=10089
+10	the	_	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=10090|end_char=10093
+11	belief	_	NOUN	NN	Number=Sing	10	_	_	start_char=10094|end_char=10100
+12	among	_	ADP	IN	_	11	_	_	start_char=10101|end_char=10106
+13	Israelis	_	PROPN	NNPS	Number=Plur	12	_	_	start_char=10107|end_char=10115
+14	and	_	CCONJ	CC	_	13	_	_	start_char=10116|end_char=10119
+15	Palestinians	_	PROPN	NNPS	Number=Plur	14	_	_	start_char=10120|end_char=10132
+16	that	_	SCONJ	IN	_	15	_	_	start_char=10133|end_char=10137
+17	a	_	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=10138|end_char=10139
+18	negotiated	_	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=10140|end_char=10150
+19	settlement	_	NOUN	NN	Number=Sing	18	_	_	start_char=10151|end_char=10161
+20	can	_	AUX	MD	VerbForm=Fin	19	_	_	start_char=10162|end_char=10165
+21	be	_	AUX	VB	VerbForm=Inf	20	_	_	start_char=10166|end_char=10168
+22	achieved	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	_	_	start_char=10169|end_char=10177
+23	—	_	PUNCT	:	_	22	_	_	start_char=10178|end_char=10179
+24	a	_	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=10180|end_char=10181
+25	sustainable	_	ADJ	JJ	Degree=Pos	24	_	_	start_char=10182|end_char=10193
+26	solution	_	NOUN	NN	Number=Sing	25	_	_	start_char=10194|end_char=10202
+27	based	_	VERB	VBN	Tense=Past|VerbForm=Part	26	_	_	start_char=10203|end_char=10208
+28	on	_	ADP	IN	_	27	_	_	start_char=10209|end_char=10211
+29	two	_	NUM	CD	NumForm=Word|NumType=Card	28	_	_	start_char=10212|end_char=10215
+30	States	_	PROPN	NNPS	Number=Plur	29	_	_	start_char=10216|end_char=10222
+31	living	_	VERB	VBG	VerbForm=Ger	30	_	_	start_char=10223|end_char=10229
+32	side	_	NOUN	NN	Number=Sing	31	_	_	start_char=10230|end_char=10234
+33	by	_	ADP	IN	_	32	_	_	start_char=10235|end_char=10237
+34	side	_	NOUN	NN	Number=Sing	33	_	_	start_char=10238|end_char=10242
+35	in	_	ADP	IN	_	34	_	_	start_char=10243|end_char=10245
+36	a	_	DET	DT	Definite=Ind|PronType=Art	35	_	_	start_char=10246|end_char=10247
+37	secure	_	ADJ	JJ	Degree=Pos	36	_	_	start_char=10248|end_char=10254
+38	and	_	CCONJ	CC	_	37	_	_	start_char=10255|end_char=10258
+39	peaceful	_	ADJ	JJ	Degree=Pos	38	_	_	start_char=10259|end_char=10267
+40	neighbourhood	_	NOUN	NN	Number=Sing	39	_	_	start_char=10268|end_char=10281
+41	within	_	ADP	IN	_	40	_	_	start_char=10282|end_char=10288
+42	mutually	_	ADV	RB	_	41	_	_	start_char=10289|end_char=10297
+43	recognized	_	VERB	VBN	Tense=Past|VerbForm=Part	42	_	_	start_char=10298|end_char=10308
+44	borders	_	NOUN	NNS	Number=Plur	43	_	_	start_char=10309|end_char=10316
+45	.	_	PUNCT	.	_	44	_	_	start_char=10316|end_char=10317
+
+# text = I've got an ironing board, all of my suitcases, socks, clothes that I don't wear that often, anything that I need for fixing the house like screwdrivers, drills, nails, all these things that I definitely wouldn't want to have laid out in my room, but I still need somewhere in the house.
+# sent_id = 96
+1	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=10318|end_char=10319
+2	've	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10319|end_char=10322
+3	got	_	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=10323|end_char=10326
+4	an	_	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=10327|end_char=10329
+5	ironing	_	NOUN	NN	Number=Sing	4	_	_	start_char=10330|end_char=10337
+6	board	_	NOUN	NN	Number=Sing	5	_	_	start_char=10338|end_char=10343
+7	,	_	PUNCT	,	_	6	_	_	start_char=10343|end_char=10344
+8	all	_	DET	DT	_	7	_	_	start_char=10345|end_char=10348
+9	of	_	ADP	IN	_	8	_	_	start_char=10349|end_char=10351
+10	my	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=10352|end_char=10354
+11	suitcases	_	NOUN	NNS	Number=Plur	10	_	_	start_char=10355|end_char=10364
+12	,	_	PUNCT	,	_	11	_	_	start_char=10364|end_char=10365
+13	socks	_	NOUN	NNS	Number=Plur	12	_	_	start_char=10366|end_char=10371
+14	,	_	PUNCT	,	_	13	_	_	start_char=10371|end_char=10372
+15	clothes	_	NOUN	NNS	Number=Plur	14	_	_	start_char=10373|end_char=10380
+16	that	_	PRON	WDT	PronType=Rel	15	_	_	start_char=10381|end_char=10385
+17	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=10386|end_char=10387
+18	do	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=10388|end_char=10390
+19	n't	_	PART	RB	_	18	_	_	start_char=10390|end_char=10393
+20	wear	_	VERB	VB	VerbForm=Inf	19	_	_	start_char=10394|end_char=10398
+21	that	_	ADV	RB	_	20	_	_	start_char=10399|end_char=10403
+22	often	_	ADV	RB	_	21	_	_	start_char=10404|end_char=10409
+23	,	_	PUNCT	,	_	22	_	_	start_char=10409|end_char=10410
+24	anything	_	PRON	NN	Number=Sing|PronType=Ind	23	_	_	start_char=10411|end_char=10419
+25	that	_	PRON	WDT	PronType=Rel	24	_	_	start_char=10420|end_char=10424
+26	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	_	_	start_char=10425|end_char=10426
+27	need	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	_	_	start_char=10427|end_char=10431
+28	for	_	SCONJ	IN	_	27	_	_	start_char=10432|end_char=10435
+29	fixing	_	VERB	VBG	VerbForm=Ger	28	_	_	start_char=10436|end_char=10442
+30	the	_	DET	DT	Definite=Def|PronType=Art	29	_	_	start_char=10443|end_char=10446
+31	house	_	NOUN	NN	Number=Sing	30	_	_	start_char=10447|end_char=10452
+32	like	_	ADP	IN	_	31	_	_	start_char=10453|end_char=10457
+33	screwdrivers	_	NOUN	NNS	Number=Plur	32	_	_	start_char=10458|end_char=10470
+34	,	_	PUNCT	,	_	33	_	_	start_char=10470|end_char=10471
+35	drills	_	NOUN	NNS	Number=Plur	34	_	_	start_char=10472|end_char=10478
+36	,	_	PUNCT	,	_	35	_	_	start_char=10478|end_char=10479
+37	nails	_	NOUN	NNS	Number=Plur	36	_	_	start_char=10480|end_char=10485
+38	,	_	PUNCT	,	_	37	_	_	start_char=10485|end_char=10486
+39	all	_	DET	PDT	_	38	_	_	start_char=10487|end_char=10490
+40	these	_	DET	DT	Number=Plur|PronType=Dem	39	_	_	start_char=10491|end_char=10496
+41	things	_	NOUN	NNS	Number=Plur	40	_	_	start_char=10497|end_char=10503
+42	that	_	PRON	WDT	PronType=Rel	41	_	_	start_char=10504|end_char=10508
+43	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	_	_	start_char=10509|end_char=10510
+44	definitely	_	ADV	RB	_	43	_	_	start_char=10511|end_char=10521
+45	would	_	AUX	MD	VerbForm=Fin	44	_	_	start_char=10522|end_char=10527
+46	n't	_	PART	RB	_	45	_	_	start_char=10527|end_char=10530
+47	want	_	VERB	VB	VerbForm=Inf	46	_	_	start_char=10531|end_char=10535
+48	to	_	PART	TO	_	47	_	_	start_char=10536|end_char=10538
+49	have	_	AUX	VB	VerbForm=Inf	48	_	_	start_char=10539|end_char=10543
+50	laid	_	VERB	VBN	Tense=Past|VerbForm=Part	49	_	_	start_char=10544|end_char=10548
+51	out	_	ADP	RP	_	50	_	_	start_char=10549|end_char=10552
+52	in	_	ADP	IN	_	51	_	_	start_char=10553|end_char=10555
+53	my	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	52	_	_	start_char=10556|end_char=10558
+54	room	_	NOUN	NN	Number=Sing	53	_	_	start_char=10559|end_char=10563
+55	,	_	PUNCT	,	_	54	_	_	start_char=10563|end_char=10564
+56	but	_	CCONJ	CC	_	55	_	_	start_char=10565|end_char=10568
+57	I	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	56	_	_	start_char=10569|end_char=10570
+58	still	_	ADV	RB	_	57	_	_	start_char=10571|end_char=10576
+59	need	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	58	_	_	start_char=10577|end_char=10581
+60	somewhere	_	ADV	RB	_	59	_	_	start_char=10582|end_char=10591
+61	in	_	ADP	IN	_	60	_	_	start_char=10592|end_char=10594
+62	the	_	DET	DT	Definite=Def|PronType=Art	61	_	_	start_char=10595|end_char=10598
+63	house	_	NOUN	NN	Number=Sing	62	_	_	start_char=10599|end_char=10604
+64	.	_	PUNCT	.	_	63	_	_	start_char=10604|end_char=10605
+
+# text = Last year’s tenth anniversary of the adoption of Security Council resolution 1325 (2000) on women, peace and security reminded us that the promise of women’s full and equal participation in all efforts of maintaining peace and security, including in mediation processes, has not yet come true and that we all need to intensify our efforts.
+# sent_id = 97
+1	Last	_	ADJ	JJ	Degree=Pos	0	_	_	start_char=10606|end_char=10610
+2	year	_	NOUN	NN	Number=Sing	1	_	_	start_char=10611|end_char=10615
+3	’s	_	PART	POS	_	2	_	_	start_char=10615|end_char=10617
+4	tenth	_	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=10618|end_char=10623
+5	anniversary	_	NOUN	NN	Number=Sing	4	_	_	start_char=10624|end_char=10635
+6	of	_	ADP	IN	_	5	_	_	start_char=10636|end_char=10638
+7	the	_	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=10639|end_char=10642
+8	adoption	_	NOUN	NN	Number=Sing	7	_	_	start_char=10643|end_char=10651
+9	of	_	ADP	IN	_	8	_	_	start_char=10652|end_char=10654
+10	Security	_	PROPN	NNP	Number=Sing	9	_	_	start_char=10655|end_char=10663
+11	Council	_	PROPN	NNP	Number=Sing	10	_	_	start_char=10664|end_char=10671
+12	resolution	_	NOUN	NN	Number=Sing	11	_	_	start_char=10672|end_char=10682
+13	1325	_	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=10683|end_char=10687
+14	(	_	PUNCT	-LRB-	_	13	_	_	start_char=10688|end_char=10689
+15	2000	_	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=10689|end_char=10693
+16	)	_	PUNCT	-RRB-	_	15	_	_	start_char=10693|end_char=10694
+17	on	_	ADP	IN	_	16	_	_	start_char=10695|end_char=10697
+18	women	_	NOUN	NNS	Number=Plur	17	_	_	start_char=10698|end_char=10703
+19	,	_	PUNCT	,	_	18	_	_	start_char=10703|end_char=10704
+20	peace	_	NOUN	NN	Number=Sing	19	_	_	start_char=10705|end_char=10710
+21	and	_	CCONJ	CC	_	20	_	_	start_char=10711|end_char=10714
+22	security	_	NOUN	NN	Number=Sing	21	_	_	start_char=10715|end_char=10723
+23	reminded	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=10724|end_char=10732
+24	us	_	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	_	_	start_char=10733|end_char=10735
+25	that	_	SCONJ	IN	_	24	_	_	start_char=10736|end_char=10740
+26	the	_	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=10741|end_char=10744
+27	promise	_	NOUN	NN	Number=Sing	26	_	_	start_char=10745|end_char=10752
+28	of	_	ADP	IN	_	27	_	_	start_char=10753|end_char=10755
+29	women	_	NOUN	NNS	Number=Plur	28	_	_	start_char=10756|end_char=10761
+30	’s	_	PART	POS	_	29	_	_	start_char=10761|end_char=10763
+31	full	_	ADJ	JJ	Degree=Pos	30	_	_	start_char=10764|end_char=10768
+32	and	_	CCONJ	CC	_	31	_	_	start_char=10769|end_char=10772
+33	equal	_	ADJ	JJ	Degree=Pos	32	_	_	start_char=10773|end_char=10778
+34	participation	_	NOUN	NN	Number=Sing	33	_	_	start_char=10779|end_char=10792
+35	in	_	ADP	IN	_	34	_	_	start_char=10793|end_char=10795
+36	all	_	DET	DT	_	35	_	_	start_char=10796|end_char=10799
+37	efforts	_	NOUN	NNS	Number=Plur	36	_	_	start_char=10800|end_char=10807
+38	of	_	SCONJ	IN	_	37	_	_	start_char=10808|end_char=10810
+39	maintaining	_	VERB	VBG	VerbForm=Ger	38	_	_	start_char=10811|end_char=10822
+40	peace	_	NOUN	NN	Number=Sing	39	_	_	start_char=10823|end_char=10828
+41	and	_	CCONJ	CC	_	40	_	_	start_char=10829|end_char=10832
+42	security	_	NOUN	NN	Number=Sing	41	_	_	start_char=10833|end_char=10841
+43	,	_	PUNCT	,	_	42	_	_	start_char=10841|end_char=10842
+44	including	_	VERB	VBG	VerbForm=Ger	43	_	_	start_char=10843|end_char=10852
+45	in	_	ADP	IN	_	44	_	_	start_char=10853|end_char=10855
+46	mediation	_	NOUN	NN	Number=Sing	45	_	_	start_char=10856|end_char=10865
+47	processes	_	NOUN	NNS	Number=Plur	46	_	_	start_char=10866|end_char=10875
+48	,	_	PUNCT	,	_	47	_	_	start_char=10875|end_char=10876
+49	has	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	_	_	start_char=10877|end_char=10880
+50	not	_	PART	RB	_	49	_	_	start_char=10881|end_char=10884
+51	yet	_	ADV	RB	_	50	_	_	start_char=10885|end_char=10888
+52	come	_	VERB	VBN	Tense=Past|VerbForm=Part	51	_	_	start_char=10889|end_char=10893
+53	true	_	ADJ	JJ	Degree=Pos	52	_	_	start_char=10894|end_char=10898
+54	and	_	CCONJ	CC	_	53	_	_	start_char=10899|end_char=10902
+55	that	_	SCONJ	IN	_	54	_	_	start_char=10903|end_char=10907
+56	we	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	55	_	_	start_char=10908|end_char=10910
+57	all	_	DET	DT	_	56	_	_	start_char=10911|end_char=10914
+58	need	_	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	57	_	_	start_char=10915|end_char=10919
+59	to	_	PART	TO	_	58	_	_	start_char=10920|end_char=10922
+60	intensify	_	VERB	VB	VerbForm=Inf	59	_	_	start_char=10923|end_char=10932
+61	our	_	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	60	_	_	start_char=10933|end_char=10936
+62	efforts	_	NOUN	NNS	Number=Plur	61	_	_	start_char=10937|end_char=10944
+63	.	_	PUNCT	.	_	62	_	_	start_char=10944|end_char=10945
+
