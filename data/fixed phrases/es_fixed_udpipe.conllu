@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = LA "GACELA" PEREC VUELVE EN CASA DE FREEMAN.
+1	LA	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+3	GACELA	GACELA	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	PUNCT	_	3	punct	_	_
+5	PEREC	PEREC	PROPN	PROPN	_	3	flat	_	_
+6	VUELVE	volver	PROPN	PROPN	_	3	flat	_	_
+7	EN	en	ADP	ADP	AdpType=Prep	8	case	_	_
+8	CASA	casa	PROPN	PROPN	_	3	flat	_	_
+9	DE	de	ADP	ADP	AdpType=Prep	10	case	_	_
+10	FREEMAN	FREEMAN	PROPN	PROPN	_	3	flat	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Aquello fue de Herodes a Pilatos, recuerda.
+1	Aquello	aquel	PRON	PRON	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
+4	Herodes	Herodes	PROPN	PROPN	_	8	ccomp	_	_
+5	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
+6	Pilatos	Pilatos	PROPN	PROPN	_	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
+8	recuerda	recordar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = 'Hay que elegir al azar entre la terminal A o la B'.
+1	'Hay	'Haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	SCONJ	_	3	cc	_	_
+3	elegir	elegir	VERB	VERB	VerbForm=Inf	1	conj	_	_
+4	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
+5	azar	azar	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+6	entre	entre	ADP	ADP	AdpType=Prep	8	case	_	_
+7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	terminal	terminal	NOUN	NOUN	Number=Sing	3	obl	_	_
+9	A	A	ADP	ADP	AdpType=Prep	8	appos	_	_
+10	o	o	CCONJ	CCONJ	_	12	cc	_	_
+11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	B'	B'	PROPN	PROPN	_	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = JONES Y MAY, LUCHA SIN CUARTEL EN EL FOSO DE LONGITUD.
+1	JONES	Jones	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+2	Y	y	CCONJ	CCONJ	_	3	cc	_	_
+3	MAY	MAY	PROPN	PROPN	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
+5	LUCHA	Lucha	PROPN	PROPN	_	1	appos	_	_
+6	SIN	SIN	PROPN	PROPN	_	5	flat	_	_
+7	CUARTEL	cuartel	PROPN	PROPN	_	5	flat	_	_
+8	EN	en	ADP	ADP	AdpType=Prep	10	case	_	_
+9	EL	el	DET	DET	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	FOSO	FOSO	PROPN	PROPN	_	5	flat	_	_
+11	DE	DE	ADP	ADP	AdpType=Prep	12	case	_	_
+12	LONGITUD	longitud	PROPN	PROPN	_	9	flat	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	SpacesAfter=\n
+

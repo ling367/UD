@@ -1,0 +1,69 @@
+# text = LA "GACELA" PEREC VUELVE EN CASA DE FREEMAN.
+# sent_id = 0
+# constituency = (ROOT (sentence (sn (spec (DET LA)) (grup.nom (PUNCT ") (NOUN GACELA) (PUNCT "))) (sn (grup.nom (PROPN PEREC))) (grup.verb (VERB VUELVE)) (sp (prep (ADP EN)) (sn (grup.nom (NOUN CASA) (sp (prep (ADP DE)) (sn (grup.nom (PROPN FREEMAN))))))) (PUNCT .)))
+# sentiment = 0
+1	LA	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=0|end_char=2|ner=O
+2	"	"	PUNCT	fe	PunctType=Quot	3	punct	_	start_char=3|end_char=4|ner=O
+3	GACELA	gacela	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	_	start_char=4|end_char=10|ner=S-MISC
+4	"	"	PUNCT	fe	PunctType=Quot	3	punct	_	start_char=10|end_char=11|ner=O
+5	PEREC	PEREC	PROPN	np00000	_	3	appos	_	start_char=12|end_char=17|ner=S-MISC
+6	VUELVE	vuelver	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=18|end_char=24|ner=O
+7	EN	en	ADP	sps00	_	8	case	_	start_char=25|end_char=27|ner=O
+8	CASA	casa	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obl	_	start_char=28|end_char=32|ner=O
+9	DE	de	ADP	sps00	_	10	case	_	start_char=33|end_char=35|ner=O
+10	FREEMAN	FREEMAN	PROPN	np00000	_	8	nmod	_	start_char=36|end_char=43|ner=S-LOC
+11	.	.	PUNCT	fp	PunctType=Peri	6	punct	_	start_char=43|end_char=44|ner=O
+
+# text = Aquello fue de Herodes a Pilatos, recuerda.
+# sent_id = 1
+# constituency = (ROOT (sentence (S (sn (grup.nom (PRON Aquello))) (grup.verb (AUX fue)) (sp (prep (ADP de)) (sn (grup.nom (PROPN Herodes) (sp (prep (ADP a)) (sn (grup.nom (PROPN Pilatos))))))) (PUNCT ,)) (grup.verb (VERB recuerda)) (PUNCT .)))
+# sentiment = 1
+1	Aquello	aquel	PRON	pd0ns000	Number=Sing|PronType=Dem	4	nsubj	_	start_char=45|end_char=52|ner=O
+2	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=53|end_char=56|ner=O
+3	de	de	ADP	sps00	_	4	case	_	start_char=57|end_char=59|ner=O
+4	Herodes	Herodes	PROPN	np00000	_	8	ccomp	_	start_char=60|end_char=67|ner=S-PER
+5	a	a	ADP	sps00	_	6	case	_	start_char=68|end_char=69|ner=O
+6	Pilatos	Pilatos	PROPN	np00000	_	4	nmod	_	start_char=70|end_char=77|ner=S-PER
+7	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	start_char=77|end_char=78|ner=O
+8	recuerda	recordar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=79|end_char=87|ner=O
+9	.	.	PUNCT	fp	PunctType=Peri	8	punct	_	start_char=87|end_char=88|ner=O
+
+# text = 'Hay que elegir al azar entre la terminal A o la B'.
+# sent_id = 2
+# constituency = (ROOT (sentence (PUNCT ') (grup.verb (AUX Hay) (SCONJ que) (infinitiu (VERB elegir))) (sp (prep (ADP a)) (sn (spec (DET el)) (grup.nom (NOUN azar)))) (sp (prep (ADP entre)) (sn (sn (spec (DET la)) (grup.nom (NOUN terminal) (PROPN A))) (conj (CCONJ o)) (sn (spec (DET la)) (grup.nom (PROPN B'))))) (PUNCT .)))
+# sentiment = 1
+1	'	'	PUNCT	fz	PunctType=Quot	2	punct	_	start_char=89|end_char=90|ner=O
+2	Hay	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=90|end_char=93|ner=O
+3	que	que	SCONJ	cs	_	4	cc	_	start_char=94|end_char=97|ner=O
+4	elegir	elegir	VERB	vmn0000	VerbForm=Inf	2	conj	_	start_char=98|end_char=104|ner=O
+5-6	al	_	_	_	_	_	_	_	start_char=105|end_char=107|ner=O
+5	a	a	ADP	spcms	_	7	case	_	_
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	azar	azar	NOUN	ncms000	Gender=Masc|Number=Sing	4	obj	_	start_char=108|end_char=112|ner=O
+8	entre	entre	ADP	sps00	_	10	case	_	start_char=113|end_char=118|ner=O
+9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=119|end_char=121|ner=O
+10	terminal	terminal	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	_	start_char=122|end_char=130|ner=O
+11	A	A	PROPN	np00000	_	10	appos	_	start_char=131|end_char=132|ner=O
+12	o	o	CCONJ	cc	_	14	cc	_	start_char=133|end_char=134|ner=O
+13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=135|end_char=137|ner=O
+14	B'	B'	PROPN	np00000	_	10	conj	_	start_char=138|end_char=140|ner=S-MISC
+15	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	start_char=140|end_char=141|ner=O
+
+# text = JONES Y MAY, LUCHA SIN CUARTEL EN EL FOSO DE LONGITUD.
+# sent_id = 3
+# constituency = (ROOT (sentence (sn (grup.nom (grup.nom (grup.nom (NOUN JONES)) (conj (CCONJ Y)) (grup.nom (PROPN MAY))) (sn (PUNCT ,) (grup.nom (NOUN LUCHA) (sp (prep (ADP SIN)) (sn (grup.nom (NOUN CUARTEL)))) (sp (prep (ADP EN)) (sn (spec (DET EL)) (grup.nom (NOUN FOSO) (sp (prep (ADP DE)) (sn (grup.nom (NOUN LONGITUD))))))))))) (PUNCT .)))
+# sentiment = 0
+1	JONES	jones	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	start_char=142|end_char=147|ner=S-PER
+2	Y	y	CCONJ	cc	_	3	cc	_	start_char=148|end_char=149|ner=O
+3	MAY	MAY	PROPN	np00000	_	1	conj	_	start_char=150|end_char=153|ner=O
+4	,	,	PUNCT	fc	PunctType=Comm	5	punct	_	start_char=153|end_char=154|ner=O
+5	LUCHA	lucha	NOUN	ncfs000	Gender=Fem|Number=Sing	1	appos	_	start_char=155|end_char=160|ner=O
+6	SIN	SIN	ADP	sps00	_	7	case	_	start_char=161|end_char=164|ner=O
+7	CUARTEL	cuartel	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	_	start_char=165|end_char=172|ner=O
+8	EN	en	ADP	sps00	_	10	case	_	start_char=173|end_char=175|ner=O
+9	EL	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=176|end_char=178|ner=O
+10	FOSO	foso	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	_	start_char=179|end_char=183|ner=O
+11	DE	de	ADP	sps00	_	12	case	_	start_char=184|end_char=186|ner=O
+12	LONGITUD	longitud	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nmod	_	start_char=187|end_char=195|ner=O
+13	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	start_char=195|end_char=196|ner=O
+

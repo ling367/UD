@@ -1,0 +1,157 @@
+# text = 2.1 Early Ideas in Atomic theory.
+# sent_id = 0
+# constituency = (ROOT (NP (NP (CD 2.1) (JJ Early) (NNS Ideas)) (PP (IN in) (NP (JJ Atomic) (NN theory))) (. .)))
+# sentiment = 1
+1	2.1	2.1	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=0|end_char=3|ner=S-CARDINAL
+2	Early	early	ADJ	JJ	Degree=Pos	3	amod	_	start_char=4|end_char=9|ner=O
+3	Ideas	idea	NOUN	NNS	Number=Plur	0	root	_	start_char=10|end_char=15|ner=O
+4	in	in	ADP	IN	_	6	case	_	start_char=16|end_char=18|ner=O
+5	Atomic	Atomic	ADJ	JJ	Degree=Pos	6	amod	_	start_char=19|end_char=25|ner=O
+6	theory	theory	NOUN	NN	Number=Sing	3	nmod	_	start_char=26|end_char=32|ner=O
+7	.	.	PUNCT	.	_	3	punct	_	start_char=32|end_char=33|ner=O
+
+# text = He stares until you meet his eye.
+# sent_id = 1
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBZ stares) (SBAR (IN until) (S (NP (PRP you)) (VP (VBP meet) (NP (PRP$ his) (NN eye)))))) (. .)))
+# sentiment = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=34|end_char=36|ner=O
+2	stares	stare	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=37|end_char=43|ner=O
+3	until	until	SCONJ	IN	_	5	mark	_	start_char=44|end_char=49|ner=O
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=50|end_char=53|ner=O
+5	meet	meet	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=54|end_char=58|ner=O
+6	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=59|end_char=62|ner=O
+7	eye	eye	NOUN	NN	Number=Sing	5	obj	_	start_char=63|end_char=66|ner=O
+8	.	.	PUNCT	.	_	2	punct	_	start_char=66|end_char=67|ner=O
+
+# text = “They infect themselves with some designer virus".
+# sent_id = 2
+# constituency = (ROOT (S (`` “) (NP (PRP They)) (VP (VBP infect) (NP (PRP themselves)) (PP (IN with) (NP (DT some) (NN designer) (NN virus)))) ('' ") (. .)))
+# sentiment = 1
+1	“	''	PUNCT	``	_	3	punct	_	start_char=68|end_char=69|ner=O
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=69|end_char=73|ner=O
+3	infect	infect	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=74|end_char=80|ner=O
+4	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=81|end_char=91|ner=O
+5	with	with	ADP	IN	_	8	case	_	start_char=92|end_char=96|ner=O
+6	some	some	DET	DT	_	8	det	_	start_char=97|end_char=101|ner=O
+7	designer	designer	NOUN	NN	Number=Sing	8	compound	_	start_char=102|end_char=110|ner=O
+8	virus	virus	NOUN	NN	Number=Sing	3	obl	_	start_char=111|end_char=116|ner=O
+9	"	"	PUNCT	''	_	3	punct	_	start_char=116|end_char=117|ner=O
+10	.	.	PUNCT	.	_	3	punct	_	start_char=117|end_char=118|ner=O
+
+# text = Specifically, what would you have done differently?
+# sent_id = 3
+# constituency = (ROOT (FRAG (ADVP (RB Specifically)) (, ,) (WHNP (WP what)) (SQ (MD would) (NP (PRP you)) (VP (VB have) (VP (VBN done) (ADVP (RB differently))))) (. ?)))
+# sentiment = 1
+1	Specifically	specifically	ADV	RB	_	7	advmod	_	start_char=119|end_char=131|ner=O
+2	,	,	PUNCT	,	_	7	punct	_	start_char=131|end_char=132|ner=O
+3	what	what	PRON	WP	PronType=Int	7	obj	_	start_char=133|end_char=137|ner=O
+4	would	would	AUX	MD	VerbForm=Fin	7	aux	_	start_char=138|end_char=143|ner=O
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=144|end_char=147|ner=O
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	start_char=148|end_char=152|ner=O
+7	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=153|end_char=157|ner=O
+8	differently	differently	ADV	RB	_	7	advmod	_	start_char=158|end_char=169|ner=O
+9	?	?	PUNCT	.	_	7	punct	_	start_char=169|end_char=170|ner=O
+
+# text = 2. GUJJOLAAY EEGIMAA, ITS SPEAKERS AND THEIR NEIGHBOURS.
+# sent_id = 4
+# constituency = (ROOT (FRAG (LST (LS 2) (. .)) (NP (NP (NN GUJJOLAAY) (NN EEGIMAA)) (, ,) (NP (NP (PRP$ ITS) (NNS SPEAKERS)) (CC AND) (NP (PRP$ THEIR) (NNS NEIGHBOURS)))) (. .)))
+# sentiment = 1
+1	2	2	NUM	LS	_	4	nummod	_	start_char=171|end_char=172|ner=S-CARDINAL
+2	.	.	PUNCT	.	_	1	punct	_	start_char=172|end_char=173|ner=O
+3	GUJJOLAAY	gujjolaay	NOUN	NN	Number=Sing	4	compound	_	start_char=174|end_char=183|ner=O
+4	EEGIMAA	eegimaa	NOUN	NN	Number=Sing	0	root	_	start_char=184|end_char=191|ner=O
+5	,	,	PUNCT	,	_	7	punct	_	start_char=191|end_char=192|ner=O
+6	ITS	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=193|end_char=196|ner=O
+7	SPEAKERS	speaker	NOUN	NNS	Number=Plur	4	conj	_	start_char=197|end_char=205|ner=O
+8	AND	and	CCONJ	CC	_	10	cc	_	start_char=206|end_char=209|ner=O
+9	THEIR	there	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=210|end_char=215|ner=O
+10	NEIGHBOURS	neighbour	NOUN	NNS	Number=Plur	4	conj	_	start_char=216|end_char=226|ner=O
+11	.	.	PUNCT	.	_	4	punct	_	start_char=226|end_char=227|ner=O
+
+# text = it lets them hack the city’s person-recognition systems.
+# sent_id = 5
+# constituency = (ROOT (S (NP (PRP it)) (VP (VBZ lets) (S (NP (PRP them)) (VP (VB hack) (NP (DT the) (NN city)) (PP (POS ’s) (NP (NML (NN person) (HYPH -) (NN recognition)) (NNS systems)))))) (. .)))
+# sentiment = 1
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=228|end_char=230|ner=O
+2	lets	let	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=231|end_char=235|ner=O
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=236|end_char=240|ner=O
+4	hack	hack	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=241|end_char=245|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=246|end_char=249|ner=O
+6	city	city	NOUN	NN	Number=Sing	11	nmod:poss	_	start_char=250|end_char=254|ner=O
+7	’s	's	PART	POS	_	6	case	_	start_char=254|end_char=256|ner=O
+8	person	person	NOUN	NN	Number=Sing	10	compound	_	start_char=257|end_char=263|ner=O
+9	-	-	PUNCT	HYPH	_	10	punct	_	start_char=263|end_char=264|ner=O
+10	recognition	recognition	NOUN	NN	Number=Sing	11	compound	_	start_char=264|end_char=275|ner=O
+11	systems	system	NOUN	NNS	Number=Plur	4	obj	_	start_char=276|end_char=283|ner=O
+12	.	.	PUNCT	.	_	2	punct	_	start_char=283|end_char=284|ner=O
+
+# text = The minute enough people find anticontributive behavior cool, the party’s over.
+# sent_id = 6
+# constituency = (ROOT (S (NP (DT The) (NN minute) (JJ enough) (NNS people)) (VP (VBP find) (S (S (NP (JJ anticontributive) (NN behavior)) (ADJP (JJ cool))) (, ,) (S (NP (DT the) (NN party)) (VP (POS ’s) (ADVP (RB over)))))) (. .)))
+# sentiment = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=285|end_char=288|ner=B-TIME
+2	minute	minute	NOUN	NN	Number=Sing	13	nsubj	_	start_char=289|end_char=295|ner=E-TIME
+3	enough	enough	ADJ	JJ	Degree=Pos	4	amod	_	start_char=296|end_char=302|ner=O
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=303|end_char=309|ner=O
+5	find	find	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=310|end_char=314|ner=O
+6	anticontributive	anticontributive	ADJ	JJ	Degree=Pos	7	amod	_	start_char=315|end_char=331|ner=O
+7	behavior	behavior	NOUN	NN	Number=Sing	5	obj	_	start_char=332|end_char=340|ner=O
+8	cool	cool	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=341|end_char=345|ner=O
+9	,	,	PUNCT	,	_	13	punct	_	start_char=345|end_char=346|ner=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=347|end_char=350|ner=O
+11	party	party	NOUN	NN	Number=Sing	13	nmod:poss	_	start_char=351|end_char=356|ner=O
+12	’s	's	PART	POS	_	11	case	_	start_char=356|end_char=358|ner=O
+13	over	over	ADV	RB	_	0	root	_	start_char=359|end_char=363|ner=O
+14	.	.	PUNCT	.	_	13	punct	_	start_char=363|end_char=364|ner=O
+
+# text = In the following drawing, the green spheres represent atoms of a certain element.
+# sent_id = 7
+# constituency = (ROOT (S (PP (IN In) (NP (DT the) (VBG following) (NN drawing))) (, ,) (NP (DT the) (JJ green) (NNS spheres)) (VP (VBP represent) (NP (NP (NNS atoms)) (PP (IN of) (NP (DT a) (JJ certain) (NN element))))) (. .)))
+# sentiment = 1
+1	In	in	ADP	IN	_	4	case	_	start_char=365|end_char=367|ner=O
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=368|end_char=371|ner=O
+3	following	follow	VERB	VBG	VerbForm=Ger	4	amod	_	start_char=372|end_char=381|ner=O
+4	drawing	draw	NOUN	NN	Number=Sing	9	obl	_	start_char=382|end_char=389|ner=O
+5	,	,	PUNCT	,	_	9	punct	_	start_char=389|end_char=390|ner=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=391|end_char=394|ner=O
+7	green	green	ADJ	JJ	Degree=Pos	8	amod	_	start_char=395|end_char=400|ner=O
+8	spheres	sphere	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=401|end_char=408|ner=O
+9	represent	represent	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=409|end_char=418|ner=O
+10	atoms	atom	NOUN	NNS	Number=Plur	9	obj	_	start_char=419|end_char=424|ner=O
+11	of	of	ADP	IN	_	14	case	_	start_char=425|end_char=427|ner=O
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=428|end_char=429|ner=O
+13	certain	certain	ADJ	JJ	Degree=Pos	14	amod	_	start_char=430|end_char=437|ner=O
+14	element	element	NOUN	NN	Number=Sing	10	nmod	_	start_char=438|end_char=445|ner=O
+15	.	.	PUNCT	.	_	9	punct	_	start_char=445|end_char=446|ner=O
+
+# text = 'African American soldiers also received lower wages than their White counterparts: ten dollars per month, with three dollars deducted for clothing'.
+# sent_id = 8
+# constituency = (ROOT (S (`` ') (NP (ADJP (JJ African) (JJ American)) (NNS soldiers)) (ADVP (RB also)) (VP (VBD received) (NP (NP (NP (JJR lower) (NNS wages)) (PP (IN than) (NP (PRP$ their) (JJ White) (NNS counterparts)))) (: :) (NP (NP (NP (CD ten) (NNS dollars)) (PP (IN per) (NP (NN month)))) (, ,) (PP (IN with) (NP (NP (CD three) (NNS dollars)) (VP (VBN deducted) (PP (IN for) (NP (NN clothing)))))) ('' ')))) (. .)))
+# sentiment = 0
+1	'	'	PUNCT	``	_	6	punct	_	start_char=447|end_char=448|ner=O
+2	African	African	ADJ	JJ	Degree=Pos	4	amod	_	start_char=448|end_char=455|ner=B-NORP
+3	American	American	ADJ	JJ	Degree=Pos	4	amod	_	start_char=456|end_char=464|ner=E-NORP
+4	soldiers	soldier	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=465|end_char=473|ner=O
+5	also	also	ADV	RB	_	6	advmod	_	start_char=474|end_char=478|ner=O
+6	received	receive	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=479|end_char=487|ner=O
+7	lower	low	ADJ	JJR	Degree=Cmp	8	amod	_	start_char=488|end_char=493|ner=O
+8	wages	wage	NOUN	NNS	Number=Plur	6	obj	_	start_char=494|end_char=499|ner=O
+9	than	than	ADP	IN	_	12	case	_	start_char=500|end_char=504|ner=O
+10	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=505|end_char=510|ner=O
+11	White	White	ADJ	JJ	Degree=Pos	12	amod	_	start_char=511|end_char=516|ner=O
+12	counterparts	counterpart	NOUN	NNS	Number=Plur	6	obl	_	start_char=517|end_char=529|ner=O
+13	:	:	PUNCT	:	_	15	punct	_	start_char=529|end_char=530|ner=O
+14	ten	ten	NUM	CD	NumForm=Word|NumType=Card	15	nummod	_	start_char=531|end_char=534|ner=B-MONEY
+15	dollars	dollar	NOUN	NNS	Number=Plur	6	parataxis	_	start_char=535|end_char=542|ner=E-MONEY
+16	per	per	ADP	IN	_	17	case	_	start_char=543|end_char=546|ner=O
+17	month	month	NOUN	NN	Number=Sing	15	nmod	_	start_char=547|end_char=552|ner=O
+18	,	,	PUNCT	,	_	6	punct	_	start_char=552|end_char=553|ner=O
+19	with	with	ADP	IN	_	21	case	_	start_char=554|end_char=558|ner=O
+20	three	three	NUM	CD	NumForm=Word|NumType=Card	21	nummod	_	start_char=559|end_char=564|ner=B-MONEY
+21	dollars	dollar	NOUN	NNS	Number=Plur	6	obl	_	start_char=565|end_char=572|ner=E-MONEY
+22	deducted	deduct	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	start_char=573|end_char=581|ner=O
+23	for	for	ADP	IN	_	24	case	_	start_char=582|end_char=585|ner=O
+24	clothing	clothing	NOUN	NN	Number=Sing	22	obl	_	start_char=586|end_char=594|ner=O
+25	'	'	PUNCT	''	_	6	punct	_	start_char=594|end_char=595|ner=O
+26	.	.	PUNCT	.	_	6	punct	_	start_char=595|end_char=596|ner=O
+
